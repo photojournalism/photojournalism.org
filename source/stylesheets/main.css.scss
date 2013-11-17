@@ -1,1 +1,31 @@
 @import "bootstrap";
+
+body {
+    font-family: Helvetica, sans-serif;
+    background: #eee;
+}
+
+
+.navbar {
+    background: none;
+    border: none;
+    height: 100px;
+    padding: 10px;
+
+    .navbar-brand {
+        margin-left: 8%;
+        padding-right: 30%;
+        font-size: 40pt;
+        color: #FA7500;
+        &:hover { color: #EA6500; }
+    }
+
+    .navbar-nav > .active > a {
+        background: none;
+        font-weight: bold;
+        &:hover {
+            background: none;
+            border-bottom: 2px solid #555;
+        }
+    }
+}
