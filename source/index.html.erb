@@ -1,3 +1,61 @@
 ---
 title: Home
 ---
+
+<% 
+
+slides = [{ 
+	:url => "/images/2013_contest/slideshow/first_place_spot_news.jpg",
+	:title => "First Place - 2013 Spot News",
+	:caption => "A Pakistani man carrying a child rushes away from the site of a blast shortly after a car exploded in Peshawar, Pakistan, Sunday, Sept. 29, 2013. \"Bomb Attack\"",
+	:credit => "Photo by Mohammad Sajjad / Associated Press"
+}, {
+	:url => "/images/2013_contest/slideshow/first_place_general_news.jpg",
+	:title => "First Place - 2013 General News",
+	:caption => "A Palestinian man kisses the hand of a dead relative in the morgue of Shifa Hospital in Gaza City, Nov. 18, 2012.  \"Last Kiss\"",
+	:credit => "Photo by Bernat Armangué / Associated Press"
+}, {
+	:url => "images/2013_contest/slideshow/first_place_feature.jpg",
+	:title => "First Place - 2013 Feature",
+	:caption => "Ariel Pedigo and her family relax outside grandmother Elizabeth Pedigo's home in Bowling Green on Thursday, September 26, 2013.",
+	:credit => " Photo by Brian Powers / Freelance"
+}]
+%>
+
+<div class="row">
+<div class="col-md-1 hidden-sm"></div>
+<div class="col-md-10">
+	<div id="homepage-carousel" class="carousel slide" data-ride="carousel">
+	  <!-- Indicators -->
+	  <ol class="carousel-indicators">
+	    <li data-target="#homepage-carousel" data-slide-to="0" class="active"></li>
+	    <li data-target="#homepage-carousel" data-slide-to="1"></li>
+	    <li data-target="#homepage-carousel" data-slide-to="2"></li>
+	  </ol>
+
+	  <!-- Wrapper for slides -->
+	  <div class="carousel-inner">
+	  	<% first = true %>
+	  	<% slides.each do |image| %>
+		    <div class="item<%= " active" if first %>">
+		    	<% first = false %>
+		      <img src="<%= image[:url] %>" alt="<%= image[:title] %>">
+		      <div class="carousel-caption">
+		        <h3><%= image[:title] %></h3>
+		        <p><%= image[:caption] %></p>
+		        <p><%= image[:credit] %></p>
+		      </div>
+		    </div>
+		  <% end %>
+	  </div>
+
+	  <!-- Controls -->
+	  <a class="left carousel-control" href="#homepage-carousel" data-slide="prev">
+	    <span class="glyphicon glyphicon-chevron-left"></span>
+	  </a>
+	  <a class="right carousel-control" href="#homepage-carousel" data-slide="next">
+	    <span class="glyphicon glyphicon-chevron-right"></span>
+	  </a>
+	</div>
+</div>
+</div>
