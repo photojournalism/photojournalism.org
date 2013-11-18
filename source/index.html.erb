@@ -3,30 +3,13 @@ title: Home
 layout: wide
 ---
 
-<% 
-slides = [{ 
-	:url => "/images/2013_contest/slideshow/first_place_spot_news.jpg",
-	:title => "First Place - 2013 Spot News",
-	:caption => "A Pakistani man carrying a child rushes away from the site of a blast shortly after a car exploded in Peshawar, Pakistan, Sunday, Sept. 29, 2013. \"Bomb Attack\"",
-	:credit => "Photo by Mohammad Sajjad / Associated Press"
-}, {
-	:url => "/images/2013_contest/slideshow/first_place_general_news.jpg",
-	:title => "First Place - 2013 General News",
-	:caption => "A Palestinian man kisses the hand of a dead relative in the morgue of Shifa Hospital in Gaza City, Nov. 18, 2012.  \"Last Kiss\"",
-	:credit => "Photo by Bernat Armangué / Associated Press"
-}, {
-	:url => "images/2013_contest/slideshow/first_place_feature.jpg",
-	:title => "First Place - 2013 Feature",
-	:caption => "Ariel Pedigo and her family relax outside grandmother Elizabeth Pedigo's home in Bowling Green on Thursday, September 26, 2013.",
-	:credit => " Photo by Brian Powers / Freelance"
-}]
-%>
+<% slides = YAML.load(File.read("/Users/Casey/Dropbox/Documents/Programming/Sites/photojournalism.org/source/slideshow.yml")) %>
 <div id="homepage-carousel" class="carousel slide" data-ride="carousel">
   <!-- Indicators -->
   <ol class="carousel-indicators">
-    <li data-target="#homepage-carousel" data-slide-to="0" class="active"></li>
-    <li data-target="#homepage-carousel" data-slide-to="1"></li>
-    <li data-target="#homepage-carousel" data-slide-to="2"></li>
+  	<% (1..slides.size).each do |n| %>
+    	<li data-target="#homepage-carousel" data-slide-to="<%= n - 1 %>"<%= "class='active'" if n == 1 %>></li>
+    <% end %>
   </ol>
 
   <!-- Wrapper for slides -->
@@ -35,11 +18,11 @@ slides = [{
   	<% slides.each do |image| %>
 	    <div class="item<%= " active" if first %>">
 	    	<% first = false %>
-	      <img src="<%= image[:url] %>" alt="<%= image[:title] %>">
+	      <img src="<%= image['url'] %>" alt="<%= image['title'] %>">
 	      <div class="carousel-caption">
-	        <h4><%= image[:title] %></h4>
-	        <small><%= image[:caption] %></small>
-	        <small><%= image[:credit] %></small>
+	        <h4><%= image['title'] %></h4>
+	        <p><%= image['caption'] %></p>
+	        <p><%= image['credit'] %></p>
 	      </div>
 	    </div>
 	  <% end %>
