@@ -16,7 +16,7 @@
     <div class="container">
       <div class="row">
         <div class="col-md-12">
-          <h1><a class="logo" href="/">photojournalism.org</a></h1>
+          <a class="logo" href="/">photojournalism.org</a>
           <form class="navbar-form header-search" role="search">
             <div class="form-group">
               <input type="text" class="form-control" placeholder="Search">
@@ -40,7 +40,32 @@
         </div>
         <div class="collapse navbar-collapse" id="bs-example-navbar-collapse-1">
           <ul class="nav navbar-nav">
-            <li class="active"><a href="/">Home</a></li>
+            <li<%= " class=\"active\"" if current_page.data.title == "Home" %>><a href="/">Home</a></li>
+            <li<%= " class=\"active\"" if current_page.data.title == "About" %>><a href="#">About</a></li>
+            <li class="dropdown">
+              <a href="#" class="dropdown-toggle" data-toggle="dropdown">Contest <b class="caret"></b></a>
+              <ul class="dropdown-menu">
+                <li><a href="#">Winners</a></li>
+                <li><a href="#">Rules</a></li>
+                <li><a href="#">Categories</a></li>
+                <li class="divider"></li>
+                <li><a href="#">Judging and Prizes</a></li>
+              </ul>
+            </li>
+            <li class="dropdown">
+              <a href="#" class="dropdown-toggle" data-toggle="dropdown">Faculty <b class="caret"></b></a>
+              <ul class="dropdown-menu">
+                <li><a href="#">Faculty List</a></li>
+                <li><a href="#">Speakers</a></li>
+                <li><a href="#">Workshops</a></li>
+              </ul>
+            </li>
+            <li<%= " class=\"active\"" if current_page.data.title == "Schedule" %>><a href="#">Schedule</a></li>
+            <li<%= " class=\"active\"" if current_page.data.title == "Sponsors" %>><a href="#">Sponsors</a></li>
+            <li><a href="#">Register</a></li>
+          </ul>
+          <ul class="nav navbar-nav navbar-right">
+            <li><a href="#">Link</a></li>
           </ul>
         </div>
       </div><!-- .container -->

@@ -1,6 +1,6 @@
 // require normalize
 
-$navbar-height: 60px;
+$navbar-height: 40px;
 $navbar-default-brand-color: #333;
 $navbar-default-brand-hover-color: #FA7500;
 $navbar-default-link-hover-bg: transparent;
@@ -20,11 +20,17 @@ body {
   border-top: 3px solid $navbar-default-brand-hover-color;
 }
 
+.form-control, .btn, .timeline {
+  border-radius: 0;
+}
+
 header {
   background: #fff;
   border-radius: 0;
+  padding: 10px;
 
   .logo {
+    font-size: 42px;
     color: #333;
     text-decoration: none;
     font-weight: 400;
@@ -38,6 +44,7 @@ header {
 
   .header-search {
     float: right;
+    padding: 10px 0;
   }
 }
 
@@ -70,5 +77,4 @@ footer {
   background-color: #303030; // Old browsers
   @include filter-gradient(#303030, #141414, horizontal); // IE6-9 fallback on horizontal gradient
   @include background-image(radial-gradient(center, ellipse cover,  #303030 0%,#1e1e1e 40%,#141414 100%));
-
 }
