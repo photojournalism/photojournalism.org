@@ -30,11 +30,10 @@ header {
   padding: 10px;
 
   .logo {
-    font-size: 42px;
+    font-size: 48px;
     color: #333;
     text-decoration: none;
     font-weight: 400;
-    float: left;
 
     &:hover {
       color: #FA7500;
@@ -42,9 +41,16 @@ header {
     }
   }
 
+  .logo-caption {
+    font-weight: 200;
+    position: relative;
+    top: -14px;
+    right: -138px;
+  }
+
   .header-search {
     float: right;
-    padding: 10px 0;
+    padding: 24px 0;
   }
 }
 
