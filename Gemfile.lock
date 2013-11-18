@@ -95,6 +95,7 @@ PLATFORMS
 
 DEPENDENCIES
   bootstrap-sass
+  compass
   middleman (~> 3.2.0)
   middleman-livereload (~> 3.1.0)
   wdm (~> 0.1.0)

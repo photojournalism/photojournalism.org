@@ -1,31 +1,41 @@
+$navbar-height: 50px;
+$navbar-default-brand-color: #333;
+$navbar-default-brand-hover-color: #FA7500;
+$navbar-default-link-hover-bg: none;
+$navbar-default-link-active-bg: none;
+$navbar-default-link-active-color: #333;
+$font-size-base: 16px;
+@import "compass";
 @import "bootstrap";
 
+html, body {
+  width: 100%;
+}
 body {
     font-family: Helvetica, sans-serif;
-    background: #eee;
+    background: #ddd;
 }
 
+.row { width: 100%; }
 
 .navbar {
-    background: none;
-    border: none;
-    height: 100px;
-    padding: 10px;
+  background: none;
+  border-radius: 0;
+  border-bottom: none;
+  box-shadow: none;
+}
 
-    .navbar-brand {
-        margin-left: 8%;
-        padding-right: 30%;
-        font-size: 40pt;
-        color: #FA7500;
-        &:hover { color: #EA6500; }
-    }
+#homepage-carousel {
+  box-shadow: 1px 1px 5px #333;
+}
 
-    .navbar-nav > .active > a {
-        background: none;
-        font-weight: bold;
-        &:hover {
-            background: none;
-            border-bottom: 2px solid #555;
-        }
-    }
+footer {
+  height: 300px;
+  margin-top: 30px;
+  box-shadow: 0px 0px 5px #333;
+  border-top: 1px solid #666;
+  background-color: #303030; // Old browsers
+  @include filter-gradient(#303030, #141414, horizontal); // IE6-9 fallback on horizontal gradient
+  @include background-image(radial-gradient(center, ellipse cover,  #303030 0%,#1e1e1e 40%,#141414 100%));
+
 }

@@ -21,7 +21,7 @@
         <span class="icon-bar"></span>
         <span class="icon-bar"></span>
       </button>
-      <a class="navbar-brand" href="#">photojournalism.org</a>
+      <a class="navbar-brand" href="/">photojournalism.org</a>
     </div>
     <div class="collapse navbar-collapse" id="bs-example-navbar-collapse-1">
       <ul class="nav navbar-nav">
@@ -30,15 +30,10 @@
     </div>
   </nav><!-- .navbar -->
 
-  <div class="row">
-    <div class="col-md-1 hidden-sm"></div>
-    <div class="col-md-10">
-
 <!-- Page Content -->
 <%= yield %>
-
-    </div><!-- .col-md-12 -->
-  </div><!-- .row -->
   
+<%= partial "layouts/footer" %>
+
   </body>
 </html>

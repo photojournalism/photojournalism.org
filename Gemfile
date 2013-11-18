@@ -12,3 +12,5 @@ gem "wdm", "~> 0.1.0", :platforms => [:mswin, :mingw]
 
 # SASS Port of Bootstrap Framework
 gem "bootstrap-sass", :require => false
+
+gem "compass", :require => false

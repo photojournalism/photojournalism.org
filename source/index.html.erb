@@ -3,7 +3,6 @@ title: Home
 ---
 
 <% 
-
 slides = [{ 
 	:url => "/images/2013_contest/slideshow/first_place_spot_news.jpg",
 	:title => "First Place - 2013 Spot News",
@@ -24,7 +23,7 @@ slides = [{
 
 <div class="row">
 <div class="col-md-1 hidden-sm"></div>
-<div class="col-md-10">
+<div class="col-md-7">
 	<div id="homepage-carousel" class="carousel slide" data-ride="carousel">
 	  <!-- Indicators -->
 	  <ol class="carousel-indicators">
@@ -41,9 +40,9 @@ slides = [{
 		    	<% first = false %>
 		      <img src="<%= image[:url] %>" alt="<%= image[:title] %>">
 		      <div class="carousel-caption">
-		        <h3><%= image[:title] %></h3>
-		        <p><%= image[:caption] %></p>
-		        <p><%= image[:credit] %></p>
+		        <h4><%= image[:title] %></h4>
+		        <small><%= image[:caption] %></small>
+		        <small><%= image[:credit] %></small>
 		      </div>
 		    </div>
 		  <% end %>
@@ -57,5 +56,9 @@ slides = [{
 	    <span class="glyphicon glyphicon-chevron-right"></span>
 	  </a>
 	</div>
+</div>
+<div class="col-md-3">
+	<a class="twitter-timeline" href="https://twitter.com/atlantaseminar" data-widget-id="274228294562480128">Tweets by @atlantaseminar</a>
+	<script>!function(d,s,id){var js,fjs=d.getElementsByTagName(s)[0],p=/^http:/.test(d.location)?'http':'https';if(!d.getElementById(id)){js=d.createElement(s);js.id=id;js.src=p+"://platform.twitter.com/widgets.js";fjs.parentNode.insertBefore(js,fjs);}}(document,"script","twitter-wjs");</script>
 </div>
 </div>
