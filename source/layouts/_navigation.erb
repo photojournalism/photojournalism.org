@@ -4,7 +4,7 @@
       <div class="col-md-8">
         <a class="logo" href="/" title="Atlanta Photojournalism Seminar">photojournalism.org</a><br>
         <small class="logo-caption">ATLANTA PHOTOJOURNALISM SEMINAR</small>
-      </div>
+      </div><!-- .col-md-8 -->
       <div class="col-md-4">
         <form class="navbar-form header-search" role="search">
           <div class="form-group">
@@ -12,22 +12,20 @@
           </div>
           <button type="submit" class="btn btn-default">Submit</button>
         </form>
-      </div>
-    </div>
-  </div>
-  </header>
-
+      </div><!-- .col-md-4 -->
+    </div><!-- .row -->
+  </div><!-- .container -->
   <nav class="navbar navbar-default" role="navigation">
     <div class="container">
       <div class="navbar-header">
-        <button type="button" class="navbar-toggle" data-toggle="collapse" data-target="#bs-example-navbar-collapse-1">
+        <button type="button" class="navbar-toggle" data-toggle="collapse" data-target="#navbar-collapse-1">
           <span class="sr-only">Toggle navigation</span>
           <span class="icon-bar"></span>
           <span class="icon-bar"></span>
           <span class="icon-bar"></span>
         </button>
-      </div>
-      <div class="collapse navbar-collapse" id="bs-example-navbar-collapse-1">
+      </div><!-- .navbar-header -->
+      <div class="collapse navbar-collapse" id="navbar-collapse-1">
         <ul class="nav navbar-nav">
           <li<%= " class=\"active\"" if current_page.data.title == "Home" %>><a href="/">Home</a></li>
           <li class="dropdown">
@@ -40,7 +38,7 @@
               <li class="divider"></li>
               <li><a href="#">Judging and Prizes</a></li>
             </ul>
-          </li>
+          </li><!-- .dropdown -->
           <li class="dropdown">
             <a href="#" class="dropdown-toggle" data-toggle="dropdown">Contest <b class="caret"></b></a>
             <ul class="dropdown-menu">
@@ -51,7 +49,7 @@
               <li class="divider"></li>
               <li><a href="#">Judging and Prizes</a></li>
             </ul>
-          </li>
+          </li><!-- .dropdown -->
           <li class="dropdown">
             <a href="#" class="dropdown-toggle" data-toggle="dropdown">Faculty <b class="caret"></b></a>
             <ul class="dropdown-menu">
@@ -59,18 +57,18 @@
               <li><a href="#">Speakers</a></li>
               <li><a href="#">Workshops</a></li>
             </ul>
-          </li>
+          </li><!-- .dropdown -->
           <li<%= " class=\"active\"" if current_page.data.title == "Schedule" %>><a href="#">Schedule</a></li>
           <li<%= " class=\"active\"" if current_page.data.title == "Sponsors" %>><a href="#">Sponsors</a></li>
           <li><a href="#">Register</a></li>
-        </ul>
+        </ul><!-- .nav .navbar-nav -->
         <ul class="nav navbar-nav navbar-right">
           <li><a href="https://facebook.com/atlantaseminar"><i class="fa fa-facebook-square fa-lg"></i></a></li>
           <li><a href="https://twitter.com/atlantaseminar"><i class="fa fa-twitter-square fa-lg"></i></a></li>
           <li><a href="https://instagram.com/atlantaseminar"><i class="fa fa-instagram fa-lg"></i></a></li>
           <li><a href="http://vimeo.com/atlantaseminar"><i class="fa fa-vimeo-square fa-lg"></i></a></li>
         </ul>
-      </div>
+      </div><!-- .collapse .navbar-collapse -->
     </div><!-- .container -->
   </nav><!-- .navbar -->
 </header>
