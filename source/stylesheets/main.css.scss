@@ -1,5 +1,3 @@
-// require normalize
-
 $navbar-height: 40px;
 $navbar-default-brand-color: #FA7500;
 $navbar-default-brand-hover-color: #FA7500;
@@ -24,6 +22,11 @@ body {
 
 .form-control, .btn, .timeline {
   border-radius: 0;
+}
+
+h1, h2, h3, h4, ul, p {
+  margin-top: 20px;
+  margin-bottom: 20px;
 }
 
 header {
