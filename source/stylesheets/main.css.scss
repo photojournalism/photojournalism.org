@@ -29,6 +29,11 @@ h1, h2, h3, h4, ul, p {
   margin-bottom: 20px;
 }
 
+/* Allow dropdown menus to show on link hover */
+ul.nav li.dropdown:hover ul.dropdown-menu {
+    display: block;
+}
+
 header {
   background: $background-color;
   border-radius: 0;
