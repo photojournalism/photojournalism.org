@@ -2,8 +2,10 @@
   <div class="container">
     <div class="row">
       <div class="col-md-8">
-        <a class="logo" href="/" title="Atlanta Photojournalism Seminar">photojournalism.org</a><br>
-        <small class="logo-caption">ATLANTA PHOTOJOURNALISM SEMINAR</small>
+        <div class="logo">
+          <a class="logo-main" href="/" title="Atlanta Photojournalism Seminar">photojournalism.org</a><br>
+          <small class="logo-caption">ATLANTA PHOTOJOURNALISM SEMINAR</small>
+        </div>
       </div><!-- .col-md-8 -->
       <div class="col-md-4 hidden-xs hidden-sm">
         <form class="navbar-form header-search" role="search">
@@ -28,7 +30,7 @@
       <div class="collapse navbar-collapse" id="navbar-collapse-1">
         <ul class="nav navbar-nav">
           <li<%= " class=\"active\"" if current_page.data.title == "Home" %>><a href="/">Home</a></li>
-          <li class="dropdown">
+          <li class="dropdown<%= " active" if current_page.data.title == "About" %>">
             <a href="/about/">About <b class="caret"></b></a>
             <ul class="dropdown-menu">
               <li><a href="/about/staff/">Staff</a></li>
@@ -38,7 +40,7 @@
               <li><a href="#">Judging and Prizes</a></li>
             </ul>
           </li><!-- .dropdown -->
-          <li class="dropdown">
+          <li class="dropdown<%= " active" if current_page.data.title == "Contest" %>">
             <a href="#">Contest <b class="caret"></b></a>
             <ul class="dropdown-menu">
               <li><a href="#">Winners</a></li>
@@ -48,7 +50,7 @@
               <li><a href="#">Judging and Prizes</a></li>
             </ul>
           </li><!-- .dropdown -->
-          <li class="dropdown">
+          <li class="dropdown<%= " active" if current_page.data.title == "Faculty" %>">
             <a href="/faculty/">Faculty <b class="caret"></b></a>
             <ul class="dropdown-menu">
               <li><a href="/faculty/">Faculty List</a></li>
@@ -63,6 +65,7 @@
         <ul class="nav navbar-nav navbar-right hidden-xs hidden-sm">
           <li><a href="https://facebook.com/atlantaseminar"><i class="fa fa-facebook-square fa-lg"></i></a></li>
           <li><a href="https://twitter.com/atlantaseminar"><i class="fa fa-twitter-square fa-lg"></i></a></li>
+          <li><a href="https://plus.google.com/106141968448792182061/posts"><i class="fa fa-google-plus-square fa-lg"></i></a></li>
           <li><a href="https://instagram.com/atlantaseminar"><i class="fa fa-instagram fa-lg"></i></a></li>
           <li><a href="http://vimeo.com/atlantaseminar"><i class="fa fa-vimeo-square fa-lg"></i></a></li>
         </ul>
