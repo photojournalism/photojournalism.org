@@ -76,7 +76,7 @@ header {
   background: $navbar-background-color;
   border-radius: 0;
   box-shadow: none;
-  padding: 5px;
+  padding: 1px;
   border-top: 1px solid #eee;
   border-bottom: 1px solid #eee;
 
@@ -85,6 +85,15 @@ header {
     margin-left: 8%;
     padding-right: 50px;
     line-height: 30px;
+  }
+}
+
+.dropdown-menu {
+  border-bottom-right-radius: 0;
+  border-bottom-left-radius: 0;
+
+  .divider {
+    margin: 5px 0;
   }
 }
 
