@@ -93,3 +93,14 @@ footer {
   @include filter-gradient(#303030, #141414, horizontal); // IE6-9 fallback on horizontal gradient
   @include background-image(radial-gradient(center, ellipse cover,  #303030 0%,#1e1e1e 40%,#141414 100%));
 }
+
+.faculty-section {
+  margin-top: 20px;
+  text-align: justify;
+}
+
+.faculty-image {
+  margin: 5px 15px 10px 0;
+  float: left;
+  height: 310px;
+}
