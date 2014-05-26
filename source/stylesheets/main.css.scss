@@ -29,6 +29,14 @@ h1, h2, h3, h4, ul, p {
   margin-bottom: 20px;
 }
 
+p {
+  text-align: justify;
+}
+
+img {
+  max-width: 100%;
+}
+
 /* Allow dropdown menus to show on link hover */
 ul.nav li.dropdown:hover ul.dropdown-menu {
     display: block;
@@ -103,4 +111,9 @@ footer {
   margin: 5px 15px 10px 0;
   float: left;
   height: 310px;
+}
+
+.hotel-map {
+  width: 100%;
+  height: 400px;
 }
