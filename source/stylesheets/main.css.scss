@@ -47,7 +47,7 @@ header {
   border-radius: 0;
   padding: 10px 0;
 
-  .logo {
+  .logo-main {
     font-size: 48px;
     color: $navbar-default-brand-color;
     text-decoration: none;
@@ -102,10 +102,28 @@ header {
 }
 
 footer {
-  height: 300px;
+  a {
+    color: #eee;
+    text-decoration: none;
+
+    &:hover {
+      color: #eee;
+    }
+  }
+
+  h3 {
+    color: #eee;
+  }
+
+  ul {
+    list-style-type: none;
+    margin: 0 0 0 -20px;
+  }
+  min-height: 250px;
   margin-top: 30px;
   box-shadow: 0px 0px 5px #333;
   border-top: 1px solid #666;
+  color: #bbb;
   background-color: #303030; // Old browsers
   @include filter-gradient(#303030, #141414, horizontal); // IE6-9 fallback on horizontal gradient
   @include background-image(radial-gradient(center, ellipse cover,  #303030 0%,#1e1e1e 40%,#141414 100%));
@@ -125,4 +143,28 @@ footer {
 .hotel-map {
   width: 100%;
   height: 400px;
+}
+
+.social-icon {
+  text-decoration: none;
+  &:hover {
+    text-decoration: none;
+  }
+  img {
+    width: 48px;
+    margin-right: 4px;
+  }
+}
+
+@media (max-width: 460px) {
+  header {
+    .logo-main {
+      font-size: 36px;
+    }
+
+    .logo-caption {
+      right: -60px;
+      font-size: 13px;
+    }
+  }
 }
