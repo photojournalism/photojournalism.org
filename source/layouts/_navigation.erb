@@ -29,7 +29,7 @@
       </div><!-- .navbar-header -->
       <div class="collapse navbar-collapse" id="navbar-collapse-1">
         <ul class="nav navbar-nav">
-          <li<%= " class=\"active\"" if current_page.data.title == "Home" %>><a href="/">Home</a></li>
+          <li<%= " class=\"active\"" if current_page.data.navigation == "Home" %>><a href="/">Home</a></li>
           <li class="dropdown<%= " active" if current_page.data.title == "About" %>">
             <a href="/about/">About <b class="caret"></b></a>
             <ul class="dropdown-menu">
@@ -40,17 +40,17 @@
               <li><a href="#">Judging and Prizes</a></li>
             </ul>
           </li><!-- .dropdown -->
-          <li class="dropdown<%= " active" if current_page.data.title == "Contest" %>">
-            <a href="#">Contest <b class="caret"></b></a>
+          <li class="dropdown<%= " active" if current_page.data.navigation == "Contest" %>">
+            <a href="/contest/">Contest <b class="caret"></b></a>
             <ul class="dropdown-menu">
               <li><a href="#">Winners</a></li>
-              <li><a href="#">Rules</a></li>
+              <li><a href="/contest/rules/">Rules</a></li>
               <li><a href="#">Categories</a></li>
               <li class="divider"></li>
               <li><a href="#">Judging and Prizes</a></li>
             </ul>
           </li><!-- .dropdown -->
-          <li class="dropdown<%= " active" if current_page.data.title == "Faculty" %>">
+          <li class="dropdown<%= " active" if current_page.data.navigation == "Faculty" %>">
             <a href="/faculty/">Faculty <b class="caret"></b></a>
             <ul class="dropdown-menu">
               <li><a href="/faculty/">Faculty List</a></li>
@@ -58,8 +58,8 @@
               <li><a href="#">Workshops</a></li>
             </ul>
           </li><!-- .dropdown -->
-          <li<%= " class=\"active\"" if current_page.data.title == "Schedule" %>><a href="#">Schedule</a></li>
-          <li<%= " class=\"active\"" if current_page.data.title == "Sponsors" %>><a href="#">Sponsors</a></li>
+          <li<%= " class=\"active\"" if current_page.data.navigation == "Schedule" %>><a href="#">Schedule</a></li>
+          <li<%= " class=\"active\"" if current_page.data.navigation == "Sponsors" %>><a href="#">Sponsors</a></li>
           <li><a href="#">Register</a></li>
         </ul><!-- .nav .navbar-nav -->
         <ul class="nav navbar-nav navbar-right hidden-xs hidden-sm">
