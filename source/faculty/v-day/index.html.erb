@@ -1,13 +1,13 @@
 ---
-title: Faculty
+title: V-Day
 navigation: Faculty
 ---
 
-<h1>2014 Faculty</h1>
+<h1>2014 V-Day Speakers</h1>
 
-Below is a list of confirmed faculty members for the <strong>2014 Atlanta Photojournalism Seminar</strong>:
+Below is a list of confirmed speakers for Video Day at the <strong>2014 Atlanta Photojournalism Seminar</strong>:
 
-<% faculty = YAML.load(File.read("source/faculty/faculty.yml")) %>
+<% faculty = YAML.load(File.read("source/faculty/v-day/v-day.yml")) %>
 <% faculty.each do |f| %>
   <div class="faculty-section">
   <h3><%= f['name'] %></h3>
