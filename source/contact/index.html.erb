@@ -5,41 +5,17 @@ navigation: Contact
 
 <h1>Contact</h1>
 
+<% members = YAML.load(File.read("source/contact/contact.yml")) %>
+
+
+<% members.each do |member| %>
 <p>
-  <strong>REGISTRATION</strong><br>
-  Contact: David Tulis<br>
-  <em><a href="mailto:register@photojournalism.org">register[at]photojournalism.org</a></em>
+  <strong><%= member['title'] %></strong><br>
+  Contact: <%= member['name'] %><br>
+  <em><a href="mailto:<%= member['email'] %>"><%= member['email'] %></a></em>
 </p>
-<p>
-  <strong>CONTEST</strong><br>
-  Contact: Jeremy Brooks<br>
-  <em><a href="mailto:contest@photojournalism.org">contest[at]photojournalism.org</a></em>
-</p>
-<p>
-  <strong>GENERAL INFORMATION</strong><br>
-  Contact: Kevin Liles or Phil Skinner<br>
-  <em><a href="mailto:info@photojournalism.org">info[at]photojournalism.org</a></em>
-</p>
-<p>
-  <strong>VENDORS</strong><br>
-  Contact: Tami Chappell<br>
-  <em><a href="mailto:vendors@photojournalism.org">vendors[at]photojournalism.org</a></em>
-</p>
-<p>
-  <strong>VOLUNTEERING</strong><br>
-  Contact: Steve Schaefer<br>
-  <em><a href="mailto:volunteers@photojournalism.org">volunteers[at]photojournalism.org</a></em>
-</p>
-<p>
-  <strong>WEBSITE</strong><br>
-  Contact: Kevin Liles<br />
-  <em><a href="mailto:webmaster@photojournalism.org">webmaster[at]photojournalism.org</a></em>
-</p>
-<p>
-  <strong>SOCIAL MEDIA</strong><br>
-  Contact: Jabin Botsford<br>
-  <em><a href="mailto:jb@photojournalism.org">jb[at]photojournalism.org</a></em>
-</p>
+<% end %>
+
 <p><strong>Twitter:</strong> <a href="https://twitter.com/atlantaseminar"><em>@atlantaseminar</em></a></p>
 <p>
   <strong>Mailing address:</strong><br>
