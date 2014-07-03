@@ -10,11 +10,12 @@ Below is a list of confirmed workshops for the <strong>2014 Atlanta Photojournal
 <% faculty = YAML.load(File.read("source/faculty/workshops/workshops.yml")) %>
 <% faculty.each do |f| %>
   <div class="faculty-section">
-  <h3><%= f['name'] %></h3>
+  <h3 id="<%= f['id'] %>"><%= f['name'] %></h3>
   <img src="<%= f['url'] %>" alt="<%= f['name'] %>" class="thumbnail faculty-image">
   <% f['bio'].each do |paragraph| %>
     <p><%= paragraph %></p>
   <% end %>
+  <% if f['workshop'] %>
   <h4>Workshop</h4>
   <strong><%= f['workshop'][0]['title'] %></strong>
   <% f['workshop'][0]['description'].each do |paragraph| %>
@@ -25,6 +26,7 @@ Below is a list of confirmed workshops for the <strong>2014 Atlanta Photojournal
   <% f['workshop'][0]['topics'].each do |topic| %>
     <li><%= topic %>
   <% end %>
-  </li>
+  </ul>
+  <% end %>
   </div>
 <% end %>
