@@ -186,6 +186,22 @@ footer {
   }
 }
 
+.modal-content {
+  border-radius: 0px;
+}
+
+.modal-header, .modal-footer {
+  background-color: #e1e1e1;
+}
+
+.modal-footer {
+  margin-top: 0;
+}
+
+.modal-body {
+  background-color: #f4f4f4;
+}
+
 @media (max-width: 460px) {
   header {
     .logo-main {

@@ -21,6 +21,7 @@ Dir.glob('./**/*.html') do |file|
     contents = File.open(file, "rb").read
     page_title = contents[/\<title\>(.*)\<\/title\>/, 1].gsub(' &middot; Atlanta Photojournalism Seminar', '')
     contents = contents
+        .gsub(/\<h1\>.*\<\/h1\>/, '')
         .gsub(/\<html\>.*\<\/header\>/m, '')  # Remove top part of document
         .gsub(/\n/, '')                       # Remove newlines
         .gsub(/(function|var).*\;/, '')       # Remove Javascript
