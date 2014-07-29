@@ -1,0 +1,9 @@
+<%
+
+require 'json'
+
+faculty = YAML.load(File.read("source/faculty/speakers/speakers.yml"))
+
+%>
+
+<%= faculty.to_json %>
