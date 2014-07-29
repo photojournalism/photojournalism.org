@@ -1,0 +1,10 @@
+#!/bin/bash
+# This script is used to serve the generated build.
+
+echo -e "Generating site..."
+middleman build
+
+ruby script/generate_json.rb
+
+echo -e "Running server..."
+middleman

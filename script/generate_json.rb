@@ -1,0 +1,34 @@
+#!/usr/bin/env ruby
+require 'json'
+require 'sanitize'
+
+SRC_DIR   = 'source'
+BUILD_DIR = 'build'
+JSON_FILE = 'contents.json'
+
+puts "Generating #{JSON_FILE}..."
+class Sanitize
+  module Config
+    NONE = freeze_config(:elements => [])
+  end
+end
+
+json = []
+
+Dir.glob('./**/*.html') do |file|
+  if (file.include?('index.html'))
+    url = file.gsub("./#{BUILD_DIR}", '').gsub('index.html', '')
+    contents = File.open(file, "rb").read
+    page_title = contents[/\<title\>(.*)\<\/title\>/, 1].gsub(' &middot; Atlanta Photojournalism Seminar', '')
+    contents = contents
+        .gsub(/\<html\>.*\<\/header\>/m, '')  # Remove top part of document
+        .gsub(/\n/, '')                       # Remove newlines
+        .gsub(/(function|var).*\;/, '')       # Remove Javascript
+    contents = Sanitize.fragment(contents, Sanitize::Config::NONE).gsub(/\s{2,}/, ' ').strip
+    object = { :page_title => page_title, :url => url, :contents => contents }
+    json << object
+  end
+end
+
+f = File.write("./#{SRC_DIR}/#{JSON_FILE}", JSON.pretty_generate(json))
+f = File.write("./#{BUILD_DIR}/#{JSON_FILE}", JSON.pretty_generate(json))
