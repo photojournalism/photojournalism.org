@@ -1,25 +1,10 @@
 <header>
-  <div class="container">
-    <div class="row">
-      <div class="col-md-8">
-        <div class="logo">
-          <a class="logo-main" href="/" title="Atlanta Photojournalism Seminar">photojournalism.org</a><br>
-          <small class="logo-caption">ATLANTA PHOTOJOURNALISM SEMINAR</small>
-        </div>
-      </div><!-- .col-md-8 -->
-      <div class="col-md-4 hidden-xs hidden-sm">
-        <form class="navbar-form header-search" role="search" onsubmit="search(); return false">
-          <div class="form-group">
-            <input id="search_query" type="text" class="form-control" placeholder="Search">
-          </div>
-          <button type="submit" class="btn btn-default" onclick="search(); return false">Search</button>
-        </form>
-      </div><!-- .col-md-4 -->
-    </div><!-- .row -->
-  </div><!-- .container -->
   <nav class="navbar navbar-default" role="navigation">
     <div class="container">
       <div class="navbar-header">
+        <div id="nav-logo" class="logo">
+          <a class="logo-main" href="/" title="Atlanta Photojournalism Seminar"><img src="https://s3.amazonaws.com/photojournalism/logos/atlpj_logo_circle_text.png"></a>
+        </div>
         <button type="button" class="navbar-toggle" data-toggle="collapse" data-target="#navbar-collapse-1">
           <span class="sr-only">Toggle navigation</span>
           <span class="icon-bar"></span>
@@ -28,7 +13,7 @@
         </button>
       </div><!-- .navbar-header -->
       <div class="collapse navbar-collapse" id="navbar-collapse-1">
-        <ul class="nav navbar-nav">
+        <ul class="nav navbar-nav" id="navbar-links">
           <li<%= " class=\"active\"" if current_page.data.navigation == "Home" %>><a href="/">Home</a></li>
           <li class="dropdown<%= " active" if current_page.data.title == "About" %>">
             <a href="/about/">About <b class="caret"></b></a>
@@ -57,13 +42,6 @@
           <li<%= " class=\"active\"" if current_page.data.navigation == "Sponsors" %>><a href="#">Sponsors</a></li>
           <li><a href="#">Register</a></li>
         </ul><!-- .nav .navbar-nav -->
-        <ul class="nav navbar-nav navbar-right hidden-xs hidden-sm">
-          <li><a class= "tooltip-link" href="https://facebook.com/atlantaseminar" target="_blank" title="Facebook"><i class="fa fa-facebook-square fa-lg"></i></a></li>
-          <li><a class= "tooltip-link" href="https://twitter.com/atlantaseminar" target="_blank" title="Twitter"><i class="fa fa-twitter-square fa-lg"></i></a></li>
-          <li><a class= "tooltip-link" href="https://plus.google.com/106141968448792182061/posts" target="_blank" title="Google+"><i class="fa fa-google-plus-square fa-lg"></i></a></li>
-          <li><a class= "tooltip-link" href="https://instagram.com/atlantaseminar" target="_blank" title="Instagram"><i class="fa fa-instagram fa-lg"></i></a></li>
-          <li><a class= "tooltip-link" href="http://vimeo.com/atlantaseminar" target="_blank" title="Vimeo"><i class="fa fa-vimeo-square fa-lg"></i></a></li>
-        </ul>
       </div><!-- .collapse .navbar-collapse -->
     </div><!-- .container -->
   </nav><!-- .navbar -->

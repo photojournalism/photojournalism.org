@@ -28,7 +28,7 @@ var search = function() {
     resultsBody.html('');
 
     $.each(data, function(i, d) {
-      var index = d.contents.indexOf(query);
+      var index = d.contents.toLowerCase().indexOf(query.toLowerCase());
       if (index > -1) {
         results.push(d);
       }
