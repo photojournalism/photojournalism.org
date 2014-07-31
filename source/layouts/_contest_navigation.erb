@@ -1,0 +1,15 @@
+<% years = (1975..2013) %>
+<% previous_year = year - 1 %>
+<% next_year = year + 1 %>
+
+<div class="contest-navigation">
+<% if years.include? previous_year %>
+  <a href="/contest/winners/<%= previous_year %>/">&laquo; Previous Year</a>&nbsp;&nbsp;|&nbsp;&nbsp;
+<% end %>
+
+<a href="/contest/winners/">All Years</a>
+
+<% if years.include? next_year %>
+  &nbsp;&nbsp;|&nbsp;&nbsp;<a href="/contest/winners/<%= next_year %>/">Next Year &raquo;</a>
+<% end %>
+</div>

@@ -1,0 +1,44 @@
+---
+title: 2013 Best Portfolio
+navigation: Contest
+comments: on
+---
+
+<h1>2013 Best Portfolio</h1>
+
+<h4>Winner: Andrew Biraj / Reuters</h4>
+
+<% slides = YAML.load(File.read("source/contest/winners/2013/best-portfolio/slideshow.yml")) %>
+<div id="carousel" class="carousel slide" data-ride="carousel">
+  <!-- Wrapper for slides -->
+  <div class="carousel-inner">
+  <% first = true %>
+  <% slides.each do |image| %>
+    <div class="item<%= " active" if first %>">
+      <img src="<%= image[:url] %>" alt="<%= image[:title] %>">
+      <div class="carousel-caption">
+        <h4 class="carousel-title"><%= image[:title] %></h4>
+        <p class="caption"><%= image[:caption] %></p>
+        <p><%= image[:credit] %></p>
+      </div>
+    </div><% first = false %>
+  <% end %>
+  </div>
+
+  <!-- Controls -->
+  <a class="left carousel-control" href="#carousel" data-slide="prev">
+    <span class="glyphicon glyphicon-chevron-left"></span>
+  </a>
+  <a class="right carousel-control" href="#carousel" data-slide="next">
+    <span class="glyphicon glyphicon-chevron-right"></span>
+  </a>
+
+  <div id="indicators">
+    <!-- Indicators -->
+    <ol class="carousel-indicators">
+    <% (1..slides.size).each do |n| %>
+      <li data-target="#carousel" data-slide-to="<%= n - 1 %>"<%= "class='active'" if n == 1 %>></li>
+    <% end %>
+    </ol>
+  </div>
+</div>
