@@ -29,6 +29,7 @@ GEM
       tilt
     hike (1.2.3)
     http_parser.rb (0.5.3)
+    humanize (1.1.0)
     i18n (0.6.5)
     jquery-middleman (3.0.4)
       thor (>= 0.14, < 2.0)
@@ -101,6 +102,7 @@ DEPENDENCIES
   bootstrap-sass
   compass
   font-awesome-middleman
+  humanize
   jquery-middleman
   middleman (~> 3.2.0)
   middleman-livereload (~> 3.1.0)
