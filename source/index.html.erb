@@ -20,8 +20,8 @@ navigation: Home
     <div class="item<%= " active" if first %>">
       <img src="<%= image['url'] %>" alt="<%= image['title'] %>">
       <div class="carousel-caption">
-        <h4><%= image['title'] %></h4>
-        <p><%= image['caption'] %></p>
+        <h4 class="carousel-title"><%= image['title'] %></h4>
+        <p class="caption"><%= image['caption'] %></p>
         <p><%= image['credit'] %></p>
       </div>
     </div><% first = false %>

@@ -1,16 +1,18 @@
+$logo-dark-color: rgb(65, 64, 66);
+$logo-orange: rgb(242, 103, 34); // #F26722
 $navbar-height: 40px;
 $navbar-default-brand-color: #FA7500;
 $navbar-default-brand-hover-color: #FA7500;
 $navbar-default-link-hover-bg: transparent;
 $navbar-default-link-active-bg: transparent;
-$navbar-default-link-active-color: rgb(65,64,66);
+$navbar-default-link-active-color: $logo-dark-color;
 $font-size-base: 16px;
 $background-color: #efefef;
 $navbar-background-color: rgba(0,39,59,.05);
-$link-color: #428bca;
 $gray-blue: rgba(0,39,59,.5);
 $gray-blue-lighter: rgba(0,39,59,.3);
-
+$gray-blue-darker: rgba(0,39,59,.65);
+$link-color: #428bca;
 
 @import "compass";
 @import "bootstrap";
@@ -24,10 +26,7 @@ html, body {
 body {
   background: $background-color;
   border-top: 4px solid $navbar-default-link-active-color;
-}
-
-h1 {
-  margin-top: 0;
+  color: $logo-dark-color;
 }
 
 a, a:visited {
@@ -45,8 +44,9 @@ a, a:visited {
   border-radius: 0;
 }
 
-h1 {
+h1, h2, h3 {
   margin-top: 10px;
+  color: $logo-dark-color;
 }
 
 h2, h3, h4, ul, p {
@@ -64,7 +64,7 @@ ul.nav li.dropdown:hover ul.dropdown-menu {
 }
 
 #nav-logo {
-  width: 450px;
+  width: 470px;
 }
 
 header {
@@ -92,7 +92,7 @@ header {
 
 .navbar-default {
   .navbar-nav > li > a {
-    color: $gray-blue;
+    color: $gray-blue-darker;
   }
 
   .navbar-nav > li.active > a {
@@ -143,45 +143,60 @@ header {
   box-shadow: 1px 1px 5px #333;
 }
 
+.carousel-indicators {
+
+  bottom: -50px;
+
+  .active {
+    background-color: $gray-blue-lighter;
+  }
+
+  li {
+    margin: 0;
+    padding: 5px;
+    border: 2px solid $gray-blue;
+  }
+}
+
 footer {
 
-  color: $gray-blue;
+  color: $gray-blue-darker;
   font-size: 13px;
+  min-height: 150px;
+  margin-top: 50px;
   
   .footer-row:first-child {
     border-top: 2px solid $gray-blue-lighter;
   }
 
   a {
-    color: $gray-blue;
+    color: $gray-blue-darker;
     text-decoration: none;
 
     &:hover {
-      color: darken($gray-blue, 40%);
+      color: darken($gray-blue-darker, 40%);
     }
   }
 
   h4 {
-    color: $gray-blue;
+    color: $gray-blue-darker;
   }
 
   ul {
     list-style-type: none;
     margin: 0 0 0 -40px;
   }
-  min-height: 150px;
-  margin-top: 60px;
 
   .copyright {
     font-size: 12px;
-    color: $gray-blue;
+    color: $gray-blue-darker;
     margin-top: 15px;
     display: block;
   }
 
   .tagline {
     font-size: 12px;
-    color: $gray-blue;
+    color: $gray-blue-darker;
     margin-top: 15px;
     display: block;
   }
@@ -198,6 +213,7 @@ footer {
       margin-top: 15px;
       margin-right: 10px;
       float: left;
+      opacity: 0.9;
     }
   }
 }
@@ -287,6 +303,13 @@ footer {
 
 .carousel-caption {
   font-size: 12px;
+  padding-bottom: 0;
+  left: 0;
+  right: 0;
+  text-align: left;
+  padding: 5px 40px;
+  background: rgba(0,0,0,0.5);
+  text-shadow: 0 0 5px #000;
 
   h4 {
     margin: 5px 0;
@@ -296,6 +319,10 @@ footer {
   p {
     margin: 5px 0;
   }
+}
+
+iframe[id^='twitter-widget-'] {
+  width: 100% !important;
 }
 
 #twitter-widget-0 {
@@ -318,7 +345,7 @@ footer {
     width: 222px;
   }
   #nav-logo {
-    width: 300px;
+    width: 350px;
   }
 
   .navbar-nav > li > a {
@@ -343,12 +370,24 @@ footer {
   footer {
     text-align: center;
 
+    h4 {
+      font-size: 24px;
+    }
     .footer-logo {
       margin: 0 auto;
       img {
+        margin: 0;
         width: 200px;
         float: none;       
       }
+    }
+
+    .footer-contact {
+      margin-bottom: 20px;
+    }
+
+    .footer-social {
+      margin-bottom: 20px;
     }
   }
 
@@ -357,9 +396,47 @@ footer {
   }
 }
 
+@media (min-width: 768px) {
+  .navbar-collapse {
+    padding: 0;
+  }
+
+  .logo-main {
+    margin-left: -25px;
+  }
+}
+
 @media (max-width: 768px) {
+  header {
+    padding: 0;
+
+    #nav-logo {
+      padding: 5px;
+    }
+  }
+
+  .navbar {
+    #navbar-links {
+      border-bottom: none;
+    }
+
+    .navbar-collapse {
+      border-top: 2px solid $gray-blue-lighter;
+      border-bottom: 2px solid $gray-blue-lighter;
+    }
+  }
+
   #search_query {
     margin: 0 auto;
+    display: inline;
+  }
+
+  .navbar-default .navbar-toggle {
+    border: 2px solid $gray-blue;
+
+    .icon-bar {
+      background-color: $gray-blue;
+    }
   }
 }
 
@@ -373,5 +450,13 @@ footer {
       right: -60px;
       font-size: 13px;
     }
+  }
+
+  .caption {
+    display: none;
+  }
+
+  #about-video {
+    max-height: 300px;
   }
 }
