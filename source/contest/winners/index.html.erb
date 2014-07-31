@@ -1,0 +1,33 @@
+---
+title: Winners
+navigation: Contest
+---
+
+<h1>Contest Winners</h1>
+
+
+<p>Though the Seminar was founded in 1973 (then, the <em>Atlanta Press Photographers Association</em>), our first photography contest was not held until 1975. Results from all but four years (1977, 1978, 1981, and 2009) are listed below.</p>
+
+<p>Use the select box to choose the year to view the winners from:</p>
+
+<div class="form-group">
+  <label for="contest_year">Contest Year</label>
+  <select id="contest_year" class="form-control">
+    <% (2014).downto(1975).each do |year| %>
+      <option value="<%= year %>"><%= year %></option>
+    <% end %>
+  </select>
+</div>
+<div class="form-group">
+  <button id="contest_button" class="btn btn-default btn-large">Go</button>
+</div>
+
+
+<script>
+  $(function() {
+    $("#contest_button").on('click', function(e) {
+      var year = $("#contest_year").val();
+      window.location.href = '/contest/winners/' + year + '/';
+    });
+  });
+</script>
