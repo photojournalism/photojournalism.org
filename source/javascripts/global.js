@@ -6,6 +6,8 @@
 $(function() {
   $(".tooltip-link").tooltip();
 
+  insertTwitterWidget();
+
   var opts = {
     lines: 13, // The number of lines to draw
     length: 10, // The length of each line
@@ -26,9 +28,20 @@ $(function() {
   };
   var target = document.getElementById('twitter-spinner');
   var spinner = new Spinner(opts).spin(target);
+
+   !function(d, s, id) {
+      var js, fjs = d.getElementsByTagName(s)[0], p=/^http:/.test(d.location)?'http':'https';
+        if (!d.getElementById(id)) {
+           js = d.createElement(s);
+           js.id = id;
+            js.src = p+"://platform.twitter.com/widgets.js";
+         fjs.parentNode.insertBefore(js, fjs);
+      }
+  }(document, "script", "twitter-wjs");
+
 });
 
-var search = function() {
+function search() {
   var searchBox = $("#search_query");
   var query = searchBox.val();
 
@@ -68,7 +81,18 @@ var search = function() {
     console.log(results);
     $("#searchModal").modal('show');
   });
-
 };
 
-!function(d,s,id){var js,fjs=d.getElementsByTagName(s)[0],p=/^http:/.test(d.location)?'http':'https';if(!d.getElementById(id)){js=d.createElement(s);js.id=id;js.src=p+"://platform.twitter.com/widgets.js";fjs.parentNode.insertBefore(js,fjs);}}(document,"script","twitter-wjs");
+function insertTwitterWidget() {
+  var minHeight = 400;
+  var maxHeight = 800;
+  var contentHeight = $("#content").height();
+
+  if (contentHeight < minHeight) {
+    contentHeight = minHeight;
+  } else if (contentHeight > maxHeight) {
+    contentHeight = maxHeight;
+  }
+
+  $("#twitter-feed").html('<a class="twitter-timeline" href="https://twitter.com/atlantaseminar" data-widget-id="274228294562480128" height="'+contentHeight+'px" data-chrome="nofooter"><div id="twitter-spinner">Tweets from @atlantaseminar</div></a>');
+}
