@@ -39,6 +39,12 @@ $(function() {
       }
   }(document, "script", "twitter-wjs");
 
+  $("#go-to-search").click(function() {
+    $('html,body').animate({
+      scrollTop: $("#search_query").offset().top
+    });
+    $("#search_query").focus();
+  });
 });
 
 function search() {
