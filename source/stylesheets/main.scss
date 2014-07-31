@@ -16,6 +16,8 @@ $gray-blue-lighter: rgba(0,39,59,.3);
 @import "bootstrap";
 
 html, body {
+  height: 100%;
+  width: 100%;
   max-width: 100%;
 }
 
@@ -109,6 +111,10 @@ header {
 
   a {
     color: $gray-blue;
+  }
+
+  .navbar-container {
+    margin: 0 auto;
   }
 
   a.navbar-brand {
@@ -290,6 +296,21 @@ footer {
   p {
     margin: 5px 0;
   }
+}
+
+#twitter-widget-0 {
+  width: 100%;
+  margin: 0 auto;
+}
+
+#twitter-spinner {
+  padding: 10px 10px;
+  position: relative;
+}
+
+.twitter-timeline {
+  text-align: center;
+  margin: 0 auto;
 }
 
 @media (max-width: 1199px) {
