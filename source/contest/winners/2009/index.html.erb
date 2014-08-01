@@ -3,9 +3,6 @@ title: 2009 Winners
 navigation: Contest
 ---
 
-<h1>2009 Winners</h1>
+<% data = YAML.load_file('source/contest/winners/2009/winners.yml') %>
 
-<%= partial 'layouts/contest_navigation', locals: { year: 2009 } %>
-
-<p>We do not currently have information on the winners from this year.</p>
-
+<%= partial 'layouts/contest_winners', locals: { data: data } %>
