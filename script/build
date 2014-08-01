@@ -1,0 +1,7 @@
+#!/bin/bash
+# This script is used to build the site.
+
+echo -e "Generating site..."
+middleman build
+
+ruby script/generate_json.rb
