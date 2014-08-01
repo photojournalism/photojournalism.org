@@ -6,7 +6,7 @@ comments: on
 
 <h1>2014 Workshops</h1>
 
-Below is a list of confirmed workshops for the <strong>2014 Atlanta Photojournalism Seminar</strong>:
+Below is a list of confirmed workshop leaders for the <strong>2014 Atlanta Photojournalism Seminar</strong>:
 
 <% faculty = YAML.load(File.read("source/faculty/workshops/workshops.yml")) %>
 <% faculty.each do |f| %>
@@ -22,12 +22,15 @@ Below is a list of confirmed workshops for the <strong>2014 Atlanta Photojournal
   <% f['workshop'][0]['description'].each do |paragraph| %>
     <p><%= paragraph %></p>
   <% end %>
-  <h5>Topics</h5>
-  <ul>
-  <% f['workshop'][0]['topics'].each do |topic| %>
-    <li><%= topic %>
-  <% end %>
-  </ul>
+
+  <% if f['workshop'][0]['topics'] %>
+    <h5>Topics</h5>
+    <ul>
+    <% f['workshop'][0]['topics'].each do |topic| %>
+      <li><%= topic %>
+    <% end %>
+    </ul>
+    <% end %>
   <% end %>
   </div>
 <% end %>
