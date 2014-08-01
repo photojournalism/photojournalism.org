@@ -4,35 +4,4 @@ layout: wide
 navigation: Home
 ---
 
-<% slides = YAML.load(File.read("source/slideshow.yml")) %>
-<div id="homepage-carousel" class="carousel slide" data-ride="carousel">
-  <!-- Indicators -->
-  <ol class="carousel-indicators">
-	<% (1..slides.size).each do |n| %>
-    <li data-target="#homepage-carousel" data-slide-to="<%= n - 1 %>"<%= "class='active'" if n == 1 %>></li>
-  <% end %>
-  </ol>
-
-  <!-- Wrapper for slides -->
-  <div class="carousel-inner">
-	<% first = true %>
-	<% slides.each do |image| %>
-    <div class="item<%= " active" if first %>">
-      <img src="<%= image['url'] %>" alt="<%= image['title'] %>">
-      <div class="carousel-caption">
-        <h4 class="carousel-title"><%= image['title'] %></h4>
-        <p class="caption"><%= image['caption'] %></p>
-        <p><%= image['credit'] %></p>
-      </div>
-    </div><% first = false %>
-  <% end %>
-  </div>
-
-  <!-- Controls -->
-  <a class="left carousel-control" href="#homepage-carousel" data-slide="prev">
-    <span class="glyphicon glyphicon-chevron-left"></span>
-  </a>
-  <a class="right carousel-control" href="#homepage-carousel" data-slide="next">
-    <span class="glyphicon glyphicon-chevron-right"></span>
-  </a>
-</div>
+<%= partial 'layouts/slideshow', locals: { id: 'carousel', yaml_data: 'source/contest/winners/2013/slideshow.yml' } %>
