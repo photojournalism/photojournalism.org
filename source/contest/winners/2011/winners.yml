@@ -5,7 +5,9 @@
 :categories:
 - :name: |
     Best In Show
-  :winners: []
+  :winners:
+  - :info: |
+      Estaban Felix/The Associated Press
 - :name: |
     Best Portfolio
   :winners:
