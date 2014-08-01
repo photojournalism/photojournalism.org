@@ -6,7 +6,7 @@
 #   -
 - name: "Eric Seals"
   id: eric-seals
-  url: "https://photojournalism.s3.amazonaws.com/2014/faculty/eric_seals.jpg"
+  url: "/images/2014/faculty/eric_seals.jpg"
   bio:
   - "\"If you learn to shoot with your heart, you'll move peoples' souls!\""
   - "A good friend and mentor said that phrase of inspiration to Eric years ago, and it is something he thinks about constantly as a Photo and Video Journalist at the Detroit Free Press."
