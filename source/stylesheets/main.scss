@@ -297,15 +297,34 @@ footer {
 }
 
 .modal-content {
-  border-radius: 0px;
+  border: 2px solid $gray-blue-lighter;
 }
 
 .modal-header, .modal-footer {
   background-color: #e1e1e1;
 }
 
+.modal-header {
+  border-top-left-radius: 3px;
+  border-top-right-radius: 3px;  
+  border-bottom: 2px solid $gray-blue-lighter;
+
+  .close {
+    opacity: 1;
+    color: $gray-blue-lighter;
+    text-shadow: 0 1px 0 $gray-blue-lighter;
+
+    &:hover {
+      color: $gray-blue-darker;
+    }
+  }
+}
+
 .modal-footer {
   margin-top: 0;
+  border-bottom-left-radius: 3px;
+  border-bottom-right-radius: 3px;
+  border-top: 2px solid $gray-blue-lighter;
 }
 
 .modal-body {

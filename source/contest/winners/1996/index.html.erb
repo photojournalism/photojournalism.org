@@ -1,8 +1,7 @@
 ---
 title: 1996 Winners
 navigation: Contest
+comments: on
 ---
 
-<% data = YAML.load_file('source/contest/winners/1996/winners.yml') %>
-
-<%= partial 'layouts/contest_winners', locals: { data: data } %>
+<%= partial 'layouts/contest_winners', locals: { year: 1996, slideshow: false } %>

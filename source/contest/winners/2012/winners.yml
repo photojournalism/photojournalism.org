@@ -1,0 +1,248 @@
+---
+:year: 2012
+:info: |
+  "The following are the winners of the 2012 Atlanta Photojournalism Seminar Contest. Thank you to everyone who entered and participated in the contest, and congratulations to the winners!\n\n(Click category name to view the winning photos from that category)
+:categories:
+- :name: |
+    Spot News
+  :url: |
+    spot-news/
+  :winners:
+  - :info: |
+      First Place – Manu Brabo / Associated Press
+  - :info: |
+      Second Place – Manas Paran / Associated Press
+  - :info: |
+      Third Place – Esteban Felix / Associated Press
+  - :info: |
+      HM — Rodrigo Abd / Associated Press
+  - :info: |
+      HM — Khalil Hamra / Associated Press
+  - :info: |
+      HM — Emilio Morenatti / Associated Press
+  - :info: |
+      HM — Liu Tao / ZUMA Press
+- :name: |
+    General News
+  :url: |
+    general-news/
+  :winners:
+  - :info: |
+      First Place – RJ Sangosti / The Denver Post
+  - :info: |
+      Second Place – Patrick Smith / Freelance
+  - :info: |
+      Third Place – Altaf Qadri / Associated Press
+  - :info: |
+      HM — Scott Olson / Getty Images
+  - :info: |
+      HM — Muhammed Muheisen / Associated Press
+  - :info: |
+      HM — RJ Sangosti / The Denver Post
+- :name: |
+    Feature
+  :url: |
+    feature/
+  :winners:
+  - :info: |
+      First Place – Lucy Nicholson / Reuters
+  - :info: |
+      Second Place – Kevin Frayer / Associated Press
+  - :info: |
+      Third Place – Rodrigo Abd / Associated Press
+  - :info: |
+      HM — Rodrigo Abd / Associated Press
+  - :info: |
+      HM — Lucy Nicholson / Reuters
+  - :info: |
+      HM — Daniel Ochoa de Olza / Associated Press
+- :name: |
+    Sports Action
+  :url: |
+    sports-action/
+  :winners:
+  - :info: |
+      First Place – Mark J. Terrill / Associated Press
+  - :info: |
+      Second Place – Mark J. Terrill / Associated Press
+  - :info: |
+      Third Place – Francis Gardler / Lincoln Journal Star
+- :name: |
+    Sports Feature
+  :url: |
+    sports-feature/
+  :winners:
+  - :info: |
+      First Place – Bryan Thomas / Freelance
+  - :info: |
+      Second Place – David Guttenfelder / Associated Press
+  - :info: |
+      Third Place – Francis Gardler / Lincoln Journal Star
+  - :info: |
+      HM — Logan Mock-Bunting / Freelance
+  - :info: |
+      HM — Anne McQuary / WLTX Channel 19
+  - :info: |
+      HM — Ryan Henriksen / Columbia Daily Tribune
+- :name: |
+    Portrait/Personality
+  :url: |
+    portrait-personality/
+  :winners:
+  - :info: |
+      First Place — Felipe Dana / Associated Press
+  - :info: |
+      Second Place — Daniel Ochoa de Olza / Associated Press
+  - :info: |
+      Third Place — Rodrigo Abd / Associated Press
+  - :info: |
+      HM — Javier Arcenillas / GEA Photowords
+  - :info: |
+      HM — Brian Snyder / Reuters
+  - :info: |
+      HM — Javier Arcenillas / GEA Photowords
+- :name: |
+    Pictorial
+  :url: |
+    pictorial/
+  :winners:
+  - :info: |
+      First Place –Oded Balilty / Associated Press
+  - :info: |
+      Second Place – Patrick Smith / Freelance
+  - :info: |
+      Third Place – Michael Henniger / Pittsburgh Post Gazette
+  - :info: |
+      HM — Rebecca Blackwell / Associated Press
+  - :info: |
+      HM — Charles Rex Arbogast / Associated Press
+  - :info: |
+      HM — Michael Chow / The Arizona Republic
+- :name: |
+    Olympics
+  :url: |
+    olympics/
+  :winners:
+  - :info: |
+      First Place – Gregory Bull / Associated Press
+  - :info: |
+      Second Place – Mark J. Terrill / Associated Press
+  - :info: |
+      Third Place – Robert Carr / Getty Images
+  - :info: |
+      HM — Ezra Shaw / Getty Images
+  - :info: |
+      HM — Mark J. Terrill / Associated Press
+  - :info: |
+      HM — David J. Phillip / Associated Press
+  - :info: |
+      HM — Lucy Nicholson / Reuters
+- :name: |
+    Election
+  :url: |
+    election/
+  :winners:
+  - :info: |
+      First Place – Carolyn Kaster / Associated Press
+  - :info: |
+      Second Place – Justin Sullivan / Getty Images
+  - :info: |
+      Third Place – Charles Dharapak / Associated Press
+  - :info: |
+      HM — Evan Vucci / Associated Press
+- :name: |
+    News Picture Story
+  :url: |
+    news-picture-story/
+  :winners:
+  - :info: |
+      First Place – Shannon Stapleton / Reuters
+  - :info: |
+      Second Place – Andrew Harnik / The Washington Times
+  - :info: |
+      Third Place – Emilio Morenatti / Associated Press
+  - :info: |
+      HM — Bryan Thomas / Freelance
+  - :info: |
+      HM — NG Han Guan / Associated Press
+- :name: |
+    Chris Hondros Memorial International News
+  :url: |
+    chris-hondros-memorial-international-news/
+  :winners:
+  - :info: |
+      First Place – Manu Brabo / Associated Press
+  - :info: |
+      Second Place – Khalil Hamra / Associated Press
+  - :info: |
+      Third Place – Rodrigo Abd / Associated Press
+  - :info: |
+      HM — Joe Raedle / Getty Images
+  - :info: |
+      HM — Khalil Hamra / Associated Press
+  - :info: |
+      HM — Muhammed Muheisen / Associated Press
+- :name: |
+    Feature Picture Story 
+  :url: |
+    feature-picture-story/
+  :winners:
+  - :info: |
+      First Place – April Saul / Philadelphia Inquirer
+  - :info: |
+      Second Place – Craig Walker / The Denver Post
+  - :info: |
+      Third Place – Esteban Felix / Associated Press
+  - :info: |
+      HM — Scott Strazzante / Chicago Tribune
+  - :info: |
+      HM — Kevin Frayer / Associated Press
+  - :info: |
+      HM — Logan Mock-Bunting / Freelance
+- :name: |
+    Sports Picture Story
+  :url: |
+    sports-picture-story/
+  :winners:
+  - :info: |
+      First Place – Patrick Smith / Freelance
+  - :info: |
+      Second Place – Liu Tao / ZUMA Press
+  - :info: |
+      HM — Logan Mock-Bunting / Freelance
+- :name: |
+    Multimedia Slideshow
+  :url: |
+    multimedia-slideshow/
+  :winners:
+  - :info: |
+      HM — Mike Kepka / San Francisco Chronicle
+  - :info: |
+      HM — Mike Kepka / San Francisco Chronicle
+  - :info: |
+      HM — Jon Kasbe / University of North Carolina at Chapel Hill
+- :name: |
+    Multimedia Interactive Presentation
+  :url: |
+    multimedia-interactive-presentation
+  :winners:
+  - :info: |
+      First Place – "Port Stories" - Pat Davidson / University of North Carolina
+  - :info: |
+      Second Place – "Lost and Found" - Jeremy Lurgio / University of Montana School of Journalism
+  - :info: |
+      Third Place – "Living Galapagos" - Pat Davidson / University of North Carolina
+- :name: |
+    Rich Mahan Best Student Portfolio
+  :url: |
+    best-student-portfolio/
+  :winners:
+  - :info: |
+      Jabin Botsford / Western Kentucky University
+- :name: |
+    Best Portfolio
+  :url: |
+    best-portfolio/
+  :winners:
+  - :info: |
+      Javier Arcenillas / GEA Photowords

@@ -1,19 +1,39 @@
+<% data = YAML.load_file("source/contest/winners/#{year}/winners.yml") %>
+
 <h1><%= data[:year] %> Winners</h1>
 
 <%= partial 'layouts/contest_navigation', locals: { year: data[:year] } %>
 
+<%# If slideshow: true was passed in, display the slideshow %>
+<% if slideshow %>
+  <%= partial 'layouts/slideshow', locals: { id: 'carousel', yaml_data: "source/contest/winners/#{data[:year]}/slideshow.yml" } %> 
+<% end %>
+
 <p><%= data[:info] %></p>
 
 <% data[:categories].each do |category| %>
-  <h4 class="category"><%= category[:name] %></h4>
+  <h4 class="category">
+    <%# If we have a url, then make the category a link %>
+    <% if category[:url] %>
+      <a href="/contest/winners/<%= "#{data[:year]}/#{category[:url]}" %>"><%= category[:name] %></a>
+    <% else %>
+      <%= category[:name] %>
+    <% end %>
+  </h4>
 
   <ul class="winners">
-  <% category[:winners].each do |winner| %>
-    <li class="winner"><%= winner[:info] %></li>
+  <%# If we have winners, display them, else output No awards. %>
+  <% if category[:winners].size > 0 %>
+    <% category[:winners].each do |winner| %>
+      <li class="winner"><%= winner[:info] %></li>
+    <% end %>
+  <% else %>
+    <li>No awards</li>
   <% end %>
   </ul>
 <% end %>
 
+<%# Display judges if they are listed in the yaml file %>
 <% if data[:judges] %>
   <h4>Judges</h4>
   
