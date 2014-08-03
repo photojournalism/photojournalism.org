@@ -98,15 +98,6 @@ header {
   .navbar-nav > li > a {
     color: $gray-blue-darker;
   }
-
-  .navbar-nav li {
-    border-bottom: 2px solid $gray-blue-lighter;
-  }
-
-  .navbar-nav li.active {
-    border-bottom: 2px solid $gray-blue-darker;
-  }
-
 }
 
 .navbar {
@@ -455,6 +446,14 @@ iframe[id^='twitter-widget-'] {
 
   .logo-main {
     margin-left: -25px;
+  }
+
+  .navbar-nav li {
+    border-bottom: 2px solid $gray-blue-lighter;
+  }
+
+  .navbar-nav li.active {
+    border-bottom: 2px solid $gray-blue-darker;
   }
 }
 
