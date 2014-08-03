@@ -68,8 +68,10 @@ function search() {
     resultsBody.html('');
 
     $.each(data, function(i, d) {
-      var index = d.contents.toLowerCase().indexOf(query.toLowerCase());
-      if (index > -1) {
+      query = query.toLowerCase();
+      var contestIndex = d.contents.toLowerCase().indexOf(query);
+      var titleIndex = d.page_title.toLowerCase().indexOf(query);
+      if (contestIndex > -1 || titleIndex > -1) {
         results.push(d);
       }
     });
@@ -81,7 +83,7 @@ function search() {
 
     resultsBody.append('<small>There are ' + results.length + ' pages with text that match your query:</small><br>')
     $.each(results, function(i, d) {
-      resultsBody.append('<a href="' + d.url + '"><h5>' + d.page_title + '</h5></a><small class="text-muted">' + d.contents.substring(0, 100) + '...</small>');
+      resultsBody.append('<a href="' + d.url + '"><h5>' + d.page_title + '</h5></a><small class="text-muted">' + d.contents.substring(0, 200) + '...</small>');
     });
 
     console.log(results);
