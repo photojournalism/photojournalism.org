@@ -170,15 +170,39 @@ header {
   bottom: -50px;
   left: 30%;
   width: 100%;
+  padding: 15px 0;
 
   .active {
     background-color: $gray-blue-lighter;
+    margin: -1px;
   }
 
   li {
     margin: 0;
     padding: 4px;
     border: 2px solid $gray-blue;
+  }
+}
+
+.carousel-caption {
+  display: none;
+  font-size: 12px;
+  padding-bottom: 0;
+  left: 0;
+  right: 0;
+  text-align: left;
+  padding: 5px 20px;
+  background: rgba(0,0,0,0.4);
+  text-shadow: 0 0 5px #000;
+  bottom: 10px;
+
+  h4 {
+    margin: 5px 0;
+    font-size: 15px;
+  }
+
+  p {
+    margin: 5px 0;
   }
 }
 
@@ -342,26 +366,6 @@ footer {
 
 .modal-body {
   background-color: #f4f4f4;
-}
-
-.carousel-caption {
-  font-size: 12px;
-  padding-bottom: 0;
-  left: 0;
-  right: 0;
-  text-align: left;
-  padding: 5px 40px;
-  background: rgba(0,0,0,0.5);
-  text-shadow: 0 0 5px #000;
-
-  h4 {
-    margin: 5px 0;
-    font-size: 16px;
-  }
-
-  p {
-    margin: 5px 0;
-  }
 }
 
 iframe[id^='twitter-widget-'] {

@@ -1,6 +1,6 @@
 <%  slides = YAML.load(File.read(yaml_data)) %>
 
-<div id="<%= id %>" class="carousel slide" data-ride="carousel">
+<div id="<%= id %>" class="carousel slide" data-ride="carousel" data-interval="7000">
   <!-- Indicators -->
   <ol class="carousel-indicators">
   <% (1..slides.size).each do |n| %>
@@ -37,3 +37,13 @@
     <%= partial 'layouts/slideshow_keybindings', locals: { id: id } %>
   <% end %>
 <% end %>
+
+<script>
+$(function() {
+  $("#<%= id %>").hover(function() {
+    $(".carousel-caption").fadeIn(200);
+  }, function() {
+    $(".carousel-caption").fadeOut(200);
+  });
+});
+</script>
