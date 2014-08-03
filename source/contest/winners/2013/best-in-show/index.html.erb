@@ -6,6 +6,8 @@ comments: on
 
 <h1>2013 Best In Show</h1>
 
+<%= partial 'layouts/return_to_winners' %>
+
 <h4>Winner: Andoni Lubaki / Associated Press</h4>
 
-<%= partial 'layouts/slideshow', locals: { id: 'carousel', yaml_data: 'source/contest/winners/2013/best-in-show/slideshow.yml' } %>
+<%= partial 'layouts/slideshow', locals: { id: 'carousel', yaml_data: 'source/contest/winners/2013/best-in-show/slideshow.yml', keybindings: true } %>

@@ -31,3 +31,9 @@
     <span class="glyphicon glyphicon-chevron-right"></span>
   </a>
 </div> 
+
+<% if defined? keybindings %>
+  <% if keybindings %>
+    <%= partial 'layouts/slideshow_keybindings', locals: { id: id } %>
+  <% end %>
+<% end %>

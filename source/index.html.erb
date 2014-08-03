@@ -4,16 +4,4 @@ layout: wide
 navigation: Home
 ---
 
-<%= partial 'layouts/slideshow', locals: { id: 'carousel', yaml_data: 'source/contest/winners/2013/slideshow.yml' } %>
-
-<script>
-$(function() {
-  $("body").keydown(function(e) {
-    if (e.keyCode == 37) { // Left arrow
-      $("#carousel").carousel('prev');
-    } else if (e.keyCode == 39) { // Right arrow
-      $("#carousel").carousel('next');
-    }
-  });
-});
-</script>
+<%= partial 'layouts/slideshow', locals: { id: 'carousel', yaml_data: 'source/contest/winners/2013/slideshow.yml', keybindings: true } %>

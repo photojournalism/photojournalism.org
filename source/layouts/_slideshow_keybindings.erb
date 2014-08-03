@@ -1,0 +1,12 @@
+<%# Keybindings for slideshow, allows navigation using left and right arrow keys %>
+<script>
+$(function() {
+  $("body").keydown(function(e) {
+    if (e.keyCode == 37) { // Left arrow
+      $("#<%= id %>").carousel('prev');
+    } else if (e.keyCode == 39) { // Right arrow
+      $("#<%= id %>").carousel('next');
+    }
+  });
+});
+</script>

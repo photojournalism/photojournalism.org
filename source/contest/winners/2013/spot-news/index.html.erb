@@ -6,5 +6,7 @@ comments: on
 
 <h1>2013 Spot News</h1>
 
-<%= partial 'layouts/slideshow', locals: { id: 'carousel', yaml_data: 'source/contest/winners/2013/spot-news/slideshow.yml' } %>
+<%= partial 'layouts/return_to_winners' %>
+
+<%= partial 'layouts/slideshow', locals: { id: 'carousel', yaml_data: 'source/contest/winners/2013/spot-news/slideshow.yml', keybindings: true } %>
 
