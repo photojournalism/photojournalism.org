@@ -15,11 +15,11 @@
       <div class="collapse navbar-collapse" id="navbar-collapse-1">
         <ul class="nav navbar-nav" id="navbar-links">
           <li<%= " class=\"active\"" if current_page.data.navigation == "Home" %>><a href="/">Home</a></li>
-          <li class="dropdown<%= " active" if current_page.data.title == "About" %>">
+          <li class="dropdown<%= " active" if current_page.data.navigation == "About" %>">
             <a href="/about/">About <b class="caret"></b></a>
             <ul class="dropdown-menu">
               <li><a href="/about/staff/">Staff</a></li>
-              <li><a href="/about/hotel/">Hotel Information</a></li>
+              <li><a href="/about/dates-and-location/">Dates and Location</a></li>
               <li><a href="/contact/">Contact</a></li>
             </ul>
           </li><!-- .dropdown -->

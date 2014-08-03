@@ -99,9 +99,14 @@ header {
     color: $gray-blue-darker;
   }
 
-  .navbar-nav > li.active > a {
-    color: #222;
+  .navbar-nav li {
+    border-bottom: 2px solid $gray-blue-lighter;
   }
+
+  .navbar-nav li.active {
+    border-bottom: 2px solid $gray-blue-darker;
+  }
+
 }
 
 .navbar {
@@ -130,16 +135,24 @@ header {
 
   #navbar-links {
     margin-top: 65px;
-    border-bottom: 2px solid $gray-blue-lighter;
     float: right;
   }
 }
 
-.dropdown-menu {
+.navbar-default .navbar-nav .dropdown-menu {
   border-bottom-right-radius: 0;
   border-bottom-left-radius: 0;
+  min-width: 100px;
+
   .divider {
     margin: 5px 0;
+  }
+
+  li {
+    border-bottom: none;
+    a {
+      padding: 3px 15px;
+    }
   }
 }
 
