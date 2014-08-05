@@ -5,8 +5,6 @@
 :categories:
 - :name: |
     Spot News
-  :url: |
-    spot-news/
   :winners:
   - :info: |
       First Place – Manu Brabo / Associated Press
@@ -24,8 +22,6 @@
       HM — Liu Tao / ZUMA Press
 - :name: |
     General News
-  :url: |
-    general-news/
   :winners:
   - :info: |
       First Place – RJ Sangosti / The Denver Post
@@ -41,8 +37,6 @@
       HM — RJ Sangosti / The Denver Post
 - :name: |
     Feature
-  :url: |
-    feature/
   :winners:
   - :info: |
       First Place – Lucy Nicholson / Reuters
@@ -58,8 +52,6 @@
       HM — Daniel Ochoa de Olza / Associated Press
 - :name: |
     Sports Action
-  :url: |
-    sports-action/
   :winners:
   - :info: |
       First Place – Mark J. Terrill / Associated Press
@@ -69,8 +61,6 @@
       Third Place – Francis Gardler / Lincoln Journal Star
 - :name: |
     Sports Feature
-  :url: |
-    sports-feature/
   :winners:
   - :info: |
       First Place – Bryan Thomas / Freelance
@@ -86,8 +76,6 @@
       HM — Ryan Henriksen / Columbia Daily Tribune
 - :name: |
     Portrait/Personality
-  :url: |
-    portrait-personality/
   :winners:
   - :info: |
       First Place — Felipe Dana / Associated Press
@@ -103,8 +91,6 @@
       HM — Javier Arcenillas / GEA Photowords
 - :name: |
     Pictorial
-  :url: |
-    pictorial/
   :winners:
   - :info: |
       First Place –Oded Balilty / Associated Press
@@ -120,8 +106,6 @@
       HM — Michael Chow / The Arizona Republic
 - :name: |
     Olympics
-  :url: |
-    olympics/
   :winners:
   - :info: |
       First Place – Gregory Bull / Associated Press
@@ -139,8 +123,6 @@
       HM — Lucy Nicholson / Reuters
 - :name: |
     Election
-  :url: |
-    election/
   :winners:
   - :info: |
       First Place – Carolyn Kaster / Associated Press
@@ -152,8 +134,6 @@
       HM — Evan Vucci / Associated Press
 - :name: |
     News Picture Story
-  :url: |
-    news-picture-story/
   :winners:
   - :info: |
       First Place – Shannon Stapleton / Reuters
@@ -167,8 +147,6 @@
       HM — NG Han Guan / Associated Press
 - :name: |
     Chris Hondros Memorial International News
-  :url: |
-    chris-hondros-memorial-international-news/
   :winners:
   - :info: |
       First Place – Manu Brabo / Associated Press
@@ -184,8 +162,6 @@
       HM — Muhammed Muheisen / Associated Press
 - :name: |
     Feature Picture Story 
-  :url: |
-    feature-picture-story/
   :winners:
   - :info: |
       First Place – April Saul / Philadelphia Inquirer
@@ -201,8 +177,6 @@
       HM — Logan Mock-Bunting / Freelance
 - :name: |
     Sports Picture Story
-  :url: |
-    sports-picture-story/
   :winners:
   - :info: |
       First Place – Patrick Smith / Freelance
@@ -212,8 +186,6 @@
       HM — Logan Mock-Bunting / Freelance
 - :name: |
     Multimedia Slideshow
-  :url: |
-    multimedia-slideshow/
   :winners:
   - :info: |
       HM — Mike Kepka / San Francisco Chronicle
@@ -223,8 +195,6 @@
       HM — Jon Kasbe / University of North Carolina at Chapel Hill
 - :name: |
     Multimedia Interactive Presentation
-  :url: |
-    multimedia-interactive-presentation
   :winners:
   - :info: |
       First Place – "Port Stories" - Pat Davidson / University of North Carolina
@@ -234,15 +204,11 @@
       Third Place – "Living Galapagos" - Pat Davidson / University of North Carolina
 - :name: |
     Rich Mahan Best Student Portfolio
-  :url: |
-    best-student-portfolio/
   :winners:
   - :info: |
       Jabin Botsford / Western Kentucky University
 - :name: |
     Best Portfolio
-  :url: |
-    best-portfolio/
   :winners:
   - :info: |
       Javier Arcenillas / GEA Photowords
