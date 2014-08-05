@@ -16,5 +16,10 @@ Below is a list of confirmed speakers for Video Day at the <strong>2014 Atlanta 
   <% f['bio'].each do |paragraph| %>
     <p><%= paragraph %></p>
   <% end %>
+
+  <% if defined? f['talk'] %>
+    <h4>Topic: <%= f['talk']['topic'] %></h4>
+    <p><%= f['talk']['description'] %></p>
+  <% end %>
   </div>
 <% end %>

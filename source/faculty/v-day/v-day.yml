@@ -1,9 +1,3 @@
-# -
-#   name: Amani Channel
-#   url:
-#   id: amani-channel
-#   bio:
-#   -
 - name: "Eric Seals"
   id: eric-seals
   url: "/images/2014/faculty/eric_seals.jpg"
@@ -15,9 +9,25 @@
   - "In May of 2008, Eric eagerly embraced video storytelling as the Detroit Free Press started the push to video on the web at Freep.com. From video features and projects to the documentary he's currently shooting, \"Shipwrecks of the Great Lakes,\" Eric loves trying to bring a cinematic look, feel, and style to his pieces, while always staying true to the one thing that matters more than anything else... the story, the story, the story!"
   - "He has been recognized for his video storytelling with the 2011 MPPA Multimedia Photographer of the Year, a national Webby Award, several POYi, NPPA-BOP awards and seven Michigan Emmys. He has taught at different workshops and seminars from the NPPA Multimedia Immersion at Syracuse, the Mountain Peoples Workshop at Western Kentucky University and the Poynter Institute. He's also judged at many national and state contests around the country. He really embraces the \"Reach One, Teach One\" philosophy and mentors others around the country interested in this amazing profession of ours!"
   - "Seals is married and has two kids, ages 15 and 10. He can always be reached at <a href=\"mailto:eseals@freepress.com\">eseals@freepress.com</a> with any questions about photo and video storytelling. He can also be followed on Twitter <a href=\"http://twitter.com/ericseals\" target=\"_blank\">ericseals</a> and Instagram at <a href=\"http://instagram.com/ericseals\" target=\"_blank\">ericseals</a>."
-# -
-#   name: Oliver Janney
+  talk:
+    topic: "Video Storytelling: How to Go from Chaos to Calm in No Time"
+    description: ""
+- name: Wes Pope
+  id: wes-pope
+  url: "/images/2014/faculty/wes_pope.jpg"
+  bio:
+  - "Wes Pope has worked as a photo, video and multimedia journalist for more than 15 years, including staff positions at the Rocky Mountain News, Chicago Tribune, Santa Fe New Mexican, Times of Northwest Indiana, Tri-City Herald, Tacoma News Tribune and Chicago In The Year 2000 documentary project."
+  - "He is currently an Assistant Professor of Multimedia Journalism at the University of Oregon where he recently launched the Video Innovation Lab in conjunction with the San Francisco Chronicle. He previously taught at Northern Arizona University, and studied Documentary Film & History at Syracuse University. He has served as a multimedia coach at workshops including the NPPA Multimedia Immersion Workshop, the Mountain Workshops, the Eddie Adams Workshop and is co-founder of the <a href='http://theportlandworkshop.com'>Portland Advanced Multimedia Storytelling Workshop</a>."
+  talk:
+    topic: Cinematic Journalism
+    description: We will consider what is and what is not working in the world of online news video. We will take a look at some of the tools and techniques from the world of film making that can be applied to journalistic stories. And we will talk about how to keep viewers watching through "present-tense" storytelling, "setting the hook" and "the unanswered question."
+# - name: Oliver Janney
 #   url:
 #   id: oliver-janney
 #   bio:
 #   - 
+# - name: Amani Channel
+#   url:
+#   id: amani-channel
+#   bio:
+#   -
