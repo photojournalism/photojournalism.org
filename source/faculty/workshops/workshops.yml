@@ -9,10 +9,10 @@
   - "As a sought after speaker in the photographic industry, Seale has taught lighting technique and portraiture at a variety of photography workshops in the US and Canada."
   - "He has won awards from The National Baseball Hall of Fame in Cooperstown, was a finalist for Life Magazine’s Eissie Award (Sports-1998), and was featured in the Best of ASMP (2008)."
   - "His editorial credits include Sports Illustrated, ESPN The Magazine, Men’s Health, SLAM, Businessweek, Forbes, Fortune, Barron’s, Smithsonian, Air & Space, The New York Times Magazine, and over 200 covers of The Sporting News.  As an annual report and advertising photographer, Robert has worked on projects for ExxonMobil, Tellabs, Schlumberger, Apache, BP, EOG Resources, GMC, Invesco, Huntsman, Marathon, Major League Baseball, Reebok, Methodist Hospital, Under Armour, and various professional sports teams."
-  # workshop:
-  #   - description:
-  #     - "Lighting"
-  #     title: "Lighting"
+  workshop:
+    - description:
+      - "Robert will demonstrate how he uses a variety of light modifiers and techniques to create a range of emotion in his photographs."
+      title: "Location Lighting"
 - name: "Eric Seals"
   id: eric-seals
   url: "/images/2014/faculty/eric_seals.jpg"
@@ -26,8 +26,8 @@
   - "Seals is married and has two kids, ages 15 and 10. He can always be reached at <a href=\"mailto:eseals@freepress.com\">eseals@freepress.com</a> with any questions about photo and video storytelling. He can also be followed on Twitter <a href=\"http://twitter.com/ericseals\" target=\"_blank\">ericseals</a> and Instagram at <a href=\"http://instagram.com/ericseals\" target=\"_blank\">ericseals</a>."
   workshop:
     - description:
-      - ''
-      title: "Go Pro: Dos, Don'ts, and Drones"
+      - "Eric will discuss the dos and don'ts of using <a href='http://gopro.com/'>GoPro cameras</a>, as well as using drones to capture video."
+      title: "GoPro: Dos, Don'ts, and Drones"
 - name: "Judy Herrmann"
   id: judy-herrmann
   url: "/images/2014/faculty/judy_herrmann.jpg"
@@ -36,11 +36,5 @@
     - "A past president of ASMP, Olympus Visionary and recipient of the United Nations IPC Leadership Award, Judy currently serves as ASMP's Director of Content Strategy. Judy's energetic and inspiring seminars on smart business practices have helped thousands of photographers compete more effectively.  Through one-on-one consultations and her consulting site, 2goodthings.com, she helps people grow creatively and financially rewarding businesses.  Small wonder Rangefinder Magazine recently named her one of eleven photographers you should know."
   workshop: 
     - description: 
-        - "The days when photojournalists could cover interesting stories as salaried staff photographers are rapidly disappearing. Today, producing first-class work doesn't guarantee a paycheck. The only way to succeed is to understand the nuts and bolts of running a profitable business. You also have to figure out how to adapt to change, stay on top of new technologies and find creative ways to keep earning a living doing work that you're passionate about. In this engaging and inspiring workshop, Judy Herrmann of Herrmann + Starke will provide you with a wealth of resources and share real-world tactics that will help you take your career where you want it to go."
-      title: "Standing on Your Own Two Feet - A Photojournalist's Guide to Successful Self-Employment"
-      topics: 
-        - "Completing an honest analysis of your career options"
-        - "Setting up your business"
-        - "Developing sound business practices"
-        - "Marketing and pricing your work"
-        - "Setting and achieving your financial goals"
+        - "Including topics such as completing an honest analysis of your career options, setting up your business, developing sound business practices, marketing and pricing your work, and setting and achieving your financial goals, Judy will discuss how to be profitable and earn a living as a photojournalist."
+      title: "Standing on Your Own Two Feet: A Photojournalist's Guide to Successful Self-Employment"
