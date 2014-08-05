@@ -383,6 +383,19 @@ iframe[id^='twitter-widget-'] {
   border-radius: 3px;
 }
 
+.collage {
+  padding: 10px;
+
+  img {
+    vertical-align: bottom;
+    opacity: 0;
+    box-shadow: 0 0 10px #777;
+    margin: 15px;
+    border: 5px solid white;
+    border-radius: 4px;
+  }
+}
+
 @media (max-width: 1199px) {
   #search_query {
     width: 222px;
