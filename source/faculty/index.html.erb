@@ -9,7 +9,7 @@ Below is a list of confirmed faculty members for the <strong>2014 Atlanta Photoj
 
 <% speakers = YAML.load(File.read("source/faculty/speakers/speakers.yml")) %>
 
-<h3>Speakers</h3>
+<h3>Saturday Speakers</h3>
 
 <ul>
 <% speakers.each do |speaker| %>
@@ -19,20 +19,20 @@ Below is a list of confirmed faculty members for the <strong>2014 Atlanta Photoj
 
 <% workshops = YAML.load(File.read("source/faculty/workshops/workshops.yml")) %>
 
-<h3>Workshops</h3>
+<h3>Friday Workshops</h3>
 
 <ul>
 <% workshops.each do |workshop| %>
-  <li><a href="/faculty/workshops/#<%= workshop['id'] %>"><strong><%= workshop['name'] %></strong></a></li>
+  <li><a href="/faculty/workshops/#<%= workshop['id'] %>"><strong><%= workshop['name'] %> - <%= workshop['workshop'][0]['title'] %></strong></a></li>
 <% end %>
 </ul>
 
 <% vday = YAML.load(File.read("source/faculty/v-day/v-day.yml")) %>
 
-<h3>Video Day</h3>
+<h3>Thursday Video Day</h3>
 
 <ul>
 <% vday.each do |speaker| %>
-  <li><a href="/faculty/v-day/#<%= speaker['id'] %>"><strong><%= speaker['name'] %></strong></a></li>
+  <li><a href="/faculty/v-day/#<%= speaker['id'] %>"><strong><%= speaker['name'] %> - <%= speaker['talk']['topic'] %></strong></a></li>
 <% end %>
 </ul>
