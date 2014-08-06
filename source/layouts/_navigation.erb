@@ -39,7 +39,7 @@
               <li><a href="/faculty/v-day/">Thursday V-Day</a></li>
             </ul>
           </li><!-- .dropdown -->
-          <li><a href="http://photojournalism.eventbrite.com">Register</a></li>
+          <li<%= " class=\"active\"" if current_page.data.navigation == "Schedule" %>><a href="/schedule/">Schedule</a></li>
         </ul><!-- .nav .navbar-nav -->
       </div><!-- .collapse .navbar-collapse -->
     </div><!-- .container -->
