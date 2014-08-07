@@ -1,6 +1,6 @@
-- name: "Robert Seale"
+- name: Robert Seale
   id: robert-seale
-  url: "/images/2014/faculty/robert_seale.jpg"
+  url: /images/2014/faculty/robert_seale.jpg
   bio:
   - "Robert Seale is a Houston photographer specializing in dynamic editorial, corporate, and advertising portraiture."
   - "After majoring in both journalism and art, Seale began his photography career as a photojournalist, where he worked as a staffer at several major newspapers.  He eventually landed at the Sporting News, where he spent nearly 11 years shooting Super Bowls and World Series games as well as cover portraits for the popular magazine."
@@ -12,10 +12,10 @@
   workshop:
     - description:
       - "Robert will demonstrate how he uses a variety of light modifiers and techniques to create a range of emotion in his photographs."
-      title: "Location Lighting"
-- name: "Eric Seals"
+      title: Location Lighting
+- name: Eric Seals
   id: eric-seals
-  url: "/images/2014/faculty/eric_seals.jpg"
+  url: /images/2014/faculty/eric_seals.jpg
   bio:
   - "\"If you learn to shoot with your heart, you'll move peoples' souls!\""
   - "A good friend and mentor said that phrase of inspiration to Eric years ago, and it is something he thinks about constantly as a Photo and Video Journalist at the Detroit Free Press."
@@ -28,9 +28,21 @@
     - description:
       - "Eric will discuss the dos and don'ts of using <a href='http://gopro.com/'>GoPro cameras</a>, as well as using drones to capture video."
       title: "GoPro: Dos, Don'ts, and Drones"
-- name: "Judy Herrmann"
+- name: Oliver Janney
+  id: oliver-janney
+  url: /images/2014/faculty/oliver_janney.jpg
+  bio:
+  - Oliver Janney has been working professionally in broadcast television production for the past 14 years.  His career began as the first overnight editor at Baltimore FOX Affiliate WBFF.  After stops at CBS O&O WJZ-TV as a photojournalist and freelancing in the commercial post production world, Oliver landed at CNN in 2007 just as the race for the White House was heating up.
+  - Since joining CNN as a Photojournalist, Oliver has covered many notable stories.  Some of the most memorable include the search for MH370 in Malayasia and Austrailia, riding out Hurricane Sandy in Atlantic City, the massacre at Sandy Hook, a tour of the Middle East including Afghanistan and Pakistan, a trip to Guadalajara, Mexico with President Obama, a hunger strike at the detention facility at Guantanamo Bay Naval Air Station, the Boston Marathon bombing and most recently the influx of Central and South Americans on the Texas border.
+  - Oliver has received numerous awards for his work including an Emmy Award for Quick Turnaround News Production and Peabody awards for coverage of the Deep Water Horizon Oil Spill and the 2008 Presidential Campaigns. He has also received honors from the National Press Photographers Association including Best Documentary in 2012 for his work as part of the team on "Operation Hope," which aired worldwide on CNN International.
+  - In addition to his work in the professional world, Oliver spent four years as an Adjunct Professor of Television and Radio Production at Goucher College in Baltimore, Maryland from 2003-2007.
+  workshop:
+    - description:
+      - ""
+      title: Shooting With Your Ears
+- name: Judy Herrmann
   id: judy-herrmann
-  url: "/images/2014/faculty/judy_herrmann.jpg"
+  url: /images/2014/faculty/judy_herrmann.jpg
   bio: 
     - "Judy Herrmann of <a href=\"http://www.hsstudio.com\">Herrmann + Starke</a> creates distinctive imagery for advertising, editorial and corporate clients that has won recognition from Graphis, Communication Arts, Lurzer's Archive and numerous award annuals."
     - "A past president of ASMP, Olympus Visionary and recipient of the United Nations IPC Leadership Award, Judy currently serves as ASMP's Director of Content Strategy. Judy's energetic and inspiring seminars on smart business practices have helped thousands of photographers compete more effectively.  Through one-on-one consultations and her consulting site, 2goodthings.com, she helps people grow creatively and financially rewarding businesses.  Small wonder Rangefinder Magazine recently named her one of eleven photographers you should know."
