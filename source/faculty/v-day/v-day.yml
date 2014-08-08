@@ -32,13 +32,27 @@
   talk:
     topic: Newspapers, Nonprofits and Narratives
     description: How visual storytellers can work across platforms from news to advocacy to commercial outlets.
-# - name: Oliver Janney
-#   url:
-#   id: oliver-janney
-#   bio:
-#   - 
-# - name: Amani Channel
-#   url:
-#   id: amani-channel
-#   bio:
-#   -
+- name: Oliver Janney
+  id: oliver-janney
+  url: /images/2014/faculty/oliver_janney.jpg
+  bio:
+  - Oliver Janney is currently a CNN photojournalist based in the Washington bureau. He has worked in broadcast television production for more than 14 years.
+  - "Since joining CNN in 2007, he has covered many notable stories across the country and around the globe. Some of the most memorable include: the search for MH370 in Malayasia and Australia, Hurricane Sandy in Atlantic City, the tragedy at Sandy Hook, President Obama's visit to Guadalajara, Mexico and the Boston Marathon bombing."
+  - "Janney began his career as the first overnight editor at Baltimore FOX Affiliate WBFF. He continued to CBS O&O WJZ-TV as a photojournalist, freelancing in the commercial post production world"
+  - Among the numerous honors he has received  for his work, Janney earned an Emmy award for Quick Turnaround News Production and two Peabody awards for the network's coverage of the Deep Water Horizon Oil Spill and the 2008 Presidential Campaigns. Furthermore, Janey has also earned numerous honors from the National Press Photographers Association, including Best Documentary in 2012 for his teamwork on “Operation Hope.”
+  - In addition to his professional work, he spent four years as an adjunct professor of Video and Audio at Goucher College in Baltimore, Maryland from 2003 to 2007.
+  talk:
+    topic: ''
+    description: ''
+- name: Amani Channel
+  url: /images/2014/faculty/amani_channel.jpg
+  id: amani-channel
+  bio:
+  - Amani Channel, MA is a broadcaster, an educator, an award-winning storyteller, a video producer, and a communications professional. He helps brands, nonprofits, individuals and students tell traditional and digital stories. 
+  - During his career he's worked as a news reporter, PR practitioner, content/community manager, media consultant, and he's an award-winning video producer. He provides media consulting and corporate storytelling services through Visual Eye Media, and serves as an adjunct professor.
+  - Channel's content, commentary, and reports have been featured across the airwaves on outlets like NPR, APTN (Associated Press Television News), CNN, Headline News, Fox News Channel, BET, Black Family Channel, HDNews, and across the Web.
+  - He's also managed digital and broadcast PR campaigns with brands that include Visa, Coca-Cola, Hershey's, Chick-fil-A, and IHG among others.
+  - Channel often speaks at conferences, workshops, and universities across the country about traditional and new media. He's taught video production at Hillsborough Community College, Connecticut School of Broadcasting in Tampa, FL; the University of West Georgia, Kennesaw State University, and Southern Polytechnic University. 
+  talk:
+    topic: "Mobile Photojournalism: Apps, Video, Sharing"
+    description: In just a few short years smartphones have revolutionized the way we communicate, share stories, and capture newsworthy moments (remember the Hudson River plane crash?) If you haven't thought about using your smartphone to capture photos and video, this session is for you. Broadcaster Amani Channel will share apps, techniques and examples of newsmakers who are using mobile devices ahead of the curve.
