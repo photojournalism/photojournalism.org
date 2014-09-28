@@ -1,5 +1,6 @@
 //= require jquery
 //= require bootstrap
+//= require form
 
 'use strict';
 

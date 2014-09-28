@@ -292,15 +292,20 @@ footer {
 }
 
 #search_query {
+  width: 300px;
+}
+
+.form-control {
   box-shadow: none;
   border: 2px solid $gray-blue;
   border-radius: 3px;
-  width: 300px;
   outline: none;
   -webkit-transition: all 0.3s ease-in-out;
           transition: all 0.3s ease-in-out;
 
   &:focus {
+    outline: none;
+    border: 2px solid $gray-blue;
     -webkit-box-shadow: 0 0 15px #666;
             box-shadow: 0 0 15px #666;
   }

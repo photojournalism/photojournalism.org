@@ -1,0 +1,94 @@
+---
+title: Grants
+navigation: Grants
+---
+
+<h1>Grant Application</h1>
+
+
+<div id="success" class="alert alert-success" style="display:none"></div>
+<div id="error" class="alert alert-danger" style="display:none"></div>
+
+<form id="form" role="form">
+  <h3>Student Information</h3>
+
+  <p>Enter your information in this section.</p>
+
+  <div class="row">
+    <div class="col-md-6">
+      <div class="form-group">
+        <label for="student_first_name">First Name</label>
+        <input type="text" class="form-control required" id="student_first_name" placeholder="First Name">
+      </div>
+    </div>
+    <div class="col-md-6">
+      <div class="form-group">
+        <label for="student_last_name">Last Name</label>
+        <input type="text" class="form-control required" id="student_last_name" placeholder="Last Name">
+      </div>
+    </div>
+  </div>
+  <div class="form-group">
+    <label for="student_address">Address</label>
+    <input type="text" class="form-control required" id="student_address" placeholder="Address">
+  </div>
+  <div class="row">
+    <div class="col-md-4">
+      <div class="form-group">
+        <label for="student_city">City</label>
+        <input type="text" class="form-control required" id="student_city" placeholder="City">
+      </div>
+    </div>
+    <div class="col-md-4">
+      <div class="form-group">
+        <label for="student_state">State</label>
+        <input type="text" class="form-control required" id="student_state" placeholder="State">
+      </div>
+    </div>
+    <div class="col-md-4">
+      <div class="form-group">
+        <label for="student_zip_code">Zip Code</label>
+        <input type="text" class="form-control required" id="student_zip_code" placeholder="Zip Code">
+      </div>
+    </div>
+  </div>
+  <div class="form-group">
+    <label for="student_phone_number">Phone Number</label>
+    <input type="email" class="form-control required" id="student_phone_number" placeholder="Phone Number">
+  </div>
+  <div class="form-group">
+    <label for="student_email">Email Address</label>
+    <input type="email" class="form-control required" id="student_email" placeholder="Email Address">
+  </div>
+  <div class="form-group">
+    <label for="student_school">School</label>
+    <input type="text" class="form-control required" id="student_school" placeholder="School">
+  </div>
+  <div class="form-group">
+    <label for="student_major">Major</label>
+    <input type="text" class="form-control required" id="student_major" placeholder="Major">
+  </div>
+
+  <h3>Media or Academic Advisor Information</h3>
+
+  <p>Use this section to enter information about your media or academic advisor.</p>
+
+  <div class="form-group">
+    <label for="advisor_name">Name</label>
+    <input type="email" class="form-control required" id="advisor_name" placeholder="Name">
+  </div>
+  <div class="form-group">
+    <label for="advisor_email">Email Address</label>
+    <input type="email" class="form-control required" id="advisor_email" placeholder="Email Address">
+  </div>
+  <div class="form-group">
+    <label for="advisor_phone_number">Phone Number</label>
+    <input type="email" class="form-control required" id="advisor_phone_number" placeholder="Phone Number">
+  </div>
+
+  <button id="form-submit" type="button" class="btn btn-primary">Submit Application</button>
+</form>
+
+<script>
+$(function() { Form.init("Student Grant Form"); });
+</script>
