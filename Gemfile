@@ -16,3 +16,4 @@ gem 'font-awesome-middleman'
 gem "jquery-middleman"
 gem "compass", :require => false
 gem "humanize"
+gem "sanitize"
