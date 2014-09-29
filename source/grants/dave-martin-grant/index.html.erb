@@ -5,10 +5,6 @@ navigation: Grants
 
 <h1>Dave Martin Grant Application</h1>
 
-
-<div id="success" class="alert alert-success" style="display:none"></div>
-<div id="error" class="alert alert-danger" style="display:none"></div>
-
 <form id="form" role="form">
   <h3>Student Information</h3>
 
@@ -95,6 +91,18 @@ navigation: Grants
     </div>
   </div>
 
+  <h3>Project Information</h3>
+
+  <div class="form-group">
+    <p>Please describe in detail the project you plan to use to the grant money for. If you have already started on the project, please include any links where it can be viewed:</p>
+    <label for="project_description">Project Description</label>
+    <textarea id="project_description" class="form-control required" placeholder="Project Description"></textarea>
+  </div>
+  <div class="form-group">
+    <p>Please describe in detail how you plan to use the grant money for your project:</p>
+    <label for="grant_usage">Grant Usage</label>
+    <textarea id="grant_usage" class="form-control required" placeholder="Grant Usage"></textarea>
+  </div>
   <button id="form-submit" type="button" class="btn btn-primary">Submit Application</button>
 </form>
 

@@ -39,10 +39,10 @@ var Form = (function($) {
         type: 'POST',
         data: values,
         success: function() {
+          alert("Your application was submitted successfully.");
           inputs.each(function() {
             $(this).val("");
           });
-          alert("Your application was submitted successfully. You should receive a response shortly.");
           button.html(text);
           button.removeAttr("disabled");
         },
