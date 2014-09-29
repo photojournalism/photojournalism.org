@@ -11,6 +11,7 @@ var Form = (function($) {
       if ($.trim(field.val()) === "") {
         field.focus();
         field.parent().addClass("has-error");
+        alert("Oops, you've missed a required field.");
         valid = false;
         return false;
       } else {
