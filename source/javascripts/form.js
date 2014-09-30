@@ -40,12 +40,11 @@ var Form = (function($) {
         type: 'POST',
         data: values,
         success: function() {
-          alert("Your application was submitted successfully.");
-          inputs.each(function() {
-            $(this).val("");
-          });
-          button.html(text);
-          button.removeAttr("disabled");
+          $("#form").empty().append(
+            "<div class='alert alert-success'>" +
+              "Your application for the <strong>Dave Martin Grant</strong> has been submitted successfully. You will be contacted if you have been awarded the grant." +
+            "</div>"
+          );
         },
         error: function(response) {
           alert("An error has occurred:\n" + response.responseJSON.message);
