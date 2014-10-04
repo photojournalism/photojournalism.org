@@ -58,9 +58,11 @@ img {
   max-width: 100%;
 }
 
-/* Allow dropdown menus to show on link hover */
-ul.nav li.dropdown:hover ul.dropdown-menu {
-    display: block;
+@media (min-width: 768px) {
+  /* Allow dropdown menus to show on link hover */
+  ul.nav li.dropdown:hover ul.dropdown-menu {
+      display: block;
+  }
 }
 
 textarea.form-control {

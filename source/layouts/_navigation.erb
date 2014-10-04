@@ -16,17 +16,19 @@
         <ul class="nav navbar-nav" id="navbar-links">
           <li<%= " class=\"active\"" if current_page.data.navigation == "Home" %>><a href="/">Home</a></li>
           <li class="dropdown<%= " active" if current_page.data.navigation == "About" %>">
-            <a href="/about/">About <b class="caret"></b></a>
+            <a href="#" class="dropdown-toggle" data-toggle="dropdown">About <span class="caret"></span></a>
             <ul class="dropdown-menu">
-              <li><a href="/about/staff/">Staff</a></li>
+              <li><a href="/about/">General Info</a></li>
               <li><a href="/about/dates-and-location/">Dates and Location</a></li>
+              <li><a href="/about/staff/">Staff</a></li>
               <li><a href="/schedule/">Schedule</a></li>
               <li><a href="/contact/">Contact</a></li>
             </ul>
           </li><!-- .dropdown -->
           <li class="dropdown<%= " active" if current_page.data.navigation == "Contest" %>">
-            <a href="/contest/">Contest <b class="caret"></b></a>
+            <a href="#" class="dropdown-toggle" data-toggle="dropdown">Contest <span class="caret"></span></a>
             <ul class="dropdown-menu">
+              <li><a href="/contest/">Contest Info</a></li>
               <li><a href="/contest/winners/">Winners</a></li>
               <li><a href="/contest/rules/">Rules</a></li>
               <li><a href="/contest/categories/">Categories</a></li>
@@ -35,8 +37,9 @@
             </ul>
           </li><!-- .dropdown -->
           <li class="dropdown<%= " active" if current_page.data.navigation == "Faculty" %>">
-            <a href="/faculty/">Faculty <b class="caret"></b></a>
+            <a href="#" class="dropdown-toggle" data-toggle="dropdown">Faculty <span class="caret"></span></a>
             <ul class="dropdown-menu">
+              <li><a href="/faculty/">Full Faculty List</a></li>
               <li><a href="/faculty/speakers/">Saturday Speakers</a></li>
               <li><a href="/faculty/workshops/">Friday Workshops</a></li>
               <li><a href="/faculty/v-day/">Thursday V-Day</a></li>
