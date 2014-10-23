@@ -10,6 +10,10 @@
   :homepage: "http://grady.uga.edu/"
   :image_url: "/images/sponsors/uga-grady-college.jpg"
   :image_height: 125
+- :name: "Manfrotto"
+  :homepage: "http://www.manfrotto.com/"
+  :image_url: "/images/sponsors/manfrotto.png"
+  :image_height: 125
 - :name: "NPPA"
   :homepage: "http://www.nppa.org/"
   :image_url: "/images/sponsors/nppa.jpg"
