@@ -6,9 +6,17 @@
   :homepage: "http://www.canon.com/"
   :image_url: "/images/sponsors/canon.png"
   :image_height: 125
+- :name: "AP"
+  :homepage: "http://www.ap.org/"
+  :image_url: "/images/sponsors/ap.png"
+  :image_height: 125
 - :name: "Grady College - UGA"
   :homepage: "http://grady.uga.edu/"
   :image_url: "/images/sponsors/uga-grady-college.jpg"
+  :image_height: 125
+- :name: "USA Today Sports"
+  :homepage: "http://www.usatoday.com/sports/"
+  :image_url: "/images/sponsors/usatoday.png"
   :image_height: 125
 - :name: "Manfrotto"
   :homepage: "http://www.manfrotto.com/"
@@ -25,4 +33,8 @@
 - :name: "Zuma Press"
   :homepage: "http://www.zumapress.com/"
   :image_url: "/images/sponsors/zuma.jpg"
+  :image_height: 125
+- :name: "School of Visual Communication at Ohio University"
+  :homepage: "http://www.ohio.edu/scrippscollege/schoolsandcenters/visual-communication.cfm"
+  :image_url: "/images/sponsors/viscom.jpg"
   :image_height: 125
