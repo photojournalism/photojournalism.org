@@ -22,7 +22,7 @@ are listed below.</p>
 <div class="form-group">
   <label for="contest_year">Contest Year</label>
   <select id="contest_year" class="form-control">
-    <% (2013).downto(1975).each do |year| %>
+    <% (2014).downto(1975).each do |year| %>
       <option value="<%= year %>"<% if years_we_dont_have.include? year %>disabled<% end %>><%= year %></option>
     <% end %>
   </select>
