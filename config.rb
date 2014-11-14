@@ -51,6 +51,9 @@ set :js_dir, 'javascripts'
 
 set :images_dir, 'images'
 
+ignore 'images/2014/contest-winners/*'
+ignore 'contest/winners/2014/*'
+
 # Build-specific configuration
 configure :build do
   # For example, change the Compass output style for deployment
