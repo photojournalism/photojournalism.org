@@ -51,8 +51,12 @@ set :js_dir, 'javascripts'
 
 set :images_dir, 'images'
 
-ignore 'images/2014/contest-winners/*'
-ignore 'contest/winners/2014/*'
+ignore 'images/2014/contest-winners/best-in-show/*'
+ignore 'images/2014/contest-winners/best-portfolio/*'
+ignore 'images/2014/contest-winners/rich-mahan-best-student-portfolio/*'
+ignore 'contest/winners/2014/best-in-show/*'
+ignore 'contest/winners/2014/best-portfolio/*'
+ignore 'contest/winners/2014/rich-mahan-best-student-portfolio/*'
 
 # Build-specific configuration
 configure :build do

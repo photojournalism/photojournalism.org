@@ -20,5 +20,9 @@ script/setup
 source/contents.json
 source/contact/submit.php
 
-source/images/2014/contest-winners
-source/contest/winners/2014
+source/images/2014/contest-winners/best-in-show
+source/images/2014/contest-winners/best-portfolio
+source/images/2014/contest-winners/rich-mahan-best-student-portfolio
+source/contest/winners/2014/best-in-show
+source/contest/winners/2014/best-portfolio
+source/contest/winners/2014/rich-mahan-best-student-portfolio

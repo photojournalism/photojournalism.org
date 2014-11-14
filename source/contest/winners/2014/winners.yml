@@ -1,0 +1,119 @@
+---
+:year: 2014
+:info: <p>Below is a list of the winners from the <strong>2014 Atlanta Photojournalism Seminar Contest</strong>.
+  Thank you to everyone who entered and participated in the contest, and congratulations to the winners!</p>
+
+  <p>Click the category title to view the winning images.</p>
+:categories:
+- :name: Spot News
+  :url: spot-news/
+  :winners:
+  - :info: First Place – Jerome Delay / Associated Press
+  - :info: Second Place – Bulent Kilic / Agent France-Presse
+  - :info: Third Place – John Moore / Getty Images
+  - :info: Honorable Mention – Al Diaz / Miami Herald
+  - :info: Honorable Mention – David Carson / St. Louis Post-Dispatch
+  - :info: Honorable Mention – Dimitar Dilkoff / Agence France-Presse
+- :name: General News
+  :url: general-news/
+  :winners:
+  - :info: First Place – Rebecca Blackwell / Associated Press
+  - :info: Second Place – Scott Olson / Getty Images
+  - :info: Third Place – David Carson / St. Louis Post-Dispatch
+  - :info: Honorable Mention – Vadim Ghirda / Associated Press
+  - :info: Honorable Mention – Scott Olson / Getty Images
+  - :info: Honorable Mention – Khalil Hamra / Associated Press
+- :name: Feature
+  :url: feature/
+  :winners:
+  - :info: First Place – David Goldman / Associated Press
+  - :info: Second Place – Andres Kudacki
+  - :info: Third Place – Danish Siddiqui
+  - :info: Honorable Mention – Bulent Kilic / Agent France-Presse
+- :name: Sports Action
+  :url: sports-action/
+  :winners:
+  - :info: First Place – Phil Noble / Reuters
+  - :info: Second Place – Chris Detrick / The Salt Lake Tribune
+  - :info: Third Place – Al Diaz / Miami Herald
+  - :info: Honorable Mention – Brendan Sullivan / Omaha World-Herald
+- :name: Sports Feature
+  :url: sports-feature/
+  :winners:
+  - :info: First Place – Patrick Smith / Freelance
+  - :info: Second Place – Julie Jacobson / Associated Press
+  - :info: Third Place – David Ramos Vidal
+  - :info: Honorable Mention – Ricardo Arduengo / Associated Press
+  - :info: Honorable Mention – Guy Wathen / Pittsburgh Tribune-Review
+  - :info: Honorable Mention – Patrick Smith / Freelance
+- :name: Portrait/Personality
+  :url: portrait-personality/
+  :winners:
+  - :info: First Place – Altaf Qadri / Associated Press
+  - :info: Second Place – John Moore / Getty Images
+  - :info: Third Place – Juan Medina
+  - :info: Honorable Mention – Javier Arcenillas
+  - :info: Honorable Mention – Misha Domozhilov / Freelancer
+  - :info: Honorable Mention – Pete Marovich / Self
+- :name: Pictorial
+  :url: pictorial/
+  :winners:
+  - :info: First Place – Mark Wilson / Getty images
+  - :info: Second Place – Oded Balilty / Associated Press
+  - :info: Third Place – David Gray / Reuters News Agency
+  - :info: Honorable Mention – Marcin Szczepanski / University of Michigan
+  - :info: Honorable Mention – Jake May / The Flint Journal, MLive Media Group
+- :name: Olympics
+  :url: olympics/
+  :winners:
+  - :info: First Place – Mike Blake / Thomson Reuters
+  - :info: Second Place – Chris Detrick / The Salt Lake Tribune
+  - :info: Third Place – Phil Noble / Reuters
+  - :info: Honorable Mention – Phil Noble / Reuters
+  - :info: Honorable Mention – Phil Noble / Reuters
+- :name: News Picture Story
+  :url: news-picture-story/
+  :winners:
+  - :info: First Place – Bulent Kilic / Agent France-Presse
+  - :info: Second Place – David Carson / St. Louis Post-Dispatch
+  - :info: Third Place – Al Diaz / Miami Herald
+  - :info: Honorable Mention – Scott Olson / Getty Images
+  - :info: Honorable Mention – Bulent Kilic / Agent France-Presse
+- :name: Chris Hondros Memorial International News
+  :url: chris-hondros-memorial-international-news/
+  :winners:
+  - :info: First Place – John Moore / Getty Images
+  - :info: Second Place – Oliver Weiken / European Pressphoto Agency (EPA)
+  - :info: Third Place – Jerome Delay / Associated Press
+- :name: Feature Picture Story/Essay
+  :url: feature-picture-story-essay/
+  :winners:
+  - :info: First Place – Javier Arcenillas
+  - :info: Second Place – Jordi Perdigó
+  - :info: Third Place – Brian Cassella / Chicago Tribune
+  - :info: Honorable Mention – Muhammed Muheisen / Associated Press
+- :name: Sports Picture Story
+  :url: sports-picture-story/
+  :winners:
+  - :info: First Place – Daniel Ochoa de Olza / Associated Press
+  - :info: Second Place – Patrick Smith / Freelance
+  - :info: Third Place – Andres Kudacki
+- :name: Product Illustration
+  :winners: []
+- :name: Issue Illustration
+  :winners: []
+- :name: Multimedia Slideshow
+  :winners:
+  - :info: First Place – Carolyn Van Houten
+  - :info: Second Place – Pete Marovich / Self
+- :name: Multimedia Interactive Presentation
+  :winners: []
+- :name: Best In Show
+  :winners:
+  - :info: Will be announced Saturday, November 15
+- :name: Best Portfolio
+  :winners:
+  - :info: Will be announced Saturday, November 15
+- :name: Rich Mahan Best Student Portfolio
+  :winners:
+  - :info: Will be announced Saturday, November 15
