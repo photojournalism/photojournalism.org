@@ -18,7 +18,7 @@ line_number = 0
 f.each_line do |line|
   line_number += 1
   if (line.start_with? '</strong>')
-    puts "File for #{year} is fucked up on line #{line_number}"
+    puts "File for #{year} is messed up on line #{line_number}"
   end
   if (line.start_with? "<p><strong>")
     current_category =  line
