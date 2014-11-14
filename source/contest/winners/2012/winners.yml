@@ -1,8 +1,20 @@
 ---
 :year: 2012
 :info: |
-  "The following are the winners of the 2012 Atlanta Photojournalism Seminar Contest. Thank you to everyone who entered and participated in the contest, and congratulations to the winners!\n\n(Click category name to view the winning photos from that category)
+  "The following are the winners of the 2012 Atlanta Photojournalism Seminar Contest. Thank you to everyone who entered and participated in the contest, and congratulations to the winners! (Click category name to view the winning photos from that category)
 :categories:
+- :name: |
+    Best Portfolio
+  :url: |
+    best-portfolio/
+  :winners:
+  - :info: |
+      Javier Arcenillas / GEA Photowords
+- :name: |
+    Rich Mahan Best Student Portfolio
+  :winners:
+  - :info: |
+      Jabin Botsford / Western Kentucky University
 - :name: |
     Spot News
   :winners:
@@ -206,13 +218,3 @@
       Second Place – "Lost and Found" - Jeremy Lurgio / University of Montana School of Journalism
   - :info: |
       Third Place – "Living Galapagos" - Pat Davidson / University of North Carolina
-- :name: |
-    Rich Mahan Best Student Portfolio
-  :winners:
-  - :info: |
-      Jabin Botsford / Western Kentucky University
-- :name: |
-    Best Portfolio
-  :winners:
-  - :info: |
-      Javier Arcenillas / GEA Photowords
