@@ -57,6 +57,7 @@ ignore 'images/2014/contest-winners/rich-mahan-best-student-portfolio/*'
 ignore 'contest/winners/2014/best-in-show/*'
 ignore 'contest/winners/2014/best-portfolio/*'
 ignore 'contest/winners/2014/rich-mahan-best-student-portfolio/*'
+ignore '*.yml'
 
 # Build-specific configuration
 configure :build do
