@@ -5,6 +5,18 @@
 
   <p>Click the category title to view the winning images.</p>
 :categories:
+- :name: Best In Show
+  :url: best-in-show/
+  :winners:
+  - :info: John Moore / Getty Images
+- :name: Best Portfolio
+  :url: best-portfolio/
+  :winners:
+  - :info: Bulent Kilic / Agence France-Presse
+- :name: Rich Mahan Best Student Portfolio
+  :url: rich-mahan-best-student-portfolio/
+  :winners:
+  - :info: Carolyn Van Houten
 - :name: Spot News
   :url: spot-news/
   :winners:
@@ -108,12 +120,3 @@
   - :info: Second Place – Pete Marovich / Self
 - :name: Multimedia Interactive Presentation
   :winners: []
-- :name: Best In Show
-  :winners:
-  - :info: Will be announced Saturday, November 15
-- :name: Best Portfolio
-  :winners:
-  - :info: Will be announced Saturday, November 15
-- :name: Rich Mahan Best Student Portfolio
-  :winners:
-  - :info: Will be announced Saturday, November 15
