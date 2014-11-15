@@ -154,6 +154,10 @@
       name: "Oraien Catledge"
       url: "http://www.gpb.org/stateofthearts/term/catledge"
       years: 1989
+    -
+      name: "Amani Channel"
+      url: "https://twitter.com/amanichannel"
+      years: 2014
     - 
       name: "Gary Chapman"
       url: "http://garyschapman.com/"
@@ -237,6 +241,10 @@
       name: "Pouya Dianat"
       url: "http://pouyad.com/"
       years: 2012
+    -
+      name: "Al Diaz"
+      url: "http://aldiaz.photoshelter.com/"
+      years: 2014
     - 
       name: "Alan Diaz"
       url: "http://en.wikipedia.org/wiki/Alan_Diaz"
@@ -280,6 +288,10 @@
       name: "Mark Edelson"
       url: "http://clikhear.palmbeachpost.com/2009/staff/mark-edelson/"
       years: "1996, 2004"
+    -
+      name: "Matt Eich"
+      url: "http://www.matteichphoto.com/"
+      years: 2014
     - 
       name: "Joe Elbert"
       years: 1979
@@ -362,6 +374,10 @@
       name: "Rick Friedman"
       url: "http://www.rickfriedman.com/"
       years: 2013
+    -
+      name: "Lauren Frohne"
+      url: "http://laurenfrohne.com/"
+      years: 2014
     - 
       name: "Mimi Foster Fuller"
       years: 1988
@@ -498,7 +514,8 @@
       years: 2007
     - 
       name: "Judy Herrmann"
-      years: "2009, 2012"
+      url: "https://twitter.com/JudyHerrmann"
+      years: "2009, 2012, 2014"
     - 
       name: "Gary Hoenig"
       years: 1985
@@ -564,6 +581,10 @@
       name: "Kenneth Jarecke"
       url: "http://www.kennethjarecke.com/"
       years: 1991
+    -
+      name: "Oliver Janney"
+      url: "http://www.oliverjanneyproductions.com/"
+      years: 2014
     - 
       name: "Keith Jenkins"
       url: "http://www.npr.org/people/127410116/keith-jenkins"
@@ -700,6 +721,10 @@
     - 
       name: "David Lyman"
       years: 1989
+    -
+      name: "Ken Lyons"
+      url: "http://www.kenlyons.com/"
+      years: 2014
 - 
   letter: M
   faculty: 
@@ -866,6 +891,10 @@
       name: "Kathy Plonka"
       url: "http://www.spokesman.com/staff/kathy-plonka/"
       years: 2001
+    -
+      name: "Wes Pope"
+      url: "http://wespope.com/"
+      years: 2014
     - 
       name: "Carolyn Potts"
       url: "http://cpotts.com/who-i-work-with/"
@@ -967,6 +996,10 @@
       name: "Robert Seale"
       url: "http://www.robertseale.com/"
       years: "2004, 2014"
+    -
+      name: "Eric Seals"
+      url: "https://twitter.com/ericseals"
+      years: 2014
     - 
       name: "Jim Seida"
       url: "http://www.multimediastandards.org/grid/jim-seida/"
@@ -1021,6 +1054,10 @@
     - 
       name: "John Spink"
       years: 2013
+    -
+      name: "Jamie Squire"
+      url: "http://www.jamiesquire.com/"
+      years: 2014
     - 
       name: "Chris Stanford"
       years: 2013
@@ -1076,6 +1113,10 @@
     - 
       name: "John Tlumacki"
       years: 2013
+    -
+      name: "Amy Toensing"
+      years: 2014
+      url: "http://www.amytoensing.com/"
     - 
       name: "Scout Tufankjian"
       url: "http://www.scouttufankjian.com/"
