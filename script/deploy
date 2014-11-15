@@ -10,6 +10,6 @@ ruby script/generate_json.rb
 
 cd build
 
-git add .
+git add . --all
 git commit -m "Deployment `date`"
 git push prod +master
