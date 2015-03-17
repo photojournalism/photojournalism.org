@@ -1,0 +1,15 @@
+---
+title: News
+navigation: News
+---
+
+<% blog.articles[0...5].each do |article| %>
+  <article>
+    <h3 class="news-title"><a href="<%= article.url %>"><%= article.title %></a></h3>
+    <time><%= article.date.strftime('%B %e, %Y') %></time> &middot; <a href="<%= article.url %>">Permalink</a>
+
+    <%= article.body %>
+
+    
+  </article>
+<% end %>
