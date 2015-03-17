@@ -53,7 +53,7 @@ ignore '*.yml'
 
 activate :blog do |blog|
   blog.prefix = "news"
-  blog.permalink = "{title}/"
+  blog.permalink = "{title}/index.html"
 end
 
 # Build-specific configuration
