@@ -395,6 +395,18 @@ iframe[id^='twitter-widget-'] {
   border-radius: 4px;
 }
 
+.news-title {
+  a {
+    color: $logo-dark-color;
+
+    &:hover, &:focus {
+      color: $logo-dark-color;
+    }
+  }
+
+  margin-bottom: 5px;
+}
+
 @media (max-width: 1199px) {
   #search_query {
     width: 222px;
