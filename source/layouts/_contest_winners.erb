@@ -1,7 +1,5 @@
 <% data = YAML.load_file("source/contest/winners/#{year}/winners.yml") %>
 
-<h1><%= data[:year] %> Winners</h1>
-
 <%= partial 'layouts/contest_navigation', locals: { year: data[:year] } %>
 
 <%# If slideshow: true was passed in, display the slideshow %>
