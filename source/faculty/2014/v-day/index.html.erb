@@ -6,7 +6,7 @@ comments: on
 
 Below is a list of confirmed speakers for Video Day at the <strong>2014 Atlanta Photojournalism Seminar</strong>:
 
-<% faculty = YAML.load(File.read("source/faculty/v-day/v-day.yml")) %>
+<% faculty = YAML.load(File.read("source/faculty/2014/v-day/v-day.yml")) %>
 <% faculty.each do |f| %>
   <div class="faculty-section">
   <h3 id="<%= f['id'] %>"><%= f['name'] %></h3>

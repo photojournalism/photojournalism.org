@@ -1,36 +1,62 @@
 ---
-title: 2014 Faculty
+title: 2015 Faculty
 navigation: Faculty
+layout: wide
 ---
 
-Below is a list of confirmed faculty members for the <strong>2014 Atlanta Photojournalism Seminar</strong>:
+<h1>2015 Faculty</h1>
+
+Below is a list of confirmed faculty members for the <strong>2015 Atlanta Photojournalism Seminar</strong>:
 
 <% speakers = YAML.load(File.read("source/faculty/speakers/speakers.yml")) %>
 
-<h3>Saturday Speakers</h3>
+<h2>Faculty</h2>
 
-<ul>
+<div class="row">
 <% speakers.each do |speaker| %>
-  <li><a href="/faculty/speakers/#<%= speaker['id'] %>"><strong><%= speaker['name'] %></strong></a></li>
+  <div class="col-md-3">
+      <a href="speakers/#<%= speaker['id'] %>">
+        <img src="<%= speaker['square_url'] %>" class="img-thumbnail" alt="<%= speaker['name'] %> Headshot">
+      </a>
+      <div class="caption" style="text-align:center">
+        <h4><a href="speakers/#<%= speaker['id'] %>"><%= speaker['name'] %></a></h4>
+      </div>
+  </div>
 <% end %>
-</ul>
+</div>
 
+<!--
 <% workshops = YAML.load(File.read("source/faculty/workshops/workshops.yml")) %>
 
-<h3>Friday Workshops</h3>
+<h2>Workshops</h2>
 
-<ul>
-<% workshops.each do |workshop| %>
-  <li><a href="/faculty/workshops/#<%= workshop['id'] %>"><strong><%= workshop['name'] %> - <%= workshop['workshop'][0]['title'] %></strong></a></li>
+<div class="row">
+<% workshops.each do |speaker| %>
+  <div class="col-md-3">
+      <a href="workshops/#<%= speaker['id'] %>">
+        <img src="<%= speaker['square_url'] %>" class="img-thumbnail" alt="<%= speaker['name'] %> Headshot">
+      </a>
+      <div class="caption" style="text-align:center">
+        <h4><a href="workshops/#<%= speaker['id'] %>"><%= speaker['name'] %></a></h4>
+      </div>
+  </div>
 <% end %>
-</ul>
+</div>
 
-<% vday = YAML.load(File.read("source/faculty/v-day/v-day.yml")) %>
+<% video_speakers = YAML.load(File.read("source/faculty/video-speakers/video-speakers.yml")) %>
 
-<h3>Thursday Video Day</h3>
+<h2>Video Speakers</h2>
 
-<ul>
-<% vday.each do |speaker| %>
-  <li><a href="/faculty/v-day/#<%= speaker['id'] %>"><strong><%= speaker['name'] %><% if speaker['talk']['topic'].length > 0 %> - <%= speaker['talk']['topic'] %><% end %></strong></a></li>
+<div class="row">
+<% video_speakers.each do |speaker| %>
+  <div class="col-md-3">
+      <a href="video-speakers/#<%= speaker['id'] %>">
+        <img src="<%= speaker['square_url'] %>" class="img-thumbnail" alt="<%= speaker['name'] %> Headshot">
+      </a>
+      <div class="caption" style="text-align:center">
+        <h4><a href="video-speakers/#<%= speaker['id'] %>"><%= speaker['name'] %></a></h4>
+      </div>
+  </div>
 <% end %>
-</ul>
+</div>
+-->

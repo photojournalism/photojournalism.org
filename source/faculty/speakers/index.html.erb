@@ -1,16 +1,18 @@
 ---
-title: 2014 Speakers
+title: 2015 Speakers
 navigation: Faculty
 comments: on
 ---
 
-Below is a list of confirmed speakers for the <strong>2014 Atlanta Photojournalism Seminar</strong>:
+Below is a list of confirmed speakers for the <strong>2015 Atlanta Photojournalism Seminar</strong>:
 
 <% faculty = YAML.load(File.read("source/faculty/speakers/speakers.yml")) %>
 <% faculty.each do |f| %>
   <div class="faculty-section">
   <h3 id="<%= f['id'] %>"><%= f['name'] %></h3>
-  <img src="<%= f['url'] %>" alt="<%= f['name'] %>" class="thumbnail faculty-image">
+  <% if f['url'] && f['url'] != "" %>
+    <img src="<%= f['url'] %>" alt="<%= f['name'] %>" class="thumbnail faculty-image">
+  <% end %>
   <% f['bio'].each do |paragraph| %>
     <p><%= paragraph %></p>
   <% end %>

@@ -1,64 +1,24 @@
-- name: Robert Seale
-  id: robert-seale
-  url: /images/2014/faculty/robert_seale.jpg
+- name: "Carolyn Potts"
+  url: "/images/2015/faculty/carolyn_potts.jpg"
+  square_url: "/images/2015/faculty/carolyn_potts_square.jpg"
+  id: "carolyn-potts"
   bio:
-  - "Robert Seale is a Houston photographer specializing in dynamic editorial, corporate, and advertising portraiture."
-  - "After majoring in both journalism and art, Seale began his photography career as a photojournalist, where he worked as a staffer at several major newspapers.  He eventually landed at the Sporting News, where he spent nearly 11 years shooting Super Bowls and World Series games as well as cover portraits for the popular magazine."
-  - "His love of portrait work led him to a Houston-based freelance career specializing in shooting people for magazines, prestigious design firms, corporations, and advertising agencies."
-  - "Seale is known for his lighting skills and his ability to coax multiple creative concepts from a single location with limited time. He’s equally adept photographing celebrity athletes,  busy CEO’s, and normal folks in any environment with any level of production necessary to tell their story."
-  - "As a sought after speaker in the photographic industry, Seale has taught lighting technique and portraiture at a variety of photography workshops in the US and Canada."
-  - "He has won awards from The National Baseball Hall of Fame in Cooperstown, was a finalist for Life Magazine’s Eissie Award (Sports-1998), and was featured in the Best of ASMP (2008)."
-  - "His editorial credits include Sports Illustrated, ESPN The Magazine, Men’s Health, SLAM, Businessweek, Forbes, Fortune, Barron’s, Smithsonian, Air & Space, The New York Times Magazine, and over 200 covers of The Sporting News.  As an annual report and advertising photographer, Robert has worked on projects for ExxonMobil, Tellabs, Schlumberger, Apache, BP, EOG Resources, GMC, Invesco, Huntsman, Marathon, Major League Baseball, Reebok, Methodist Hospital, Under Armour, and various professional sports teams."
-  workshop:
-    - description:
-      - "Robert will demonstrate how he uses a variety of light modifiers and techniques to create a range of emotion in his photographs."
-      title: Location Lighting
-- name: Judy Herrmann
-  id: judy-herrmann
-  url: /images/2014/faculty/judy_herrmann.jpg
-  bio: 
-    - "Judy Herrmann of <a href=\"http://www.hsstudio.com\">Herrmann + Starke</a> creates distinctive imagery for advertising, editorial and corporate clients that has won recognition from Graphis, Communication Arts, Lurzer's Archive and numerous award annuals."
-    - "A past president of ASMP, Olympus Visionary and recipient of the United Nations IPC Leadership Award, Judy currently serves as ASMP's Director of Content Strategy. Judy's energetic and inspiring seminars on smart business practices have helped thousands of photographers compete more effectively.  Through one-on-one consultations and her consulting site, 2goodthings.com, she helps people grow creatively and financially rewarding businesses.  Small wonder Rangefinder Magazine recently named her one of eleven photographers you should know."
-  workshop: 
-    - description: 
-        - "Judy will discuss how to be profitable and earn a living as a photojournalist, including topics such as completing an honest analysis of your career options, setting up your business, developing sound business practices, marketing and pricing your work, and setting and achieving your financial goals."
-      title: "Standing on Your Own Two Feet: A Photojournalist's Guide to Successful Self-Employment"
-- name: Jamie Squire
-  id: jamie-squire
-  url: /images/2014/faculty/jamie_squire.jpg
-  bio:
-    - "Jamie Squire is a 42-year-old Kansas City-based staff photographer for Getty specializing in Sports. His assignments have taken him all over the world and to almost every one of the 50 states. Jamie has covered many top international events including Superbowls, World Series, NBA and Stanley Cup Finals, Golf and Tennis Majors, Kentucky Derbys, World Cup Soccer, and 8 Olympic Games. He often shoots on assignment for specific editorial clients such as the New York Times, Los Angeles Times, Chicago Tribune, ESPN Magazine, Time, and Sports Illustrated. He has done commercial and advertising work for major corporations including Coca Cola, Nike, Reebok, and USA Network."
-    - "Jamie's work has garnered numerous awards throughout the industry including selections into the Communication Arts Photo Annual, first prize in the documentary picture story category awarded by the New York Press Photographers Association, and first prize in the sports action and sports feature story categories awarded by the White House Press Photographers Association. In 2003, he was chosen to participate in the America 24/7 book project, a one-week photographic exploration into daily life in America."
-    - "Jamie graduated from Emory University in Atlanta, GA with a Liberal Arts degree in May of 1995. Throughout college he photographed for publications such as The Atlanta Journal/Constitution and Sports Illustrated, and assisted for celebrity wedding photographers Monte Zucker and Denis Reggie. In September of 1995, he took a staff job with Allsport Photography (now a part of Getty Images) and has worked there ever  Jamie currently resides in Overland Park, Kansas with his wife, Mindi, 8-year-old daughter, Sammi Jo, and 5-year-old son, Drew."
+  - "Carolyn Potts, is a creative consultant and former artists rep who has extensive experience in the sales and marketing of assignment photography, photo editing, graphic design and user experience. She provides strategies and tactics to photographers who need effective solutions to improve their portfolios and land the assignments they want."
+  - "As a successful photographers’ representative, with a global client base, she accurately anticipated market trends for over three decades. She consistently helped her photo clients stay ahead of ever-changing market conditions. Using marketing and branding strategies that set her photographers apart from those who marketed on price alone, her photographers shot for almost every blue-chip client you can name. She and her clients also survived the previous three \"worst recessions ever!\""
+  - "Now a full-time creative consultant, speaker and workshop presenter, Carolyn, often works with seasoned pros who are looking to move into new markets or revitalize sagging careers. But she also helps emerging photographers understand the buying needs of middle-aged photo buyers (those who typically still influence many of the photo buying decisions). Bottom line: she helps talented and pro-active photographers who are committed learning how to bring their sales and marketing skills up to the same level of professionalism as is their photography."
+  - "Based in metro-Chicago, she has strong tendencies towards wanderlust–especially in the winter. She loves meeting photographers the old-fashioned way (i.e., face-to-face at photo festivals, workshops, and trade shows). But since she's also somewhat of a geek, you can also find her working with many of her clients over Skype."
   workshop:
     - description:
       - ""
-      title: "Sports"
-- name: Eric Seals
-  id: eric-seals
-  url: /images/2014/faculty/eric_seals.jpg
+      title: ""
+- name: "Gary Chapman"
+  url: "/images/2015/faculty/gary_chapman.jpg"
+  square_url: "/images/2015/faculty/gary_chapman_square.jpg"
+  id: "gary-chapman"
   bio:
-  - "\"If you learn to shoot with your heart, you'll move peoples' souls!\""
-  - "A good friend and mentor said that phrase of inspiration to Eric years ago, and it is something he thinks about constantly as a Photo and Video Journalist at the Detroit Free Press."
-  - "A 1993 graduate of the University of Missouri School of Journalism, Eric joined the Detroit Free Press in 1999. It is the newspaper he grew up reading and wanted to work at since he first started taking pictures in high school."
-  - "Over the years, Eric has covered many things from various presidential campaigns, the Intifada in Israel/Palestine, 5 months covering the war in Iraq and many sports from the 2008 Olympics in Beijing, to several Super Bowls, World Series, and NBA Finals."
-  - "In May of 2008, Eric eagerly embraced video storytelling as the Detroit Free Press started the push to video on the web at Freep.com. From video features and projects to the documentary he's currently shooting, \"Shipwrecks of the Great Lakes,\" Eric loves trying to bring a cinematic look, feel, and style to his pieces, while always staying true to the one thing that matters more than anything else... the story, the story, the story!"
-  - "He has been recognized for his video storytelling with the 2011 MPPA Multimedia Photographer of the Year, a national Webby Award, several POYi, NPPA-BOP awards and seven Michigan Emmys. He has taught at different workshops and seminars from the NPPA Multimedia Immersion at Syracuse, the Mountain Peoples Workshop at Western Kentucky University and the Poynter Institute. He's also judged at many national and state contests around the country. He really embraces the \"Reach One, Teach One\" philosophy and mentors others around the country interested in this amazing profession of ours!"
-  - "Seals is married and has two kids, ages 15 and 10. He can always be reached at <a href=\"mailto:eseals@freepress.com\">eseals@freepress.com</a> with any questions about photo and video storytelling. He can also be followed on Twitter <a href=\"http://twitter.com/ericseals\" target=\"_blank\">ericseals</a> and Instagram at <a href=\"http://instagram.com/ericseals\" target=\"_blank\">ericseals</a>."
-  workshop:
-    - description:
-      - "Eric will discuss the dos and don'ts of using <a href='http://gopro.com/'>GoPro cameras</a>, as well as using drones to capture video."
-      title: "GoPro: Dos, Don'ts, and Drones"
-- name: Oliver Janney
-  id: oliver-janney
-  url: /images/2014/faculty/oliver_janney.jpg
-  bio:
-  - Oliver Janney is currently a CNN photojournalist based in the Washington bureau. He has worked in broadcast television production for more than 14 years.
-  - "Since joining CNN in 2007, he has covered many notable stories across the country and around the globe. Some of the most memorable include: the search for MH370 in Malayasia and Australia, Hurricane Sandy in Atlantic City, the tragedy at Sandy Hook, President Obama's visit to Guadalajara, Mexico and the Boston Marathon bombing."
-  - "Janney began his career as the first overnight editor at Baltimore FOX Affiliate WBFF. He continued to CBS O&O WJZ-TV as a photojournalist, freelancing in the commercial post production world"
-  - Among the numerous honors he has received  for his work, Janney earned an Emmy award for Quick Turnaround News Production and two Peabody awards for the network's coverage of the Deep Water Horizon Oil Spill and the 2008 Presidential Campaigns. Furthermore, Janey has also earned numerous honors from the National Press Photographers Association, including Best Documentary in 2012 for his teamwork on “Operation Hope.”
-  - In addition to his professional work, he spent four years as an adjunct professor of Video and Audio at Goucher College in Baltimore, Maryland from 2003 to 2007.
+  - "Gary began his professional career at a small Florida newspaper. He has been on the photo staff of The Tampa Tribune, The Fort Myers News-Press, and The Louisville Courier-Journal Sunday Magazine. He has had work published in Life, Geo, and National Geographic publications, and in many books of the Day in the Life series."
+  - "He left newspapers, but not his photojournalism roots, to freelance and take on humanitarian assignments for non-profits, NGO’s. and corporate cause related issues. This work has taken him to more than 70 countries. He and his wife, Vivian, also produce stock photos for Getty Images and OffSet and continue to cultivate both editorial and commercial clients.  Almost two years ago, they moved from the suburbs to a loft in Atlanta where they have been experiencing the joys of downsizing. walkability and sharing the Atlanta Beltline with urban hipsters."
   workshop:
     - description:
       - ""
-      title: Shooting With Your Ears
+      title: ""
