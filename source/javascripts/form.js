@@ -3,7 +3,8 @@ var Form = (function($) {
 
   var self = {},
       name = "",
-      message = "";
+      message = "",
+      address = "";
 
   var _validateFields = function(fields) {
     var valid = true;
@@ -35,6 +36,7 @@ var Form = (function($) {
       button.attr("disabled", "disabled");
       button.html("Submitting...");
       values.formName = name;
+      values.toAddress = address;
 
       $.ajax({
         url: '/contact/submit.php',
@@ -56,9 +58,10 @@ var Form = (function($) {
     }
   };
 
-  self.init = function(formName, submitMessage) {
+  self.init = function(formName, submitMessage, toAddress) {
     name = formName;
     message = submitMessage;
+    address = toAddress;
     $("#form-submit").click(function() {
       _submit();
     });
