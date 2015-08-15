@@ -2,7 +2,8 @@ var Form = (function($) {
   'use strict';
 
   var self = {},
-      name = "";
+      name = "",
+      message = "";
 
   var _validateFields = function(fields) {
     var valid = true;
@@ -42,7 +43,7 @@ var Form = (function($) {
         success: function() {
           $("#form").empty().append(
             "<div class='alert alert-success'>" +
-              "Your application for the <strong>Dave Martin Grant</strong> has been submitted successfully. You will be contacted if you have been awarded the grant." +
+              "Your form for <strong>" + name + "</strong> has been submitted successfully. " + message +
             "</div>"
           );
         },
@@ -55,8 +56,9 @@ var Form = (function($) {
     }
   };
 
-  self.init = function(formName) {
+  self.init = function(formName, submitMessage) {
     name = formName;
+    message = submitMessage;
     $("#form-submit").click(function() {
       _submit();
     });
