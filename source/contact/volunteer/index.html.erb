@@ -6,6 +6,9 @@ navigation: Volunteer
 <p>To volunteer at the <strong>Atlanta Photojournalism Seminar</strong>, please fill out the following form, and we will contact you with more information.
 
 <form id="form" role="form">
+
+  <h3>Personal Information</h3>
+
   <div class="form-group">
     <label for="name">Name</label>
     <input type="text" class="form-control required" id="name" placeholder="Name">
@@ -59,7 +62,51 @@ navigation: Volunteer
 
   <div class="form-group">
     <label for="why">Why do you want to be a volunteer?</label>
-    <textarea class="form-control" id="textarea" rows="3"></textarea>
+    <textarea class="form-control" id="textarea" rows="3" placeholder="Enter your response..."></textarea>
+  </div>
+
+  <h3>Reference #1</h3>
+
+  <div class="row">
+    <div class="col-md-6">
+      <div class="form-group">
+        <label for="reference_1_name">Name</label>
+        <input type="text" class="form-control required" id="reference_1_name" placeholder="Reference 1 Name">
+      </div>
+    </div>
+    <div class="col-md-6">
+      <div class="form-group">
+        <label for="reference_1_relationship">Relationship</label>
+        <input type="text" class="form-control required" id="reference_1_relationship" placeholder="Reference 1 Relationship">
+      </div>
+    </div>
+  </div>
+
+  <div class="form-group">
+    <label for="reference_1_contact">Contact Information</label>
+    <input type="text" class="form-control required" id="reference_1_contact" placeholder="Reference 1 Contact Information">
+  </div>
+
+  <h3>Reference #2</h3>
+
+  <div class="row">
+    <div class="col-md-6">
+      <div class="form-group">
+        <label for="reference_2_name">Name</label>
+        <input type="text" class="form-control required" id="reference_2_name" placeholder="Reference 2 Name">
+      </div>
+    </div>
+    <div class="col-md-6">
+      <div class="form-group">
+        <label for="reference_2_relationship">Relationship</label>
+        <input type="text" class="form-control required" id="reference_2_relationship" placeholder="Reference 2 Relationship">
+      </div>
+    </div>
+  </div>
+
+  <div class="form-group">
+    <label for="reference_2_contact">Contact Information</label>
+    <input type="text" class="form-control required" id="reference_2_contact" placeholder="Reference 2 Contact Information">
   </div>
 
   <button id="form-submit" type="button" class="btn btn-primary">Submit</button>
