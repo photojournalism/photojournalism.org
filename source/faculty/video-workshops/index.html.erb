@@ -1,0 +1,21 @@
+---
+title: 2015 Video Workshops
+navigation: Faculty
+comments: on
+---
+
+Below is a list of confirmed video workshops at the <strong>2015 Atlanta Photojournalism Seminar</strong>:
+
+<% faculty = YAML.load(File.read("source/faculty/video-workshops/video-speakers.yml")) %>
+<% faculty.each do |f| %>
+  <div class="faculty-section">
+  <h3 id="<%= f['id'] %>"><%= f['name'] %></h3>
+  <% if f['url'] && f['url'] != "" %>
+    <img src="<%= f['url'] %>" alt="<%= f['name'] %>" class="thumbnail faculty-image">
+  <% end %>
+  <% f['bio'].each do |paragraph| %>
+    <p><%= paragraph %></p>
+  <% end %>
+  </div>
+  <br>
+<% end %>
