@@ -26,6 +26,17 @@
               <li><a href="/contact/">Contact</a></li>
             </ul>
           </li><!-- .dropdown -->
+          <li class="dropdown<%= " active" if current_page.data.navigation == "Faculty" %>">
+            <a href="#" class="dropdown-toggle" data-toggle="dropdown">Faculty <span class="caret"></span></a>
+            <ul class="dropdown-menu">
+              <li><a href="/faculty/">2015 Faculty</a></li>
+              <li><a href="/faculty/speakers/">Speakers</a></li>
+              <li><a href="/faculty/workshops/">Photo Workshops</a></li>
+              <li><a href="/faculty/video-workshops/">Video Workshops</a></li>
+              <li class="divider"></li>
+              <li><a href="/faculty/list/">Previous Faculty</a></li>
+            </ul>
+          </li><!-- .dropdown -->
           <li<%= " class=\"active\"" if current_page.data.navigation == "News" %>><a href="/news/">News</a></li>
           <li class="dropdown<%= " active" if current_page.data.navigation == "Contest" %>">
             <a href="#" class="dropdown-toggle" data-toggle="dropdown">Contest <span class="caret"></span></a>
@@ -38,17 +49,6 @@
               <li class="divider"></li>
               <li><strong><a href="/contest/winners/2014/">2014 Winners</a></strong></li>
               <li><a href="/contest/winners/">Previous Winners</a></li>
-            </ul>
-          </li><!-- .dropdown -->
-          <li class="dropdown<%= " active" if current_page.data.navigation == "Faculty" %>">
-            <a href="#" class="dropdown-toggle" data-toggle="dropdown">Faculty <span class="caret"></span></a>
-            <ul class="dropdown-menu">
-              <li><a href="/faculty/">2015 Faculty</a></li>
-              <li><a href="/faculty/speakers/">Speakers</a></li>
-              <li><a href="/faculty/workshops/">Photo Workshops</a></li>
-              <li><a href="/faculty/video-workshops/">Video Workshops</a></li>
-              <li class="divider"></li>
-              <li><a href="/faculty/list/">Previous Faculty</a></li>
             </ul>
           </li><!-- .dropdown -->
           <li<%= " class=\"active\"" if current_page.data.navigation == "Grants" %>><a href="/grants/">Grants</a></li>
