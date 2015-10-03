@@ -3,7 +3,7 @@
   square_url: "/images/2015/faculty/bill_frakes_square.jpg"
   id: "bill-frakes"
   bio:
-  - "Bill Frakes is a visual storyteller and educator based in Florida who has worked in every US state and in more than 135 countries for a wide variety of editorial and advertising clients."
+  - "Frakes is a visual storyteller and educator based in Florida who has worked in every US state and in more than 135 countries for a wide variety of editorial and advertising clients."
   - "His advertising clients include Apple, Nike, CocaCola, Nikon, Mars, Manfrotto, Champion, Isleworth, Stryker, IBM, Canon, Kodak, and Reebok. He directs music videos and television ads."
   - "Editorially, his work has appeared in virtually every major general interest publication in the world. His still photographs and short documentary films have been featured on hundreds of Websites as well as on most major television networks. He is currently on the masthead of Sports Illustrated."
   - "He won the coveted Newspaper Photographer of the Year award in the prestigious Pictures of the Year competition. He was a member of the Miami Herald staff that won the Pulitzer Prize for their coverage of Hurricane Andrew. He was awarded the Gold Medal by World Press Photo. He has also been honored by the Robert F. Kennedy Journalism Awards for reporting on the disadvantaged and by the Overseas Press club for distinguished foreign reporting. He has received hundreds of national and international awards for his work."
@@ -11,16 +11,30 @@
   - "In 2010 and 2013, he served on the jury of World Press Photo."
   - "Many years ago, a young American mother named Agnes Frakes pointed out images all around her tiny Nebraska town to her four-year-old son Bill: a cat’s shadow, a pool of oil beneath a car, his own name etched in a cookie tray of caramel popcorn. The boy looked at the objects and saw nothing. ‘Look again,’ she said. ‘There is always more there than what your eye sees…’ Twenty years later the boy became one of the most accomplished photographers in the world."
   - "– James McBride, part of his introduction in the book <em>Family: A Celebration of Humanity</em>."
+  workshop:
+    - description:
+      - "Frakes' workshop will deconstruct constructing his short documentary film, \"Letter to My Homeland.\" The entire process from beginning to end will be under discussion: finding, planning, shooting, production."
+      title: "Deconstruction of a Documentary"
 - name: "Tim Matsui"
   url: "/images/2015/faculty/tim_matsui.png"
   square_url: "/images/2015/faculty/tim_matsui.png"
   id: "tim-matsui"
   bio:
-  - "Tim Matsui is an Emmy-nominated visual journalist and filmmaker focusing on human trafficking, alternative energy, and the environment. Tim's clients have included Newsweek, Stern, Der Spiegel, GEO, Wired and many other domestic and international publications. Today, Tim partners with non profits and corporations, and self publishes, to tell meaningful stories grounded in tenets of journalism. A non profit founder, Pictures of the Year and World Press Photo winner, and recipient of grants from the Alexia Foundation, Open Society Foundations, Fledgling Fund and Fund for Investigative Journalism, Tim seeks to inform and engage viewers through his projects, using media for social change."
+  - "Matsui is an Emmy-nominated visual journalist and filmmaker focusing on human trafficking, alternative energy, and the environment. Tim's clients have included Newsweek, Stern, Der Spiegel, GEO, Wired and many other domestic and international publications. Today, Tim partners with non profits and corporations, and self publishes, to tell meaningful stories grounded in tenets of journalism. A non profit founder, Pictures of the Year and World Press Photo winner, and recipient of grants from the Alexia Foundation, Open Society Foundations, Fledgling Fund and Fund for Investigative Journalism, Tim seeks to inform and engage viewers through his projects, using media for social change."
+  workshop:
+    - description:
+      - "Tim Matsui is a photojournalist at heart, but he’s also become a documentary filmmaker, a non profit founder, and an agent for change. His extensive work on trauma and victimization started with sexual violence then transitioned to human trafficking for labor and sex, both domestically and abroad. His most recent project, the feature documentary The Long Night tells the story of seven lives forever changed by the American sex trade. Produced in partnership with MediaStorm, it won first prizes from World Press Photo, Pictures of the Year International, and Best of Photojournalism, along with a Webby Nomination and was a finalist for the Dart Center Award."
+      - "To fund this project, Matsui won the inaugural Women’s Initiative Grant from the Alexia Foundation. To develop the film’s impact campaign, he won a grant from the Fledgling Fund, in partnership with Andrew DeVigal and Laura LoForti of A Fourth Act, and ran a successful, $17,000 Kickstarter this summer."
+      - "Join Matsui to learn how you can use photojournalism, documentary film, and partnerships to engage audiences and help them become agents of change."
+      title: "Becoming an Agent of Change"
 - name: "Kassie Bracken"
   url: "/images/2015/faculty/kassie_bracken.jpg"
   square_url: "/images/2015/faculty/kassie_bracken_square.jpg"
   id: "kassie-bracken"
   bio:
-  - "Kassie Bracken is a Senior Video Journalist for The New York Times, where she reports, produces, shoots, and edits feature stories and short documentaries. She produced video features for Amy Harmon's 2008 Pulitzer Prize-winning series \"The DNA Age,\" on the impact of new genetic technology on everyday life and for Dan Barry's 2010 Pulitzer Prize-finalist \"This Land\" series, on the effects of the recession across the U. S. of Her work has been recognized with NPPA's Best of PhotoJournalism awards, the Katherine Schneider Award for Excellence in Reporting on Disability, The Casey Medal for Meritorious Journalism (runner-up) and by The New York Association of Black Journalists. She was a Peter Jennings Fellow and a RIAS/RTNDA Fellow and is an adjunct professor at CUNY Graduate School of Journalism."
-  - "Ms. Bracken is a graduate of Wesleyan University and will soon complete her master's degree in Human Rights Studies at Columbia University.  She caught a puck at Madison Square Garden at the age of eight and has been a N.Y. Rangers fan ever since."
+  - "Bracken is a Senior Video Journalist for The New York Times, where she reports, produces, shoots, and edits feature stories and short documentaries. She produced video features for Amy Harmon's 2008 Pulitzer Prize-winning series \"The DNA Age,\" on the impact of new genetic technology on everyday life and for Dan Barry's 2010 Pulitzer Prize-finalist \"This Land\" series, on the effects of the recession across the U. S. of Her work has been recognized with NPPA's Best of PhotoJournalism awards, the Katherine Schneider Award for Excellence in Reporting on Disability, The Casey Medal for Meritorious Journalism (runner-up) and by The New York Association of Black Journalists. She was a Peter Jennings Fellow and a RIAS/RTNDA Fellow and is an adjunct professor at CUNY Graduate School of Journalism."
+  - "Ms. Bracken is a graduate of Wesleyan University and will soon complete her master's degree in Human Rights Studies at Columbia University. She caught a puck at Madison Square Garden at the age of eight and has been a N.Y. Rangers fan ever since."
+  workshop:
+    - description:
+      - "There has never been a more dynamic time to be a visual journalist. In recent years, print and radio-based news outlets have embraced the power of video storytelling, breaking the confines of broadcast traditions to produce stories that are both emotionally and visually impactful. In this session Kassie Bracken will breakdown the elements necessary to craft compelling and memorable video stories (here's a mantra: motion + emotion + great sound!) Covered in this session will be the \"language\" of video - shooting in sequences and capturing great opening moments and transitional shots, as well as other important considerations like how to pre-produce your story and how to gain the trust of a subject to capture intimate and meaningful scenes and interviews. She will provide the backstory to her own work examples and discuss different types of kits she brings to various assignments."
+      title: "Motion + Emotion + Great Sound"

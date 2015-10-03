@@ -8,14 +8,19 @@ Below is a list of confirmed video workshops at the <strong>2015 Atlanta Photojo
 
 <% faculty = YAML.load(File.read("source/faculty/video-workshops/video-speakers.yml")) %>
 <% faculty.each do |f| %>
+  <hr>
   <div class="faculty-section">
-  <h3 id="<%= f['id'] %>"><%= f['name'] %></h3>
-  <% if f['url'] && f['url'] != "" %>
-    <img src="<%= f['url'] %>" alt="<%= f['name'] %>" class="thumbnail faculty-image">
+  <% if f['workshop'] %>
+  <h2 id="<%= f['id'] %>"><%= f['workshop'][0]['title'] %> - <%= f['name'] %></h2>
+  <img src="<%= f['url'] %>" alt="<%= f['name'] %>" class="thumbnail faculty-image">
+
+  <% f['workshop'][0]['description'].each do |paragraph| %>
+    <p><%= paragraph %></p>
   <% end %>
+  <h4>Speaker Bio</h4>
   <% f['bio'].each do |paragraph| %>
     <p><%= paragraph %></p>
   <% end %>
+  <% end %>
   </div>
-  <br>
 <% end %>

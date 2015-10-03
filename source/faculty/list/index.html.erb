@@ -15,7 +15,7 @@ navigation: Faculty
   <% d['faculty'].each do |faculty| %>
     <span class='faculty'>
       <% if faculty['url'] %>
-        <strong><a href="<%= faculty['url'] %>" target="_blank"><%= faculty['name'] %></a></strong> 
+        <strong><a href="<%= faculty['url'] %>"><%= faculty['name'] %></a></strong> 
       <% else %>
         <strong><%= faculty['name'] %></strong> 
       <% end %>

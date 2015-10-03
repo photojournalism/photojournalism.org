@@ -3,7 +3,7 @@
     <div class="container">
       <div class="navbar-header">
         <div id="nav-logo" class="logo">
-          <a class="logo-main" href="/" title="Atlanta Photojournalism Seminar"><img src="/images/logos/atlpj_logo_circle_text.png"></a>
+          <a class="logo-main" href="/" title="Atlanta Photojournalism Seminar"><img src="/images/logos/atlpj_logo_dates_2015.png"></a>
         </div>
         <button type="button" class="navbar-toggle" data-toggle="collapse" data-target="#navbar-collapse-1">
           <span class="sr-only">Toggle navigation</span>
@@ -14,16 +14,15 @@
       </div><!-- .navbar-header -->
       <div class="collapse navbar-collapse" id="navbar-collapse-1">
         <ul class="nav navbar-nav" id="navbar-links">
-          <li<%= " class=\"active\"" if current_page.data.navigation == "Home" %>><a href="/">Home</a></li>
+          <!--<li<%= " class=\"active\"" if current_page.data.navigation == "Home" %>><a href="/">Home</a></li>-->
           <li class="dropdown<%= " active" if current_page.data.navigation == "About" %>">
             <a href="#" class="dropdown-toggle" data-toggle="dropdown">About <span class="caret"></span></a>
             <ul class="dropdown-menu">
               <li><a href="/about/">General Info</a></li>
               <li><a href="/about/dates-and-location/">Dates and Location</a></li>
-              <li><a href="/about/staff/">Staff</a></li>
+              <li><a href="/about/staff/">Staff and Contact Info</a></li>
               <li><a href="/schedule/">Schedule</a></li>
               <li><a href="/contact/volunteer/">Volunteer</a></li>
-              <li><a href="/contact/">Contact</a></li>
             </ul>
           </li><!-- .dropdown -->
           <li class="dropdown<%= " active" if current_page.data.navigation == "Faculty" %>">
@@ -52,7 +51,8 @@
             </ul>
           </li><!-- .dropdown -->
           <li<%= " class=\"active\"" if current_page.data.navigation == "Grants" %>><a href="/grants/">Grants</a></li>
-          <li><a href="http://photojournalism.eventbrite.com">Register</a></li>
+          <li><a href="/sponsors">Sponsors</a></li>
+          <li><a href="http://photojournalism.eventbrite.com" target="_blank">Register</a></li>
         </ul><!-- .nav .navbar-nav -->
       </div><!-- .collapse .navbar-collapse -->
     </div><!-- .container -->

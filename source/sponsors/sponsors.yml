@@ -6,6 +6,18 @@
   :homepage: "http://www.canon.com/"
   :image_url: "/images/sponsors/canon.png"
   :image_height: 125
+- :name: "Sony"
+  :homepage: "http://www.sony.com/"
+  :image_url: "/images/sponsors/sony.png"
+  :image_height: 125
+- :name: "Sony Artisans of Imagery"
+  :homepage: "http://store.sony.com/-cms-page.content.artisans-of-imagery"
+  :image_url: "/images/sponsors/sony_aoi.jpg"
+  :image_height: 125
+- :name: "ASMP"
+  :homepage: "http://asmp.org/"
+  :image_url: "/images/sponsors/asmp.jpg"
+  :image_height: 125
 - :name: "AP"
   :homepage: "http://www.ap.org/"
   :image_url: "/images/sponsors/ap.png"
@@ -13,28 +25,16 @@
 - :name: "Grady College - UGA"
   :homepage: "http://grady.uga.edu/"
   :image_url: "/images/sponsors/uga-grady-college.jpg"
-  :image_height: 125
-- :name: "USA Today Sports"
-  :homepage: "http://www.usatoday.com/sports/"
-  :image_url: "/images/sponsors/usatoday.png"
+  :image_height: 100
+- :name: "Think Tank Photo"
+  :homepage: "http://www.thinktankphoto.com/"
+  :image_url: "/images/sponsors/thinktank.jpg"
   :image_height: 125
 - :name: "Manfrotto"
   :homepage: "http://www.manfrotto.com/"
   :image_url: "/images/sponsors/manfrotto.png"
   :image_height: 125
-- :name: "NPPA"
-  :homepage: "http://www.nppa.org/"
-  :image_url: "/images/sponsors/nppa.jpg"
-  :image_height: 125
-- :name: "Think Tank Photo"
-  :homepage: "http://www.thinktankphoto.com/"
-  :image_url: "/images/sponsors/thinktank.jpg"
-  :image_height: 125
-- :name: "Zuma Press"
-  :homepage: "http://www.zumapress.com/"
-  :image_url: "/images/sponsors/zuma.jpg"
-  :image_height: 125
-- :name: "School of Visual Communication at Ohio University"
-  :homepage: "http://www.ohio.edu/scrippscollege/schoolsandcenters/visual-communication.cfm"
-  :image_url: "/images/sponsors/viscom.jpg"
-  :image_height: 125
+- :name: "KEH"
+  :hompage: "https://www.keh.com/"
+  :image_url: "/images/sponsors/keh.jpeg"
+  :image_height: 150

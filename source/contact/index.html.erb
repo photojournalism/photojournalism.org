@@ -1,22 +1,8 @@
----
-title: Contact
-navigation: About
----
-
-<% members = YAML.load(File.read("source/contact/contact.yml")) %>
-
-<% members.each do |member| %>
-<p>
-  <strong><%= member['title'] %></strong><br>
-  Contact: <%= member['name'] %><br>
-  <em><a href="mailto:<%= member['email'] %>"><%= member['email'] %></a></em>
-</p>
-<% end %>
-
-<p><strong>Twitter:</strong> <a href="https://twitter.com/atlantaseminar"><em>@atlantaseminar</em></a></p>
-<p>
-  <strong>Mailing address:</strong><br>
-  Atlanta Photojournalism Seminar Inc.<br>
-  PMB 420, 5579-B Chamblee Dunwoody Rd<br>
-  Dunwoody, GA 30338
-</p>
+<html>
+<head>
+  <title>Staff and Contact Information</title>
+  <meta http-equiv="refresh" content="0; url=/about/staff/" />
+</head>
+<body>
+</body>
+</html>
