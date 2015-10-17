@@ -22,6 +22,18 @@
   :homepage: "http://www.ap.org/"
   :image_url: "/images/sponsors/ap.png"
   :image_height: 125
+- :name: "NPPA"
+  :homepage: "http://www.nppa.org/"
+  :image_url: "/images/sponsors/nppa.jpg"
+  :image_height: 125
+- :name: "USA Today Sports"
+  :homepage: "http://www.usatoday.com/sports/"
+  :image_url: "/images/sponsors/usatoday2.jpg"
+  :image_height: 125
+- :name: "Yodelist"
+  :homepage: "https://yodelist.com/"
+  :image_url: "/images/sponsors/yodelist_2.jpg"
+  :image_height: 75
 - :name: "Grady College - UGA"
   :homepage: "http://grady.uga.edu/"
   :image_url: "/images/sponsors/uga-grady-college.jpg"
