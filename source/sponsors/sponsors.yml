@@ -37,6 +37,15 @@ gold:
     :homepage: "https://yodelist.com/"
     :image_url: "/images/sponsors/yodelist_2.jpg"
     :image_height: 100
+  - :name: "Zuma Press"
+    :homepage: "http://www.zumapress.com/"
+    :image_url: "/images/sponsors/zuma.jpg"
+    :image_height: 200
+  - :name: "DoubleTruck Magazine"
+    :homepage: "http://doubletruckmagazine.com/"
+    :image_url: "/images/sponsors/doubletruck.png"
+    :image_height: 100
+    :dark: true
 silver:
   - :name: "USA Today Sports"
     :homepage: "http://www.usatoday.com/sports/"
