@@ -25,3 +25,5 @@ __Donations to the grant fund can be made online at the EventBrite page [photojo
 <a href="/documents/dave-martin-grant-press-release-2015.pdf" alt="Seminar Opens Second Year of Grant for College Students" title="Click here to download this press release as a PDF" class="tooltip-link" data-placement="right">
   <img src="/images/icons/pdf.png" alt="Press Release PDF" width="48">
 </a>
+
+<hr>
