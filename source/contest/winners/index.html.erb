@@ -16,7 +16,7 @@ navigation: Contest
 are listed below.</p>
 
 <ul>
-<% (2014).downto(1975).each do |year| %>
+<% (2015).downto(1975).each do |year| %>
   <li>
   <% if !years_we_dont_have.include? year %>
     <a href="/contest/winners/<%= year %>/"><%= year %></a>

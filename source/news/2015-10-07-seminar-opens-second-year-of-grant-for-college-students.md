@@ -14,7 +14,7 @@ Lewkowicz, a native New Yorker living in Brooklyn, has been published in Time Ma
 
 Applicants must be currently enrolled in college. A detailed description of the project, including how the money will be spent, is required. Applicants should include a link to their portfolio, as well as to any work already begun on the project. (If the project has not been started, only a portfolio of work is required.) The project can be shot in stills, video, or a combination. Half of the grant will be awarded up front and half will be awarded when the project is submitted. The project must be submitted by Sept. 1, 2016. It will be showcased during the 2016 Atlanta Photojournalism Seminar and displayed on the group’s website. Seminar faculty and staff will determine the winner.
 
-__Students may apply online at [www.photojournalism.org/grants/dave-martin-student-grant/](http://www.photojournalism.org/grants/dave-martin-student-grant/). The deadline for entry is 11:59 p.m., Nov. 1, 2015.__
+__Students may apply online at [www.photojournalism.org/grants/dave-martin-student-grant/](http://www.photojournalism.org/grants/dave-martin-student-grant/). The deadline for entry is 11:59 p.m., Nov. 11, 2015.__
 
 Martin, a larger-than-life longtime Associated Press photographer, passed away suddenly Jan. 1, 2014, while on assignment at the 2013 Chik-fil-A Bowl in Atlanta. His final photo was a vivid game-ender that summed up his philosophy and drive to get “the picture.” The $1,000 grant in his honor is designed to be awarded to a college student.
 

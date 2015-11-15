@@ -1,0 +1,108 @@
+---
+:year: 2015
+:info: <p>Below is a list of the winners from the <strong>2015 Atlanta Photojournalism Seminar Contest</strong>.
+  Thank you to everyone who entered and participated in the contest, and congratulations to the winners!</p>
+
+  <p>Click the category title to view the winning images.</p>
+:categories:
+- :name: Best in Show
+  :url: best-in-show/
+  :winners:
+  - :info: Javier Arcenillas
+- :name: Rich Mahan Best Student Portfolio
+  :url: rich-mahan-best-student-portfolio/
+  :winners:
+  - :info: First Place – Callaghan O'Hare
+- :name: Best Portfolio
+  :url: best-portfolio/
+  :winners:
+  - :info: First Place – Chip Somodevilla / Getty Images News
+- :name: Spot News
+  :url: spot-news/
+  :winners:
+  - :info: First Place – Abbas Momani / Agent France-Presse
+  - :info: Second Place – Ozcan Yaman / Agent France-Presse
+  - :info: Third Place – Bulent Kilic / Agent France-Presse
+  - :info: Honorable Mention – Sait Serkan Gurbuz / Reuters
+  - :info: Honorable Mention – David Goldman / Associated Press
+  - :info: Honorable Mention – Mark Garfinkel / Boston Herald
+- :name: General News
+  :url: general-news/
+  :winners:
+  - :info: First Place – Vadim Ghirda / Associated Press
+  - :info: Second Place – Patrick Semansky / Associated Press
+  - :info: Third Place – Yannis Behrakis / Reuters
+  - :info: Honorable Mention – Alvaro Barrientos / Associated Press
+  - :info: Honorable Mention – Brian Snyder / Reuters
+- :name: Feature
+  :url: feature/
+  :winners:
+  - :info: First Place – Javier Arcenillas
+  - :info: Second Place – Mukhtar Khan / Associated Press
+  - :info: Third Place – Angelos Tzortzinis / Agent France-Presse
+  - :info: Honorable Mention – Scott Strazzante / San Francisco Chronicle
+  - :info: Honorable Mention – Brendan Sullivan / Omaha World-Herald
+- :name: Portrait/Personality
+  :url: portrait-personality/
+  :winners:
+  - :info: First Place – Daniel Ochoa de Olza / Associated Press
+  - :info: Second Place – Dimitar Dilkoff / Agence France-Presse
+  - :info: Third Place – Theo Stroomer
+  - :info: Honorable Mention – Pete Marovich / Corbis
+  - :info: Honorable Mention – Francis Gardler / Lincoln Journal Star
+  - :info: Honorable Mention – Andrew Russell / Pittsburgh Tribune-Review
+- :name: Sports Feature
+  :url: sports-feature/
+  :winners:
+  - :info: First Place – Matthias Schrader / Associated Press
+  - :info: Second Place – Pete Marovich / Freelance
+  - :info: Third Place – David Ramos Vidal
+- :name: Sports Action
+  :url: sports-action/
+  :winners:
+  - :info: First Place – Patrick Smith / Getty Images
+  - :info: Second Place – Stefan Wermuth / Reuters
+  - :info: Third Place – Veasey Conway
+  - :info: Honorable Mention – Patrick Smith / Getty Images
+- :name: Sports Picture Story
+  :url: sports-picture-story/
+  :winners:
+  - :info: First Place – Andres Kudacki / Associated Press
+  - :info: Second Place – Patrick Smith / Getty Images
+  - :info: Honorable Mention – Susana Vera / REUTERS
+- :name: Feature Picture Story/Essay
+  :url: feature-picture-story-essay/
+  :winners:
+  - :info: First Place – Javier Arcenillas
+  - :info: Second Place – Probal Rashid
+  - :info: Third Place – Maye Wong / Associated Press
+  - :info: Honorable Mention – Gabriela Arp
+  - :info: Honorable Mention – Andres Kudacki / Associated Press
+  - :info: Honorable Mention – Stephen Morton
+- :name: Chris Hondros Memorial International News
+  :url: chris-hondros-memorial-international-news/
+  :winners:
+  - :info: First Place – Win McNamee / Getty Images
+  - :info: Second Place – Vadim Ghirda / Associated Press
+  - :info: Third Place – Jerome Delay / Associated Press
+- :name: News Picture Story
+  :url: news-picture-story/
+  :winners:
+  - :info: First Place – Santi Palacios / Associated Press
+  - :info: Second Place – Justin Sullivan
+  - :info: Third Place – Pierpaolo Mittica
+  - :info: Honorable Mention – Patrick Semansky / Associated Press
+  - :info: Honorable Mention – Chip Somodevilla / Getty Images News
+- :name: Short Term Documentary Project
+  :url: short-term-documentary-project/
+  :winners:
+  - :info: First Place – Gabriela Arp
+  - :info: Second Place – Sophia Allison / UNC - Chapel Hill
+  - :info: Honorable Mention – Celia Tobin
+  - :info: Honorable Mention – Guy Wathen / Pittsburgh Tribune-Review
+- :name: Long Term Documentary Project
+  :url: long-term-documentary-project/
+  :winners:
+  - :info: First Place – John Pendygraft / Tampa Bay Times
+  - :info: Second Place – Carter McCall
+  - :info: Honorable Mention – Sophia Allison / UNC - Chapel Hill

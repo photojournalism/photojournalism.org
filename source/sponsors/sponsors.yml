@@ -46,6 +46,16 @@ gold:
     :image_url: "/images/sponsors/doubletruck.png"
     :image_height: 100
     :dark: true
+  - :name: "PPR"
+    :homepage: "https://ppratlanta.com/"
+    :image_url: "/images/sponsors/ppr.png"
+    :image_height: 100
+    :dark: true
+  - :name: "PPR pix"
+    :homepage: "http://pprpix.com/"
+    :image_url: "/images/sponsors/pprpix.png"
+    :image_height: 100
+    :dark: true
 silver:
   - :name: "USA Today Sports"
     :homepage: "http://www.usatoday.com/sports/"
