@@ -3,7 +3,7 @@ title: Seminar Opens Second Year of Grant for College Students
 date: 2015-10-07 22:10 UTC
 navigation: News
 tags: announcements
-comments: on
+comments: off
 ---
 
 There is less than one month remaining for college students to enter to win the Dave “Mullet” Martin Grant, offered by the Atlanta Photojournalism Seminar. The grant, in its second year, gives one student who wishes to pursue or continue a personal photojournalism project.
