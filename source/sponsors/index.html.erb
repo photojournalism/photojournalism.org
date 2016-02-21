@@ -1,17 +1,6 @@
 ---
-title: 2015 Sponsors
+title: 2016 Sponsors
 navigation: Sponsors
 ---
 
-<% data = YAML.load_file("source/sponsors/sponsors.yml") %>
-
-<div class='sponsors'>
-  <% data.each do |level, sponsors| %>
-    <h2><%= level.capitalize %> Level</h2>
-    <% sponsors.each do |sponsor| %>
-      <a href="<%= sponsor[:homepage] %>" target="_blank">
-        <img src="<%= sponsor[:image_url] %>" alt="<%= sponsor[:name] %>" height="<%= sponsor[:image_height] %>" <%= if sponsor[:dark] then "class='dark'" end %>>
-      </a>
-    <% end %>
-  <% end %>
-</div>
+<p>Sponsors for the <strong>2016 Atlanta Photojournalism Seminar</strong> will be announced soon. Check back on our site and via social media for updates.</p>
