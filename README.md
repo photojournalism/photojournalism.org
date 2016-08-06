@@ -12,3 +12,13 @@ $ cd photojournalism.org
 $ bundle install
 $ middleman server
 ```
+
+### Deploying the Site
+
+Copy the `script/setup.example` file to `script/setup`, and update the `user`, `server`, `port`, and path to where you'd like it to be deployed on the server (which must be a bare git repository). For example:
+
+```
+me@example.com:22/var/www/website.git
+```
+
+Then run `script/deploy` from the root of the repository.
