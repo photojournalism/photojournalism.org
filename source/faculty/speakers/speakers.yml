@@ -1,8 +1,24 @@
-- name: "Melissa Golden"
-  url: "/images/2016/faculty/melissa_golden.jpg"
-  square_url: "/images/2016/faculty/melissa_golden_square.jpg"
-  id: 'melissa-golden'
+- name: "David Bergman"
+  url: '/images/2016/faculty/david_bergman.jpg'
+  square_url: '/images/2016/faculty/david_bergman_square.jpg'
+  id: 'david-bergman'
   bio:
-  - "Photographer Melissa Golden lives in Atlanta, but she isn’t really from anywhere in particular. Her work is influenced by all the places she’s called home at some point- the brazen oddity of Southern California, the tradition of the Deep South, the storm light of rural Florida, the intrigue of the Middle East and the stiff formality of the District of Columbia. Over her diverse and unlikely career, she’s toured with rock stars, gotten stuck in a secret elevator with the Speaker of the House, hitched a ride through a trailer park in a monster truck, hung out the back of an airplane over the Gulf of Mexico, and once found herself covered entirely in chihuahuas."
-  - "Melissa is represented by Redux Pictures and her work has been recognized by American Photography, the White House News Photographer’s Association, the World Photography Organization and the Eddie Adams Workshop and has been shown at exhibitions in DC, LA, Stockholm and Cape Town."
-  - "Her clients include Fast Company, the Wall Street Journal, ESPN Magazine, CNN, and Variety among others."
+  - "Canon Explorer of Light David Bergman is a New York based music, portrait, and sports photographer. He has been Bon Jovi's official tour photographer since 2010, documenting the band on stage and on the road in more than 30 countries on 6 continents. In addition to his other celebrity clients, Bergman has 13 Sports Illustrated covers to his credit and has photographed numerous Olympics, World Series', Super Bowls, NBA and NCAA Championships. His high-resolution GigaPan of President Obama's first inaugural speech was viewed by over 30 million people, and he produced a 20,000 megapixel image at Yankee Stadium that was printed and displayed 130 feet wide. Bergman is an engaging and passionate public speaker and educator, and hosts a weekly web series, “Two Minute Tips with David Bergman” for AdoramaTV. He was a charter member of Apple's prestigious Aperture Advisory Board, is on the design board for Think Tank Photo, and is an AdoramaPix ambassador. Before moving to New York City in 2001, Bergman was a photojournalist on staff at the Miami Herald and covered news and sporting events around the world."
+- name: "Deanne Fitzmaurice"
+  url: "/images/2016/faculty/deanne_fitzmaurice.jpg"
+  square_url: "/images/2016/faculty/deanne_fitzmaurice_square.jpg"
+  id: 'deanne-fitzmaurice'
+  bio:
+  - "As a Pulitzer Prize-winning documentary photographer and storyteller, this San Francisco-based photographer is most known for her unique ability to go behind the scenes to discover and convey personal, intimate and emotional stories through images. Fitzmaurice, a Nikon Ambassador, represents a wide variety of publications, including creating content for Sports Illustrated and ESPN, while continuing to shoot assignments for National Geographic and many other respected outlets. In addition to her editorial work, she also holds a very impressive portfolio of commercial photography with a myriad of major brands and is a highly decorated storyteller. She has received awards from  American Photography, Pictures of the Year International and Communication Arts just to name a few."
+- name: 'Jessica Rinaldi'
+  url: '/images/2016/faculty/jessica_rinaldi.jpg'
+  square_url: '/images/2016/faculty/jessica_rinaldi_square.jpg'
+  id: 'jessica-rinaldi'
+  bio:
+  - 'Jessica Rinaldi is a staff photographer for <em>The Boston Globe</em>. She graduated from Boston University in 2001 with a B.S. in Journalism. Prior to joining the <em>Boston Globe</em> she spent ten years as a contract photographer for Reuters based in Boston, Dallas and New York City. She was awarded the 2016 Pulitzer Prize in Feature Photography for, <em>The Life and Times of Strider Wolf</em>. She was also named a Pulitzer Finalist in the same category for, <em>A Life Unraveling</em>. Rinaldi was twice named Boston Press Photographer of the Year in 2015 and 2014. Her work has also been recognized by POYi, NPPA, Scripps Howard and ASNE.'
+- name: "Eric Thayer"
+  url: '/images/2016/faculty/eric_thayer.jpg'
+  square_url: '/images/2016/faculty/eric_thayer_square.jpg'
+  id: 'eric-thayer'
+  bio:
+  - 'Eric Thayer is a photojournalist based in New York. As a regular contributor to The New York Times, Getty, The Wall Street Journal, Sports Illustrated, and Reuters, he has covered national news, politics, and natural disasters. He has extensively covered three presidential campaigns and is working on a project focused on the U.S. Mexico border.'

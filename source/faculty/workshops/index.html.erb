@@ -1,0 +1,25 @@
+---
+title: 2016 Photo Workshops
+navigation: Faculty
+comments: off
+---
+
+Below is a list of confirmed photo workshops for the <strong>2016 Atlanta Photojournalism Seminar</strong>:
+
+<% faculty = YAML.load(File.read("source/faculty/workshops/workshops.yml")) %>
+<% faculty.each do |f| %>
+  <div class="faculty-section">
+  <% if f['workshop'] %>
+  <h2 id="<%= f['id'] %>"><%= f['workshop'][0]['title'] %> - <%= f['name'] %></h2>
+  <img src="<%= f['url'] %>" alt="<%= f['name'] %>" class="thumbnail faculty-image">
+
+  <% f['workshop'][0]['description'].each do |paragraph| %>
+    <p><%= paragraph %></p>
+  <% end %>
+  <h4>Speaker Bio</h4>
+  <% f['bio'].each do |paragraph| %>
+    <p><%= paragraph %></p>
+  <% end %>
+  <% end %>
+  </div>
+<% end %>
