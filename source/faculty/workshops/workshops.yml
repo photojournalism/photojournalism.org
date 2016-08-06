@@ -1,15 +1,14 @@
-- name: "Melissa Golden"
-  url: "/images/2016/faculty/melissa_golden.jpg"
-  square_url: "/images/2016/faculty/melissa_golden_square.jpg"
-  id: 'melissa-golden'
+- name: "Todd Bigelow"
+  url: "/images/2016/faculty/todd_bigelow.jpg"
+  square_url: "/images/2016/faculty/todd_bigelow_square.jpg"
+  id: "todd-bigelow"
   bio:
-  - "Photographer Melissa Golden lives in Atlanta, but she isn’t really from anywhere in particular. Her work is influenced by all the places she’s called home at some point- the brazen oddity of Southern California, the tradition of the Deep South, the storm light of rural Florida, the intrigue of the Middle East and the stiff formality of the District of Columbia. Over her diverse and unlikely career, she’s toured with rock stars, gotten stuck in a secret elevator with the Speaker of the House, hitched a ride through a trailer park in a monster truck, hung out the back of an airplane over the Gulf of Mexico, and once found herself covered entirely in chihuahuas."
-  - "Melissa is represented by Redux Pictures and her work has been recognized by American Photography, the White House News Photographer’s Association, the World Photography Organization and the Eddie Adams Workshop and has been shown at exhibitions in DC, LA, Stockholm and Cape Town."
-  - "Her clients include Fast Company, the Wall Street Journal, ESPN Magazine, CNN, and Variety among others."
+  - "Todd Bigelow has worked for over twenty-five years for some of the world's leading publications, non-profits and corporations including Sports Illustrated, National Geographic Traveler, Smithsonian, Time, ESPN.com, Newsweek, People, The NY Times Magazine, LA Times, USA Today, Costco, Target, The James Irvine Foundation and others. His work has been exhibited internationally and his images reside in the permanent collection at the California Museum of Photography and the Oakland Museum of California. His workshop, The Business of Photography, is offered by leading universities, professional photography organizations and photo festivals around the country and was named three times as a \"fantastic\" and \"inspiring\" workshop by Photoshelter.  Todd has also taught photography and photojournalism courses at California State University, Northridge and at UCLA Extension."
   workshop:
     - description:
-      - ""
-      title: "Portraits"
+      - "The reality for photographers working in the editorial, corporate, and non-profit fields is such that photographers' rights to maintain control over the distribution of their images has been eroded with the evolution to digital publishing. Todd's talks will draw from a section of his workshop dealing with the important role contracts, licensing and combating infringement play in a freelance photographer's life. We will analyze real contracts offered by clients, view real requests from publishers while discussing licensing options, and touch on ways to combat and recover licensing fees lost to digital infringement. "
+      - "Todd will present three workshops that can be attended individually or together:<br>- Image Licensing<br>- Contracts<br>- Copyright and Combating Infringement"
+      title: "Talking Business"
 - name: "Gary Hershorn"
   url: "/images/2016/faculty/gary_hershorn.jpg"
   square_url: "/images/2016/faculty/gary_hershorn_square.jpg"
@@ -17,9 +16,35 @@
   bio:
   - "Gary Hershorn began his photography career with United Press Canada in 1979 in Toronto. After six years as a photographer there, he started working with Reuters as Chief Photographer, Canada in 1985."
   - "During his 29-year career with Reuters, he worked as a photographer in Toronto, Senior Photographer in Washington, DC, Picture Editor-Americas and Global Sports Pictures Editor."
-  - "As a photographer, Hershorn covered 17 Olympic games, 24 Masters Golf tournaments, 24 Academy Awards, numerous Super Bowl’s, World Series, Stanley Cup’s, World Cup’s and championships in most sports around the world. His work also includes news and entertainment events like elections, summits and a variety of award shows."
+  - "As a photographer, Hershorn covered 17 Olympic games, 24 Masters Golf tournaments, 24 Academy Awards, numerous Super Bowl's, World Series, Stanley Cup's, World Cup's and championships in most sports around the world. His work also includes news and entertainment events like elections, summits and a variety of award shows."
   - "Following his career at Reuters, he worked for the app, Flipboard before branching out as a freelance photographer and editor in 2016."
   workshop:
     - description:
-      - ""
+      - "Gary Hershorn will do a workshop about Publishing Photography/Photojournalism in a time of social media."
       title: "Social Media"
+- name: "Melissa Golden"
+  url: "/images/2016/faculty/melissa_golden.jpg"
+  square_url: "/images/2016/faculty/melissa_golden_square.jpg"
+  id: 'melissa-golden'
+  bio:
+  - "Photographer Melissa Golden lives in Atlanta, but she isn't really from anywhere in particular. Over her diverse and unlikely career, she's toured with rock stars, gotten stuck in a secret elevator with the Speaker of the House, hitched a ride through a flooded trailer park in a monster truck, hung out the back of an airplane over the Gulf of Mexico, and once found herself covered entirely in chihuahuas."
+  - "A photojournalist by training, she's been making portraits for the pages and covers of magazines for years and by now has met and stolen the souls of the tech, business and political world's biggest newsmakers. With her camera, of course."
+  - "Melissa is represented by Redux Pictures and her clients include Fast Company, ESPN Magazine, CNN, People, and Variety among others."
+  workshop:
+    - description:
+      - ""
+      title: "Portraits"
+- name: "Jennifer Kilberg"
+  url: "/images/2016/faculty/jennifer_kilberg.jpg"
+  square_url: "/images/2016/faculty/jennifer_kilberg_square.jpg"
+  id: 'jennifer-kilberg'
+  bio:
+  - "After graduating Boston University visual arts school with a BFA, Jennifer moved to New York. Throughout her career, she has assisted photographers and worked in all aspects of the business until she found her true passion - consulting."
+  - "Before becoming a freelance consultant, Jennifer worked at NBC/Universal Television's SCI FI Channel as a photo editor, and had the opportunity to hire and work with top photographers including Mary Ellen Mark and David La Chappelle, among others. Her television and film experience adds yet another facet to Jennifer's ability to help photographers understand what it takes to work in those markets."
+  - "As a professional photographer herself, Jennifer was hired by the Chinese National Tourist Office for their marketing materials and also had the opportunity to photograph various destinations in Southeast Asia, Papua New Guinea, Africa, and India."
+  - "Jennifer also learned the technical side of the business both as as an account executive for Kodak Professional and as the manager of the post-production department of Shoot Digital in New York."
+  - "Working as an account manager at AmericanPhoto and Popular Photography magazines helped Jennifer gain insight into the sales and marketing side of the industry. Finally, as a teacher, Jennifer has given presentations and lectures to W Magazine, Parsons School of Design, FIT, ASMP, School of Visual Arts and APA to name a few. In Atlanta, Georgia, Jennifer is currently teaching the business side of Photography and Portfolio development at The Creative Circus and The Portfolio Center."
+  workshop:
+    - description:
+      - ""
+      title: "Marketing"
