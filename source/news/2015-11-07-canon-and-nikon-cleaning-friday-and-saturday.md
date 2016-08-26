@@ -6,6 +6,6 @@ tags: announcements
 comments: off
 ---
 
-<p>For the first time at the Seminar, our sponsors Canon and Nikon will be doing camera equipment (limit two per registrant) on both Friday and Saturday. Bring your equipment early to their tables early!</p>
+<p>For the first time at the Seminar, our sponsors Canon and Nikon will be doing camera equipment (limit two per registrant) on both Friday and Saturday. Bring your equipment to their tables early!</p>
 
 <hr>

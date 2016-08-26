@@ -1,3 +1,13 @@
+- name: "Samantha Stark"
+  url: "/images/2016/faculty/samantha_stark.jpg"
+  square_url: "/images/2016/faculty/samantha_stark.jpg"
+  id: "samantha-stark"
+  bio:
+  - Samantha Stark is a staff video journalist at The New York Times. Specializing in stories about unique characters and human relationships, her work has taken her to the frontlines of the Supreme Court same-sex marriage case, a fast-food worker picket line, a training for would-be beauty queens and an 87-year-old's first time on the red carpet. She shoots and edits her own work, and is currently working on a team at the Times that is developing new video series. She was recognized by Pictures of the Year International for a documentary short about the same-sex marriage case and nominated for an Emmy for work on LGBT teenagers. She has taught video storytelling at the City University of New York's Graduate School of Journalism, from where she holds a masters degree.
+  workshop:
+    - description:
+      - 'This workshop covers the basics for still photographers making the leap into video — for those who are already visual storytellers but need to know how shooting video is different than stills. Samantha has worked with many photographers at The New York Times and helped them learn how to get the shots needed that will edit into a coherent story.'
+      title: 'Making the Leap (into Video)'
 - name: "Eric Seals"
   url: "/images/2016/faculty/eric_seals.jpg"
   square_url: "/images/2016/faculty/eric_seals.jpg"

@@ -20,7 +20,7 @@ Martin, a larger-than-life longtime Associated Press photographer, passed away s
 
 __Donations to the grant fund can be made online at the EventBrite page [photojournalism.eventbrite.com](http://photojournalism.eventbrite.com), or by mail to Atlanta Photojournalism Seminar Inc., PMB 420, 5579-B Chamblee Dunwoody Rd, Dunwoody, GA 30338, Attn: KEVIN LILES Ref: DAVE MARTIN STUDENT GRANT__
 
-"As we’ve said before, Dave was as much teacher as photojournalist,"" said Atlanta Photojournalism Seminar President Kevin Liles. "This grant helps us share his legacy with others who didn’t get the chance to see him work in person – his desire to help others, teach and share what he had to offer, even to his competitors."
+"As we’ve said before, Dave was as much teacher as photojournalist," said Atlanta Photojournalism Seminar President Kevin Liles. "This grant helps us share his legacy with others who didn’t get the chance to see him work in person – his desire to help others, teach and share what he had to offer, even to his competitors."
 
 <a href="/documents/dave-martin-grant-press-release-2015.pdf" alt="Seminar Opens Second Year of Grant for College Students" title="Click here to download this press release as a PDF" class="tooltip-link" data-placement="right">
   <img src="/images/icons/pdf.png" alt="Press Release PDF" width="48">
