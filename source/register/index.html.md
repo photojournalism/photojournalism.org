@@ -7,17 +7,9 @@ Registration information for the 44th annual Atlanta Photojournalism Seminar, th
 
 [__CLICK HERE TO REGISTER__](http://photojournalism.eventbrite.com){:target="_blank"}
 
-Register Early and Save Money!!!
-
 ### Professionals
 
-#### EARLY BIRD SPECIALS (ENDS OCT. 1)
-
-* Entire Seminar Package (Photo Workshops + Video Workshops + Speaker Presentations) = __$235__ (A $20 savings!)
-* Photo Workshops + Video Workshops = __$155__ (A $15 savings!)
-* Photo Workshops, Video Workshops, or Speaker Presentations Only = __$85__ (A $10 savings!)
-
-#### REGULAR PRICES (AFTER OCT. 1)
+#### REGULAR PRICES
 
 * Entire Seminar Package (Photo Workshops + Video Workshops + Speaker Presentations) = __$255__
 * Photo Workshops + Video Workshops = __$170__

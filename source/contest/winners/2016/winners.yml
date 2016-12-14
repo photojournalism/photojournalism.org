@@ -1,0 +1,137 @@
+---
+:year: 2016
+:info: Below is a list of the winners from the Atlanta Photojournalism Seminar's 2016
+  photo contest. Thank you to everyone who entered and participated in the contest,
+  and congratulations to the winners!
+:categories:
+- :name: Best in Show
+  :url: best-in-show/
+  :winners:
+  - :info: Jonathan Bachman / Reuters
+- :name: Best Portfolio
+  :url: best-portfolio/
+  :winners:
+  - :info: Matt McClain / The Washington Post
+- :name: Rich Mahan Best Student Portfolio
+  :winners: []
+- :name: General News
+  :url: general-news/
+  :winners:
+  - :info: First Place – Jonathan Bachman / Reuters
+  - :info: Second Place – Dar Yasin / Associated Press
+  - :info: Third Place – Ricky Carioti / The Washington Post
+  - :info: Honorable Mention – Emilio Morenatti / Associated Press
+  - :info: Honorable Mention – Daniel Ochoa de Olza / Associated Press
+- :name: Spot News
+  :url: spot-news/
+  :winners:
+  - :info: First Place – Jean-Philippe Ksiazek / Agence France-Presse
+  - :info: Second Place – Aris Messinis / Agence France-Presse
+  - :info: Third Place – Abd Doumany / Agence France-Presse
+  - :info: Honorable Mention – Phil Noble / Reuters
+  - :info: Honorable Mention – Marco Longari / Agence France-Presse
+  - :info: Honorable Mention – Ben Curtis / Associated Press
+- :name: Feature
+  :url: feature/
+  :winners:
+  - :info: First Place – Daniel Ochoa de Olza / Associated Press
+  - :info: Second Place – Daniel Ochoa de Olza / Associated Press
+  - :info: Third Place – Saul Loeb / Agence France-Presse
+  - :info: Honorable Mention – Ebrahim Noroozi / Associated Press
+  - :info: Honorable Mention – Muhammed Muheisen / Associated Press
+  - :info: Honorable Mention – Bulent Kilic / Agence France-Presse
+- :name: Sports Feature
+  :url: sports-feature/
+  :winners:
+  - :info: First Place – Sascha Fromm / Thueringer Allgemeine
+  - :info: Second Place – Maye-E Wong / Associated Press
+  - :info: Third Place – Wally Skalij / Los Angeles Times
+  - :info: Honorable Mention – Sascha Fromm / Thueringer Allgemeine
+  - :info: Honorable Mention – Dieu Nalio Chery / Associated Press
+  - :info: Honorable Mention – Billy Weeks
+- :name: Sports Action
+  :url: sports-action/
+  :winners:
+  - :info: First Place – Richard Rodriguez / Fort Worth Star-Telegram
+  - :info: Second Place – Sascha Fromm / Thueringer Allgemeine
+  - :info: Third Place – Joel Marklund / Bildbyran Photo Agency
+  - :info: Honorable Mention – Mark J. Terrill / Associated Press
+  - :info: Honorable Mention – Matthias Hangst / Getty Images
+  - :info: Honorable Mention – Tyrone Siu Man Chiu / Reuters
+- :name: Portrait/Personality
+  :url: portrait-personality/
+  :winners:
+  - :info: 'First Place – Rod Lamkey Jr. / Independent'
+  - :info: Second Place – Justin Merriman / Pittsburgh Tribune-Review
+  - :info: Third Place – Phil Noble / Reuters
+  - :info: Honorable Mention – Tatiana Vinogradova
+  - :info: Honorable Mention – Matt McClain / The Washington Post
+  - :info: Honorable Mention – Patrick Smith / Getty Images
+- :name: Elections
+  :url: elections/
+  :winners:
+  - :info: First Place – Kevin Dietsch / United Press International
+  - :info: Second Place – Lucy Nicholson / Reuters
+  - :info: Third Place – Brian Snyder / Reuters
+  - :info: Honorable Mention – Matt McClain / The Washington Post
+  - :info: Honorable Mention – Mark J. Terrill / Associated Press
+  - :info: Honorable Mention – Ricky Carioti / The Washington Post
+- :name: Olympics
+  :url: olympics/
+  :winners:
+  - :info: First Place – Matthias Hangst / Getty Images
+  - :info: Second Place – Joel Marklund / Bildbyran Photo Agency
+  - :info: Third Place – Maye-E Wong / Associated Press
+  - :info: Honorable Mention – Wally Skalij / Los Angeles Times
+  - :info: Honorable Mention – Jae C. Hong / Associated Press
+  - :info: Honorable Mention – David Ramos / Getty Images
+- :name: Sports Picture Story
+  :url: sports-picture-story/
+  :winners:
+  - :info: First Place – David Goldman / Associated Press
+  - :info: Second Place – Wally Skalij / Los Angeles Times
+  - :info: Third Place – Javier Arcenillas
+  - :info: Honorable Mention – David Ramos / Getty Images
+  - :info: Honorable Mention – Susana Vera / Reuters
+  - :info: Honorable Mention – Moe Zoyari / Redux Pictures
+- :name: Feature Picture Story/Essay
+  :url: feature-picture-story-essay/
+  :winners:
+  - :info: First Place – Javier Arcenillas
+  - :info: Second Place – James Rodriguez / Freelancer
+  - :info: Third Place – Tatiana Vinogradova
+  - :info: Honorable Mention – Alyssa Schukar / Self
+  - :info: Honorable Mention – Sarah Hoffman / Omaha World-Herald
+  - :info: Honorable Mention – Javier Arcenillas
+- :name: Chris Hondros Memorial International News
+  :url: chris-hondros-memorial-international-news/
+  :winners:
+  - :info: First Place – Matt McClain / The Washington Post
+  - :info: Second Place – Dieu Nalio Chery / Associated Press
+  - :info: Third Place – Ben Curtis / Associated Press
+- :name: News Picture Story
+  :url: news-picture-story/
+  :winners:
+  - :info: First Place – Aris Messinis / Agence France-Presse
+  - :info: Second Place – Felipe Dana / Associated Press
+  - :info: Third Place – Petros Giannakouris / Associated Press
+  - :info: Honorable Mention – Noel Celis / Agence France-Presse
+  - :info: Honorable Mention – Abd Doumany / Agence France-Presse
+  - :info: Honorable Mention – David Goldman / Associated Press
+- :name: Long Term Documentary Project
+  # :url: long-term-documentary-project/
+  :winners:
+  - :info: <a href='https://vimeo.com/189833607' target='_blank'>First Place – Gabriela Arp / Univision</a>
+  - :info: <a href='https://vimeo.com/177137503' target='_blank'>Second Place – Jose Corbella / Univision</a>
+- :name: Short Term Documentary Project
+  # :url: short-term-documentary-project/
+  :winners:
+  - :info: <a href='https://vimeo.com/162699339' target='_blank'>First Place – Brendan Sullivan / Omaha World-Herald</a>
+  - :info: <a href='https://vimeo.com/160924005' target='_blank'>Second Place – Guy Wathen / Pittsburgh Tribune-Review</a>
+  - :info: <a href='https://youtu.be/cbIyEa_v6VU' target='_blank'>Third Place – Pablo Cozzaglio / Univision Digital</a>
+  - :info: <a href='https://www.youtube.com/watch?v=HMK7py94AG4' target='_blank'>Honorable Mention – Andrea Patino / Univision Digital</a>
+  - :info: <a href='https://vimeo.com/191082276' target='_blank'>Honorable Mention – Ana Rodriguez / Univision Digital</a>
+  - :info: <a href='https://vimeo.com/174964632' target='_blank'>Honorable Mention – Brendan Sullivan / Omaha World-Herald</a>
+- :name: 2016 Dave Martin Student Grant
+  :winners:
+  - :info: <a href='http://www.gabrielscarlett.com/' target="_blank">Winner – Gabriel Stephen Scarlett</a>
