@@ -1,12 +1,12 @@
 ---
-title: 2016 Faculty
+title: 2017 Faculty
 navigation: Faculty
 layout: wide
 ---
 
-<h1>2016 Faculty</h1>
+<h1>2017 Faculty</h1>
 
-Below is a list of confirmed faculty members for the <strong>2016 Atlanta Photojournalism Seminar</strong>:
+Below is a list of confirmed faculty members for the <strong>2017 Atlanta Photojournalism Seminar</strong>:
 
 <% speakers = YAML.load(File.read("source/faculty/speakers/speakers.yml")) %>
 
@@ -20,40 +20,6 @@ Below is a list of confirmed faculty members for the <strong>2016 Atlanta Photoj
       </a>
       <div style="text-align:center">
         <h4><a href="speakers/#<%= speaker['id'] %>"><%= speaker['name'] %></a></h4>
-      </div>
-  </div>
-<% end %>
-</div>
-
-<% workshops = YAML.load(File.read("source/faculty/workshops/workshops.yml")) %>
-
-<h2><a href='/faculty/workshops'>Photo Workshops</a></h2>
-
-<div class="row">
-<% workshops.each do |speaker| %>
-  <div class="col-md-3">
-      <a href="workshops/#<%= speaker['id'] %>">
-        <img src="<%= speaker['square_url'] %>" class="img-thumbnail" alt="<%= speaker['name'] %> Headshot">
-      </a>
-      <div class="caption" style="text-align:center">
-        <h4><a href="workshops/#<%= speaker['id'] %>"><%= speaker['name'] %></a></h4>
-      </div>
-  </div>
-<% end %>
-</div>
-
-<% video_speakers = YAML.load(File.read("source/faculty/video-workshops/video-speakers.yml")) %>
-
-<h2><a href='/faculty/video-workshops'>Video Workshops</a></h2>
-
-<div class="row">
-<% video_speakers.each do |speaker| %>
-  <div class="col-md-3">
-      <a href="video-workshops/#<%= speaker['id'] %>">
-        <img src="<%= speaker['square_url'] %>" class="img-thumbnail" alt="<%= speaker['name'] %> Headshot">
-      </a>
-      <div class="caption" style="text-align:center">
-        <h4><a href="video-workshops/#<%= speaker['id'] %>"><%= speaker['name'] %></a></h4>
       </div>
   </div>
 <% end %>
