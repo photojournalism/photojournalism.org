@@ -1,0 +1,60 @@
+---
+title: 2016 Faculty
+navigation: Faculty
+layout: wide
+---
+
+<h1>2016 Faculty</h1>
+
+Below is a list of confirmed faculty members for the <strong>2016 Atlanta Photojournalism Seminar</strong>:
+
+<% speakers = YAML.load(File.read("source/faculty/2016/speakers/speakers.yml")) %>
+
+<h2><a href='/faculty/2016/speakers'>Speakers</a></h2>
+
+<div class="row">
+<% speakers.each do |speaker| %>
+  <div class="col-md-3">
+      <a href="/faculty/2016/speakers/#<%= speaker['id'] %>">
+        <img src="<%= speaker['square_url'] %>" class="img-thumbnail" alt="<%= speaker['name'] %> Headshot">
+      </a>
+      <div style="text-align:center">
+        <h4><a href="/faculty/2016/speakers/#<%= speaker['id'] %>"><%= speaker['name'] %></a></h4>
+      </div>
+  </div>
+<% end %>
+</div>
+
+<% workshops = YAML.load(File.read("source/faculty/2016/workshops/workshops.yml")) %>
+
+<h2><a href='/faculty/2016/workshops'>Photo Workshops</a></h2>
+
+<div class="row">
+<% workshops.each do |speaker| %>
+  <div class="col-md-3">
+      <a href="/faculty/2016/workshops/#<%= speaker['id'] %>">
+        <img src="<%= speaker['square_url'] %>" class="img-thumbnail" alt="<%= speaker['name'] %> Headshot">
+      </a>
+      <div class="caption" style="text-align:center">
+        <h4><a href="/faculty/2016/workshops/#<%= speaker['id'] %>"><%= speaker['name'] %></a></h4>
+      </div>
+  </div>
+<% end %>
+</div>
+
+<% video_speakers = YAML.load(File.read("source/faculty/2016/video-workshops/video-speakers.yml")) %>
+
+<h2><a href='/faculty/2016/video-workshops'>Video Workshops</a></h2>
+
+<div class="row">
+<% video_speakers.each do |speaker| %>
+  <div class="col-md-3">
+      <a href="/faculty/2016/video-workshops/#<%= speaker['id'] %>">
+        <img src="<%= speaker['square_url'] %>" class="img-thumbnail" alt="<%= speaker['name'] %> Headshot">
+      </a>
+      <div class="caption" style="text-align:center">
+        <h4><a href="/faculty/2016/video-workshops/#<%= speaker['id'] %>"><%= speaker['name'] %></a></h4>
+      </div>
+  </div>
+<% end %>
+</div>
