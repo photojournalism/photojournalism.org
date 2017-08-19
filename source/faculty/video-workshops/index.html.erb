@@ -7,6 +7,7 @@ comments: off
 Below is a list of confirmed video workshops at the <strong>2017 Atlanta Photojournalism Seminar</strong>:
 
 <% faculty = YAML.load(File.read("source/faculty/video-workshops/video-speakers.yml")) %>
+
 <% faculty.each do |f| %>
   <div class="faculty-section">
   <% if f['workshop'] %>

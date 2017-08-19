@@ -1,3 +1,25 @@
+- name: "Pete Souza"
+  url: '/images/2017/faculty/pete_souza.jpg'
+  square_url: '/images/2017/faculty/pete_souza_square.jpg'
+  id: 'pete-souza'
+  bio:
+  - "Pete Souza was the Chief Official White House Photographer for President Obama throughout his two terms. In addition to his documentary coverage at the White House, Souza traveled with the President aboard Air Force One to all 50 states and more than 50 countries. Souza’s new book, <em>Obama: An Intimate Portrait</em>, will be published by Little, Brown & Company on November 7, 2017. "
+  - "His previous book, <em>The Rise of Barack Obama</em>, was published in 2008 and includes exclusive photographs of Obama's rise to power. Souza extensively documented Obama's three years in the Senate and accompanied him to seven countries including Kenya, South Africa and Russia. The book was on the New York Times bestseller list for five weeks."
+  - "Souza has also worked as an Assistant Professor of Photojournalism at Ohio University, the national photographer for the Chicago Tribune based in their Washington bureau, a freelancer for National Geographic, and Official White House Photographer for President Reagan."
+  - "In addition to the national political scene, Souza has covered stories around the world. After 9/11, he was among the first journalists to cover the fall of Kabul, Afghanistan, after crossing the Hindu Kush mountains by horseback in three feet of snow. "
+  - "As a freelancer, Souza photographed two stories on assignment for National Geographic Magazine and three photo essays for Life Magazine. His photographs have also been published in many other magazines and newspapers around the world including on the covers of Life, Fortune, Newsweek, and U.S. News & World Report."
+  - "In 1992 Souza produced and published, <em>Unguarded Moments: Behind-the-Scenes Photographs of President Reagan</em>, a book based on his 5 1/2 years photographing Reagan in the White House.  Former Sen. Howard Baker Jr. said in his introduction to the book that Souza recorded \"some of the most intimate, honest and humanizing scenes of the presidency I've ever seen.\" Souza was also the official photographer for the June 2004 funeral of President Reagan."
+  - "Souza has won numerous photojournalism awards including several times in the prestigious Pictures of the Year annual competition, the NPPA's Best of Photojournalism, and the White House News Photographers Association's yearly contest."
+  - "He has lectured many times on his photography including at the Smithsonian Museum of American History, Corcoran Gallery of Art, Harvard University, Boston University, Ohio University, the University of Kansas, Western Kentucky University and Kansas State University.  He has appeared on the ABC news magazine show 20-20, Dateline NBC, CBS Sunday Morning, The Today Show, NBC Nightly News, Nightline, Charlie Rose, Good Morning America, CNN Special Reports, Fox News Sunday, Fox Friends and Family, and on National Public Radio.  "
+  - "Souza has had solo exhibits of his photographs at the Leica Gallery in NYC, Kansas State University, Fermilab, the U.S. Naval Academy, the Navy Museum, the University of North Carolina, Boston University, Ohio University and the National Press Club in Washington. His photographs have also been part of group exhibits at the National Archives, Smithsonian Museum of American History, Corcoran Gallery of Art, the Newseum, and the 92nd Street Y in New York City."
+  - "He is a native of South Dartmouth, Mass.  He graduated cum laude with a bachelor of science degree in public communication from Boston University and received his master's degree in journalism and mass communication from Kansas State University."
+  - "He currently is a freelance photographer based in Washington, D.C."
+- name: "Eli Reed"
+  url: '/images/2017/faculty/eli_reed.jpg'
+  square_url: '/images/2017/faculty/eli_reed_square.jpg'
+  id: 'eli-reed'
+  bio:
+  - "Eli Reed joined the elite, legendary collective, Magnum Photos, in 1983 and is also a member of the elite collective, Kamoinge. Reed joined the University of Texas at Austin faculty as Clinical Professor of Photojournalism and continues to shoot photographic and motion picture projects worldwide. Some of Reed’s awards include the W. Eugene Smith Grant in Documentary Photography, Overseas Press Club, Kodak World Image Award for Fine Art Photography, Leica Medal of Excellence, POY Nikon World Understanding Award, World Press Photo, Pulitzer Prize nominee, Visa pour L'image Festival Du Photoreportage (Perpignan, France), and the Lucie Foundation Award for Documentary Photography. Reed has published three books including the most recent “Eli Reed: A Long Walk Home” released in May 2015, \"Beirut, City of Regrets,\" and \"Black in America\" (with an introduction by Gordon Parks), which featured 175 photographs taken during a 16-year period, accompanied by text and poetry written by Reed. Eli Reed is a Sony Artisan of Imagery."
 - name: "Jabin Botsford"
   url: '/images/2017/faculty/jabin_botsford.jpg'
   square_url: '/images/2017/faculty/jabin_botsford_square.jpg'
@@ -16,3 +38,40 @@
   - "Kim has received some of the profession’s highest accolades, it include World Press Photo Awards, POYi awards including Magazine Photographer of the Year by POYi (one of two woman ever to receive it), The Olivier Rebbot and The John Faber Awards from the Overseas Press Club, Visa D’Or for News from the Visa Pour L’image in France, The White House Press Photographers, Boston Press Photographers Association, Communication in Arts and Society for News Design, recipient of Distinguished Alumni Award from Boston University. "
   - "Kim has also served as a speaker at the Nieman Narrative Journalism Conference at Harvard University. Past appointed member of NPPA Board of Directors (National Press Photographers Association), 2012 recipient of the United Nations’ Leadership Award in the field of photography by The International Photographic Council. She has also served on the faculty of World Press Photo, Eddie Adams and Missouri Photo Workshop."
   - "In 2015 and 2016, Yunghi Grant was formed, Kim paid it forward with $10,000 grant to photojournalists. Ten selected photojournalists received $1000 each from money Kim recouped from unauthorized use of her work to bring awareness of copyright education.  For this she was 2016 recipient of NPPA’s The Clifton Edom Award that recognized an “individual who inspire and motivate members of the photojournalism community to reach new heights.”"
+- name: "Nick Oza"
+  url: '/images/2017/faculty/nick_oza.jpg'
+  square_url: '/images/2017/faculty/nick_oza_square.jpg'
+  id: "nick-oza"
+  bio:
+  - "A staff photographer for the Arizona Republic since 2006 Nick Oza specializes in covering social issues, such as immigration, child welfare, gangs and mental health. Oza was part of the Knight-Ridder team awarded the Pulitzer Prize for Public Service in 2006 for their coverage of the aftermath of Hurricane Katrina."
+  - "In 2003 and 2005, he was embedded with the U.S. military to photograph the Iraq war for Knight-Ridder. He has received more than 120 awards for his work, including a 2012 Rocky Mountain Emmy for his video documenting problems in Arizona’s Child Protective Services. He has been named Photographer of the Year 4 times by the Arizona Press Club and won first and third place in the National Press Photographers Association Cliff Edom New America Award for an immigration documentary he produced."
+  - "His photographs have also been showcased on the websites of The New York Times Lens Blog and TIME magazine. Oza has photographed extensively along the U.S.-Mexico border, and has also worked along the India-Bangladesh border. He previously worked at The Telegraph (Macon, Ga.) for 9 years and won Photographer of the Year and Georgia AP Photographer of Year 4 years consecutive years. His recent work from Ferguson was featured in American Photo."
+- name: "Jamie Francis"
+  url: '/images/2017/faculty/jamie_francis.jpg'
+  square_url: '/images/2017/faculty/jamie_francis_square.jpg'
+  id: "jamie-francis"
+  bio:
+  - "Jamie Francis grew up along a tiny dirt road deep in The Blue Ridge Mountains of North Carolina. He graduated from The University of North Carolina-Chapel Hill with a BA in 1984, the first in his family to attend college."
+  - "Francis has been Director of Photography at Blue Chalk Media for the past three years where he was worked on films for National Geographic TV, TBrand Studio, Bloomberg, NBC Universal, The New York Times, Discovery Education, The Weather Channel and others."
+  - "Before Blue Chalk, Francis worked for more than two decades at newspapers; mostly as a photographer but also writing a regular column for two papers."
+  - "While working at The St. Petersburg Times in Florida, Francis covered news events throughout the world traveling to more than 45 countries. The experience reinforced the mantra for Francis that there is no education like travel. Earlier this year, on an assignment for National Geographic TV to Antartica, Francis reached his seventh continent."
+- name: "John Nowak"
+  url: '/images/2017/faculty/john_nowak.jpg'
+  square_url: '/images/2017/faculty/john_nowak_square.jpg'
+  id: "john-nowak"
+  bio:
+  - "John Nowak lives in Atlanta, meaning that the Atlanta Photojournalism Seminar does not have to pay for his hotel room. He spent several years as a photojournalist but long periods of abuse, poor pay, and too many dudes asking gear questions led him to commercial photography. He is generally against bribes unless they are in the form of Twizzlers."
+- name: "Alysia Burton Steele"
+  url: '/images/2017/faculty/alysia_burton_steele.jpg'
+  square_url: '/images/2017/faculty/alysia_burton_steele_square.jpg'
+  id: "alysia-burton-steele"
+  bio:
+  - "There's no need for expensive equipment or major resources to do effective storytelling. All you need is inquisitiveness and a listening ear. Oral histories are important for preserving culture and traditions, and bridging communities together. In this session, University of Mississippi journalism professor Alysia Burton Steele will share work from her book, \"Delta Jewels: In Search of My Grandmother's Wisdom.\" Steele drove 6,000 miles to interview 54 women who talked about life during the Jim Crow era in the Mississippi Delta. Her book is a collection of portraits she took and poignant stories she collected from 54 African American church women, such as a 105-year old woman thrown off a cotton plantation because she refused to have her children pick cotton, to a woman who stormed into telephone company's office and demanded \"Mrs.\" be put next to her name like her White counterparts. From this personal project came an article, from that article came a book, and from that book came a mission to explain the value of oral histories. Everyone has a story worth sharing. Learn how the author gained access to one of the hardest communities in Mississippi and get inspired to do your own project."
+  - "Steele worked for over 12 years as a photojournalist at several newspapers, including The Columbus Dispatch and The Atlanta Journal-Constitution where she worked as a picture editor and deputy director of photo. In 2006, she was part of the photo team for The Dallas Morning News that won the Pulitzer Prize in Breaking News for their Hurricane Katrina coverage. She served as one of the picture editors."
+  - "She is an assistant professor of journalism at the University of Mississippi’s Meek School of Journalism and New Media in Oxford, Miss. Steele teaches journalism writing, layout and design, audio/video production, photojournalism and the senior capstone technology class. She formed the nonprofit organization Delta Jewels Support Fund in November 2015 and is working to provide academic scholarships to students from Mississippi who record an oral history from an elder and write an essay about the experience."
+- name: "Richard Liebowitz"
+  url: '/images/2017/faculty/richard_liebowitz.jpg'
+  square_url: '/images/2017/faculty/richard_liebowitz_square.jpg'
+  id: "richard-liebowitz"
+  bio:
+  - "Richard P. Liebowitz, Esq., is a seasoned New York attorney who focuses on intellectual property law, related to copyrights and trademarks, at Liebowitz Law Firm, PLLC. He is a 17-year member of the New York Press Photographers Association (NYPPA) and has produced award-winning photojournalism. A graduate of the University of Pennsylvania and Hofstra Law School, Richard now helps his fellow artists around the globe resolve their intellectual property infringements and protect their work, on a contingency basis. As a fellow photographer, he understands the challenges presented in today’s hi-tech environment and is passionate about helping the creative community."
