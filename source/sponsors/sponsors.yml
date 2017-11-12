@@ -11,3 +11,76 @@ platinum:
     :homepage: "http://liebowitzlawfirm.com/"
     :image_url: "/images/2017/sponsors/liebowitz.jpg"
     :image_height: 160
+  - :name: "Ohio University VISCOM"
+    :homepage: "https://www.ohio.edu/scrippscollege/schoolsandcenters/visual-communication.cfm"
+    :image_url: "/images/2016/sponsors/viscom.jpg"
+    :image_height: 160
+gold:
+  - :name: "Atlanta Journal Constitution"
+    :homepage: "http://www.ajc.com/"
+    :image_url: "/images/2017/sponsors/ajc.jpg"
+    :image_height: 130
+  - :name: "Think Tank Photo"
+    :homepage: "http://www.thinktankphoto.com/"
+    :image_url: "/images/2016/sponsors/thinktank.jpg"
+    :image_height: 160
+  - :name: "NPPA"
+    :homepage: "http://www.nppa.org/"
+    :image_url: "/images/2016/sponsors/nppa.jpg"
+    :image_height: 160
+  - :name: "Sony"
+    :homepage: "https://www.sony.com/"
+    :image_url: "/images/2017/sponsors/sony.jpg"
+    :image_height: 110
+  - :name: "Sigma"
+    :homepage: "https://www.sigmaphoto.com/"
+    :image_url: "/images/2017/sponsors/sigma.png"
+    :image_height: 160
+    :dark: true
+  - :name: "PPR pix"
+    :homepage: "http://pprpix.com/"
+    :image_url: "/images/2017/sponsors/pprpix.png"
+    :image_height: 160
+    :dark: true
+  - :name: "BEAM"
+    :homepage: "http://beamimagination.com/"
+    :image_url: "/images/2017/sponsors/beam.jpg"
+    :image_height: 140
+    :dark: true
+silver:
+  - :name: "AP"
+    :homepage: "http://www.ap.org/"
+    :image_url: "/images/2017/sponsors/ap.jpg"
+    :image_height: 200
+  - :name: "Camera Bits"
+    :homepage: "http://www.camerabits.com/"
+    :image_url: "/images/2016/sponsors/camera_bits.png"
+    :image_height: 100
+  - :name: "Grady College - UGA"
+    :homepage: "http://grady.uga.edu/"
+    :image_url: "/images/2016/sponsors/uga-grady-college.png"
+    :image_height: 120
+  - :name: "University of Florida"
+    :homepage: "https://www.jou.ufl.edu/"
+    :image_url: "/images/2017/sponsors/ufl.jpg"
+    :image_height: 130
+  - :name: "Fuji"
+    :homepage: "http://www.fujifilmusa.com/index.html"
+    :image_url: "/images/2016/sponsors/fujifilm.jpg"
+    :image_height: 100
+  - :name: "Used Photo Pro"
+    :homepage: "https://usedphotopro.com/"
+    :image_url: "/images/2017/sponsors/usedphotopro.jpg"
+    :image_height: 120
+  - :name: "Western Kentucky University"
+    :homepage: "http://www.wkupj.com/"
+    :image_url: "/images/2017/sponsors/wku.jpg"
+    :image_height: 120
+  - :name: "Roberts Camera"
+    :homepage: "http://robertscamera.com"
+    :image_height: 100
+    :image_url: "/images/2017/sponsors/roberts.jpg"
+  - :name: "ASMP"
+    :homepage: "http://asmp.org/"
+    :image_url: "/images/2017/sponsors/asmp.jpg"
+    :image_height: 110

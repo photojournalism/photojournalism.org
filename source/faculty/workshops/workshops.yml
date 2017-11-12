@@ -20,7 +20,7 @@
   id: "john-nowak"
   bio:
   - "John Nowak lives in Atlanta, meaning that the Atlanta Photojournalism Seminar does not have to pay for his hotel room. He spent several years as a photojournalist but long periods of abuse, poor pay, and too many dudes asking gear questions led him to commercial photography. He is generally against bribes unless they are in the form of Twizzlers."
-  - "<br><br><br><br><br><br>"
+  - "<br><br><br><br><br><br><br>"
   workshop:
     - description:
       - ''
@@ -31,6 +31,7 @@
   id: "richard-liebowitz"
   bio:
   - "Richard P. Liebowitz, Esq., is a seasoned New York attorney who focuses on intellectual property law, related to copyrights and trademarks, at Liebowitz Law Firm, PLLC. He is a 17-year member of the New York Press Photographers Association (NYPPA) and has produced award-winning photojournalism. A graduate of the University of Pennsylvania and Hofstra Law School, Richard now helps his fellow artists around the globe resolve their intellectual property infringements and protect their work, on a contingency basis. As a fellow photographer, he understands the challenges presented in today’s hi-tech environment and is passionate about helping the creative community."
+  - "<br><br><br>"
   workshop:
     - description:
       - ''
@@ -43,3 +44,17 @@
   - "There's no need for expensive equipment or major resources to do effective storytelling. All you need is inquisitiveness and a listening ear. Oral histories are important for preserving culture and traditions, and bridging communities together. In this session, University of Mississippi journalism professor Alysia Burton Steele will share work from her book, \"Delta Jewels: In Search of My Grandmother's Wisdom.\" Steele drove 6,000 miles to interview 54 women who talked about life during the Jim Crow era in the Mississippi Delta. Her book is a collection of portraits she took and poignant stories she collected from 54 African American church women, such as a 105-year old woman thrown off a cotton plantation because she refused to have her children pick cotton, to a woman who stormed into telephone company's office and demanded \"Mrs.\" be put next to her name like her White counterparts. From this personal project came an article, from that article came a book, and from that book came a mission to explain the value of oral histories. Everyone has a story worth sharing. Learn how the author gained access to one of the hardest communities in Mississippi and get inspired to do your own project."
   - "Steele worked for over 12 years as a photojournalist at several newspapers, including The Columbus Dispatch and The Atlanta Journal-Constitution where she worked as a picture editor and deputy director of photo. In 2006, she was part of the photo team for The Dallas Morning News that won the Pulitzer Prize in Breaking News for their Hurricane Katrina coverage. She served as one of the picture editors."
   - "She is an assistant professor of journalism at the University of Mississippi’s Meek School of Journalism and New Media in Oxford, Miss. Steele teaches journalism writing, layout and design, audio/video production, photojournalism and the senior capstone technology class. She formed the nonprofit organization Delta Jewels Support Fund in November 2015 and is working to provide academic scholarships to students from Mississippi who record an oral history from an elder and write an essay about the experience."
+  workshop:
+    - description:
+      - ''
+      title: ''
+- name: "Matt Sloane"
+  url: '/images/2017/faculty/matt_sloane.jpg'
+  square_url: '/images/2017/faculty/matt_sloane_square.jpg'
+  id: 'matt-sloane'
+  bio:
+  - "Matt Sloane is a three-time Emmy Award nominated international news producer and founder of Atlanta Drone Group. Matt will speak on the use of drones in news gathering and films tv production. Atlanta Drone Group’s clients include National Geographic, The Weather Channel, NASA, Netflix, CNN, CBS, AMC and ESPN. His website is <a href='https://www.atldrone.com' target='_blank'>https://www.atldrone.com</a>."
+  workshop:
+    - description:
+      - ''
+      title: ''

@@ -17,7 +17,7 @@
   id: 'deborah-acosta'
   bio:
   - "Deborah Acosta is a filmmaker at the New York Times. She specializes in innovative forms of documentary production, that's often live, interactive, and participatory. Much of her work incorporates crowdsourcing and audience input, to help her reach higher truths in her reporting."
-  - "<br><br><br><br><br><br><br>"
+  - "<br><br><br><br><br><br><br><br>"
   workshop:
     - description:
       - ''
@@ -30,6 +30,16 @@
   - "Brent Foster is a Canadian born director and filmmaker focusing on storytelling content for brands and editorial clients. Foster worked for the LA Times and freelanced for The New York Times and TIME.com prior to moving into directing commercials and creating content for companies and brands such as DJI, The NBA, Gatorade, and Nike."
   - "Outside of his paying work, Foster has been pursuing a passion project called \"While I'm Here, The Legacy Project\" which tells the stories of people in their older years who are doing extraordinary things around the world. This self-funded passion project was recently shortlisted for the Young Director's Award and The Saatchi & Saatchi New Director's Showcase in Cannes."
   - "Foster is represented by Holiday Films in Toronto, Canada."
+  workshop:
+    - description:
+      - ''
+      title: ''
+- name: "Matt Sloane"
+  url: '/images/2017/faculty/matt_sloane.jpg'
+  square_url: '/images/2017/faculty/matt_sloane_square.jpg'
+  id: 'matt-sloane'
+  bio:
+  - "Matt Sloane is a three-time Emmy Award nominated international news producer and founder of Atlanta Drone Group. Matt will speak on the use of drones in news gathering and films tv production. Atlanta Drone Group’s clients include National Geographic, The Weather Channel, NASA, Netflix, CNN, CBS, AMC and ESPN. His website is <a href='https://www.atldrone.com' target='_blank'>https://www.atldrone.com</a>."
   workshop:
     - description:
       - ''

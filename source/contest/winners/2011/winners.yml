@@ -28,6 +28,7 @@
       The Register-Mail
 - :name: |
     Spot News
+  :url: spot-news/
   :winners:
   - :info: |
       First Place – Dimitri Messinis/The Associated Press
@@ -41,6 +42,7 @@
       Honorable Mention – Ramon Espinosa/The Associated Press
 - :name: |
     General News
+  :url: general-news/
   :winners:
   - :info: |
       First Place – Manu Brabo/The Associated Press
@@ -54,6 +56,7 @@
       Honorable Mention – Emilio Morenatti/The Associated Press
 - :name: |
     Feature
+  :url: feature/
   :winners:
   - :info: |
       First Place – Lisa Wiltse
@@ -65,6 +68,7 @@
       Honorable Mention – Ariana McLaughlin
 - :name: |
     Sports Action
+  :url: sports-action/
   :winners:
   - :info: |
       First Place – Scott Strazzante/Chicago Tribune
@@ -78,6 +82,7 @@
       Honorable Mention – Morry Gash/The Associated Press
 - :name: |
     Sports Feature
+  :url: sports-feature/
   :winners:
   - :info: |
       First Place – Misha Domozhilov/Freelance
@@ -91,6 +96,7 @@
       Honorable Mention – Alyssa Schukar/Omaha World-Herald
 - :name: |
     Portrait/Personality
+  :url: portrait-personality/
   :winners:
   - :info: |
       First Place – Alex Boerner/Scripps Treasure
@@ -104,6 +110,7 @@
       Honorable Mention – Ross Taylor/The Virginian-Pilot
 - :name: |
     Pictorial
+  :url: pictorial/
   :winners:
   - :info: |
       First Place – Scott Strazzante/Chicago Tribune
@@ -165,6 +172,7 @@
       Honorable Mention – Michael Holahan/The Augusta Chronicle
 - :name: |
     Product Illustration
+  :url: product-illustration/
   :winners:
   - :info: |
       First Place – Cyrus McCrimmon/The Denver Post
@@ -176,6 +184,7 @@
       Honorable Mention – Angela Lewis/Chattanooga Times-Free Press
 - :name: |
     Issue Illustration
+  :url: issue-illustration/
   :winners:
   - :info: |
       First Place – Nick Adams/The Register-Mail

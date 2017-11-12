@@ -22,7 +22,7 @@ Below is a list of confirmed faculty members for the <strong>2017 Atlanta Photoj
         <h4><a href="/faculty/speakers/#<%= speaker['id'] %>"><%= speaker['name'] %></a></h4>
       </div>
   </div>
-  <% if i >= 4 %></div><div class="row"><% end %>
+  <% if i % 4 == 0 %></div><div class="row"><% end %>
 <% end %>
 </div>
 
@@ -40,7 +40,7 @@ Below is a list of confirmed faculty members for the <strong>2017 Atlanta Photoj
         <h4><a href="/faculty/workshops/#<%= speaker['id'] %>"><%= speaker['name'] %></a></h4>
       </div>
   </div>
-  <% if i >= 4 %></div><div class="row"><% end %>
+  <% if i % 4 == 0 %></div><div class="row"><% end %>
 <% end %>
 </div>
 
@@ -58,6 +58,6 @@ Below is a list of confirmed faculty members for the <strong>2017 Atlanta Photoj
         <h4><a href="/faculty/video-workshops/#<%= speaker['id'] %>"><%= speaker['name'] %></a></h4>
       </div>
   </div>
-  <% if i >= 4 %></div><div class="row"><% end %>
+  <% if i % 4 == 0 %></div><div class="row"><% end %>
 <% end %>
 </div>

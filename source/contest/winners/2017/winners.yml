@@ -1,0 +1,114 @@
+---
+:year: 2017
+:info: Below is a list of the winners from the Atlanta Photojournalism Seminar's 2017
+  photo contest. Thank you to everyone who entered and participated in the contest,
+  and congratulations to the winners!
+:categories:
+- :name: Best in Show
+  :url: best-portfolio/
+  :winners:
+  -  :info: Joe Raedle / Getty Images
+- :name: Best Portfolio
+  :url: best-portfolio/
+  :winners:
+  - :info: Joe Raedle / Getty Images
+- :name: Rich Mahan Best Student Portfolio
+  :url: rich-mahan-best-student-portfolio/
+  :winners:
+  - :info: Gabriel Scarlett
+- :name: Spot News
+  :url: spot-news/
+  :winners:
+  - :info: First Place – Burhan Ozbilici / Associated Press
+  - :info: Second Place – Fred Dufour / Agence France-Presse
+  - :info: Third Place – Juan Barreto / Agence France-Presse
+  - :info: Honorable Mention – David McNew
+  - :info: Honorable Mention – Chip Somodevilla / Getty Images News
+- :name: General News
+  :url: general-news/
+  :winners:
+  - :info: First Place – Justin Sullivan
+  - :info: Second Place – Patrick Semansky / Associated Press
+  - :info: Third Place – Dar Yasin / Associated Press
+  - :info: Honorable Mention – David Goldman / Associated Press
+  - :info: Honorable Mention – Emilio Morenatti / Associated Press
+  - :info: Honorable Mention – Mike Blake / Thomson Reuters
+- :name: Feature
+  :url: feature/
+  :winners:
+  - :info: First Place – Danish Siddiqui
+  - :info: Second Place – Chip Somodevilla / Getty Images News
+  - :info: Third Place – Natacha Pisarenko / Associated Press
+  - :info: Honorable Mention – Andres Kudacki / TIME Magazine
+  - :info: Honorable Mention – Stefan Wermuth / Reuters
+- :name: Sports Action
+  :url: sports-action/
+  :winners:
+  - :info: First Place – David Ramos / Getty Images
+  - :info: Second Place – Sascha Fromm / Thueringer Allgemeine
+  - :info: Third Place – Mathieu Belanger
+  - :info: Honorable Mention – Joel Marklund / Bildbyran Photo Agency
+  - :info: Honorable Mention – Lukas Schulze / Freelancer
+  - :info: Honorable Mention – Lukas Schulze / Freelancer
+- :name: Sports Feature
+  :url: sports-feature/
+  :winners:
+  - :info: Honorable Mention – Matthias Hangst / Getty Images
+  - :info: Honorable Mention – Brendan Smialowski / Agence France-Presse
+  - :info: Honorable Mention – Ed Jones / Agence France-Presse
+  - :info: Honorable Mention – Stefan Wermuth / Reuters
+  - :info: Honorable Mention – Sascha Fromm / Thueringer Allgemeine
+- :name: Portrait/Personality
+  :url: portrait-personality/
+  :winners:
+  - :info: First Place – Rodrigo Abd / Associated Press
+  - :info: Second Place – Andres Kudacki / TIME Magazine
+  - :info: Third Place – Bernat Armangue / Associated Press
+  - :info: Honorable Mention – Alton Strupp / The Courier-Journal
+  - :info: Honorable Mention – Ben Curtis / Associated Press
+  - :info: Honorable Mention – Susana Vera / Reuters
+- :name: News Picture Story
+  :url: news-picture-story/
+  :winners:
+  - :info: First Place – Juan Barreto / Agence France-Presse
+  - :info: Second Place – Marco Longari / Agence France-Presse
+  - :info: Third Place – Leah Millis / San Francisco Chronicle
+  - :info: Honorable Mention – Bulent Kilic / Agence France-Presse
+  - :info: Honorable Mention – Danish Siddiqui
+  - :info: Honorable Mention – Joe Raedle / Getty Images
+- :name: Chris Hondros Memorial International News
+  :url: chris-hondros-memorial-international-news/
+  :winners:
+  - :info: First Place – Moe Zoyari
+  - :info: Second Place – Felipe Dana / Associated Press
+  - :info: Third Place – Luis Tato / Stringer / Agence France-Presse
+- :name: Feature Picture Story/Essay
+  :url: feature-picture-story-essay/
+  :winners:
+  - :info: First Place – Maye-E Wong / Associated Press
+  - :info: Second Place – David Goldman / Associated Press
+  - :info: Third Place – Natacha Pisarenko / Associated Press
+  - :info: Honorable Mention – Susana Giron
+  - :info: Honorable Mention – David Goldman / Associated Press
+  - :info: Honorable Mention – Alexandre Meneghini
+- :name: Sports Picture Story
+  :url: sports-picture-story/
+  :winners:
+  - :info: First Place – Jordi Cohen
+  - :info: Second Place – Patrick Smith / Getty Images
+  - :info: Third Place – Wally Skalij / Los Angeles Times
+  - :info: Honorable Mention – Susana Giron
+- :name: Short Term Documentary Project
+  :url:
+  :winners:
+  - :info: <a href='https://vimeo.com/225785222' target='_blank'>First Place – Alyssa Pointer / Chicago Tribune</a>
+  - :info: <a href='https://www.youtube.com/watch?v=zxnrlo3mF1I' target='_blank'>Second Place – Ana Rodriguez / Univision Digital</a>
+  - :info: <a href='https://contest.photojournalism.org/judging/entry/a3edf5adaa14edd05cd630adf8274ec2' target='_blank'>Third Place – Gabrielle Lurie / Select</a>
+  - :info: <a href='https://www.facebook.com/UnivisionNews/videos/603978443124448/' target='_blank'>Honorable Mention – Mauricio Rodriguez-Pons / Univision</a>
+- :name: Long Term Documentary Project
+  :url:
+  :winners:
+  - :info: <a href='https://vimeo.com/233446436' target='_blank'>First Place – Lea Suzuki / San Francisco Chronicle</a>
+  - :info: <a href='http://www.univision.com/univision-news/latin-america/we-turned-our-tragedy-into-a-tool-these-women-survived-acid-attacks-in-colombia-and-now-fight-against-them-video' target='_blank'>Second Place – Andrea Patino Contreras / Univision News Digital</a>
+  - :info: <a href='https://vimeo.com/240246071' target='_blank'>Third Place – Mauricio Rodriguez-pons / Univision</a>
+  - :info: <a href='https://www.youtube.com/watch?v=wHiyaHfxpq8' target='_blank'>Honorable Mention – Laura Uribe / Univision Digital</a>

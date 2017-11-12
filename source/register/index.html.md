@@ -9,14 +9,6 @@ Registration information for the 45th annual Atlanta Photojournalism Seminar, th
 
 ### Professionals
 
-#### EARLY BIRD SPECIALS (ENDS SEP. 30)
-
-* Entire Seminar Package (Photo Workshops + Video Workshops + Speaker Presentations) = __$245__ (A $20 savings!)
-* Photo Workshops + Video Workshops = __$165__ (A $15 savings!)
-* Photo Workshops, Video Workshops, or Speaker Presentations Only = __$89__ (A $10 savings!)
-
-#### REGULAR PRICES
-
 * Entire Seminar Package (Photo Workshops + Video Workshops + Speaker Presentations) = __$265__
 * Photo Workshops + Video Workshops = __$180__
 * Photo Workshops, Video Workshops, or Speaker Presentations Only = __$99__
@@ -32,4 +24,4 @@ Thanks to a generous sponsorship from [Nikon](http://www.nikonusa.com), we are a
 
 ### Veterans
 
-The first day of the Seminar (Nov. 10) falls on Veterans Day. To honor our veterans, we are offering, to the first 10 veterans, an entire seminar package for __$100__! (A $155 savings!)
+The Seminar continues through Veterans Day, Nov 11. To honor our veterans, we are offering, to the first 11 veterans, an entire seminar package for __$100__! (A $165 savings!)
