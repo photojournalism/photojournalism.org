@@ -122,6 +122,7 @@
       Honorable Mention – Alex Boerner/Scripps Treasure
 - :name: |
     News Picture Story
+  :url: 'news-picture-story/'
   :winners:
   - :info: |
       First Place – T.J. Kirkpatrick/Freelance
@@ -135,6 +136,7 @@
       Honorable Mention – Ty Wright/Ohio University
 - :name: |
     Chris Hondros Memorial International News
+  :url: chris-hondros-memorial-international-news/
   :winners:
   - :info: |
       First Place – Lisa Wiltse
@@ -148,6 +150,7 @@
       Honorable Mention – Emilio Morenatti/The Associated Press
 - :name: |
     Feature Picture Story/Essay
+  :url: feature-picture-story/
   :winners:
   - :info: |
       First Place – Esteban Felix/The Associated Press
@@ -159,6 +162,7 @@
       Honorable Mention – Lisa Wiltse
 - :name: |
     Sports Picture Story
+  :url: sports-picture-story/
   :winners:
   - :info: |
       First Place – Misha Domzhilov/Freelance
