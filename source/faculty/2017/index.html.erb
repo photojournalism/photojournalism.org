@@ -1,0 +1,63 @@
+---
+title: 2017 Faculty
+navigation: Faculty
+layout: wide
+---
+
+<h1>2017 Faculty</h1>
+
+Below is a list of confirmed faculty members for the <strong>2017 Atlanta Photojournalism Seminar</strong>:
+
+<% speakers = YAML.load(File.read("source/faculty/2017/speakers/speakers.yml")) %>
+
+<h2><a href='/faculty/speakers'>Speakers</a></h2>
+
+<div class="row">
+<% speakers.each.each.with_index(1) do |speaker, i| %>
+  <div class="col-md-3">
+      <a href="/faculty/speakers/#<%= speaker['id'] %>">
+        <img src="<%= speaker['square_url'] %>" class="img-thumbnail" alt="<%= speaker['name'] %> Headshot">
+      </a>
+      <div style="text-align:center">
+        <h4><a href="/faculty/speakers/#<%= speaker['id'] %>"><%= speaker['name'] %></a></h4>
+      </div>
+  </div>
+  <% if i % 4 == 0 %></div><div class="row"><% end %>
+<% end %>
+</div>
+
+<% workshops = YAML.load(File.read("source/faculty/2017/workshops/workshops.yml")) %>
+
+<h2><a href='/faculty/workshops'>Photo Workshops</a></h2>
+
+<div class="row">
+<% workshops.each.with_index(1) do |speaker, i| %>
+  <div class="col-md-3">
+      <a href="/faculty/workshops/#<%= speaker['id'] %>">
+        <img src="<%= speaker['square_url'] %>" class="img-thumbnail" alt="<%= speaker['name'] %> Headshot">
+      </a>
+      <div style="text-align:center">
+        <h4><a href="/faculty/workshops/#<%= speaker['id'] %>"><%= speaker['name'] %></a></h4>
+      </div>
+  </div>
+  <% if i % 4 == 0 %></div><div class="row"><% end %>
+<% end %>
+</div>
+
+<% video_speakers = YAML.load(File.read("source/faculty/2017/video-workshops/video-speakers.yml")) %>
+
+<h2><a href='/faculty/video-workshops'>Video Workshops</a></h2>
+
+<div class="row">
+<% video_speakers.each.with_index(1) do |speaker, i| %>
+  <div class="col-md-3">
+      <a href="/faculty/video-workshops/#<%= speaker['id'] %>">
+        <img src="<%= speaker['square_url'] %>" class="img-thumbnail" alt="<%= speaker['name'] %> Headshot">
+      </a>
+      <div style="text-align:center">
+        <h4><a href="/faculty/video-workshops/#<%= speaker['id'] %>"><%= speaker['name'] %></a></h4>
+      </div>
+  </div>
+  <% if i % 4 == 0 %></div><div class="row"><% end %>
+<% end %>
+</div>

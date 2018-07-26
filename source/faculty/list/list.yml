@@ -5,6 +5,10 @@
     - 
       name: "Don Abood"
       years: 1987
+    -
+      name: "Deborah Acosta"
+      url: "https://twitter.com/deborahacosta?lang=en"
+      years: 2017
     - 
       name: "Eddie Adams"
       url: "http://en.wikipedia.org/wiki/Eddie_Adams_(photographer)"
@@ -68,9 +72,17 @@
       name: "Dan Beatty"
       years: 2007
     - 
+      name: "Jarrett Bellini"
+      url: "http://www.jarrettbellini.com/"
+      years: 2016
+    -
       name: "Annie Griffiths Belt"
       url: "http://www.anniegriffiths.com/"
       years: 1988
+    -
+      name: "David Bergman"
+      url: "https://www.davidbergman.net/"
+      years: 2016
     - 
       name: "Alan Berner"
       years: 1993
@@ -83,6 +95,10 @@
     - 
       name: "Ottmar Bierwagen"
       years: 1982
+    -
+      name: "Todd Bigelow"
+      url: "https://archive.toddbigelowphotography.com/"
+      years: 2016
     - 
       name: "Meredith Birkett"
       url: "http://meredithbirkett.com/"
@@ -95,6 +111,10 @@
       name: "Bernie Boston"
       url: "http://en.wikipedia.org/wiki/Bernie_Boston"
       years: "1974, 1988, 1987"
+    -
+      name: "Jabin Botsford"
+      url: "http://www.jabinbotsford.com/"
+      years: 2017
     - 
       name: "Jim Boudier"
       url: "http://www.corbisimages.com/photographer/jim-boudier"
@@ -144,7 +164,7 @@
     - 
       name: "Renée C. Byer"
       url: "http://www.pulitzer.org/biography/2007-Feature-Photography"
-      years: 2007
+      years: "2007, 2017"
 - 
   letter: C
   faculty: 
@@ -208,6 +228,10 @@
       name: "Gary Coronado"
       url: "http://www.garycoronado.com/"
       years: 2007
+    -
+      name: "Courtney Coupe"
+      url: "https://twitter.com/courtcoupe?lang=en"
+      years: 2016
     - 
       name: "Stephen Crowley"
       url: "http://lens.blogs.nytimes.com/author/stephen-crowley/"
@@ -345,6 +369,10 @@
       name: "Colin H. Finlay"
       url: "http://www.colinfinlay.com/"
       years: 1998
+    -
+      name: "Deanne Fitzmaurice"
+      url: "http://portfolio.deannefitzmaurice.com/"
+      years: 2016
     - 
       name: "Natalie Fobes"
       url: "http://www.fobesphoto.com/"
@@ -356,6 +384,10 @@
     - 
       name: "Robin Fogel"
       years: 1988
+    -
+      name: "Brent Foster"
+      years: 2017
+      url: "http://www.brentfoster.com/pages/about"
     - 
       name: "Greg Foster"
       url: "http://www.gregfosterphoto.com/"
@@ -371,7 +403,7 @@
     - 
       name: "Jamie Francis"
       url: "http://jamiefrancis.com/"
-      years: 1995
+      years: "1995, 2017"
     - 
       name: "Dave Frank"
       years: 2008
@@ -427,6 +459,10 @@
     - 
       name: "Mark Godfrey"
       years: 1980
+    -
+      name: "Melissa Golden"
+      url: "https://www.melissagolden.com/"
+      years: 2016
     - 
       name: "David Goldman"
       url: "http://www.goldmanphotos.com/"
@@ -525,6 +561,10 @@
       name: "Judy Herrmann"
       url: "https://twitter.com/JudyHerrmann"
       years: "2009, 2012, 2014"
+    -
+      name: "Gary Hershorn"
+      url: "https://garyhershorn.photoshelter.com/index"
+      years: 2016
     - 
       name: "Gary Hoenig"
       years: 1985
@@ -643,6 +683,14 @@
       url: "http://vimeo.com/mikekepka"
       years: 2012
     - 
+      name: "Jennifer Kilberg"
+      url: "http://fluidvisioninc.com/"
+      years: 2016
+    -
+      name: "Yunghi Kim"
+      years: 2017
+      url: "http://www.yunghikim.com/"
+    -
       name: "Barbara Kinney"
       url: "http://www.barbarakinney.com/#/white-house-years/Ties"
       years: 2010
@@ -723,6 +771,10 @@
       name: "Sara Lewkowicz"
       url: "http://www.saranaomiphoto.com/"
       years: 2015
+    -
+      name: "Richard Liebowitz"
+      url: "http://liebowitzlawfirm.com/"
+      years: 2017
     - 
       name: "Ken Light"
       url: "http://www.kenlight.com/"
@@ -874,6 +926,9 @@
     - 
       name: "F.R. Fritz Nordengren"
       years: 1998
+    -
+      name: "John Nowak"
+      years: 2017
 - 
   letter: O
   faculty: 
@@ -884,6 +939,10 @@
     - 
       name: "Sue Ogrocki"
       years: 2013
+    -
+      name: "Nick Oza"
+      url: "https://www.nickoza.com/"
+      years: 2017
 - 
   letter: P
   faculty: 
@@ -930,7 +989,7 @@
     - 
       name: "Eli Reed"
       url: "http://www.magnumphotos.com/C.aspx?VP3=CMS3&VF=MAGO31_10_VForm&ERID=24KL53ZE3H"
-      years: 1986
+      years: "1986, 2017"
     - 
       name: "Alon Reininger"
       url: "http://www.contactpressimages.com/photographers/reininger/reininger_bio.html"
@@ -954,6 +1013,10 @@
       name: "Charlie Riedel"
       url: "http://secure.corbisimages.com/photographer/charlie-riedel"
       years: 1992
+    -
+      name: "Jessica Rinaldi"
+      url: "http://www.jessicarinaldi.com/"
+      years: 2016
     - 
       name: "Michael Rondou"
       years: 1991
@@ -1020,7 +1083,7 @@
     -
       name: "Eric Seals"
       url: "https://twitter.com/ericseals"
-      years: 2014
+      years: "2014, 2016"
     - 
       name: "Jim Seida"
       url: "http://www.multimediastandards.org/grid/jim-seida/"
@@ -1064,6 +1127,9 @@
       name: "Jason Sondhi"
       url: "http://vimeo.com/jasondhi"
       years: 2013
+    -
+      name: "Matt Sloane"
+      years: 2017
     - 
       name: "William Snyder"
       url: "http://www.williamsnyderphotography.com/"
@@ -1071,7 +1137,7 @@
     - 
       name: "Pete Souza"
       url: "http://www.petesouza.com/"
-      years: 2007
+      years: "2007, 2017"
     - 
       name: "John Spink"
       years: 2013
@@ -1082,7 +1148,10 @@
     - 
       name: "Chris Stanford"
       years: 2013
-      yrl: "http://www.chrisstanford.com/"
+      url: "http://www.chrisstanford.com/"
+    -
+      name: "Samantha Stark"
+      years: 2016
     - 
       name: "Bill Steber"
       url: "http://www.steberphoto.com/"
@@ -1094,6 +1163,10 @@
     - 
       name: "Jodie Steck"
       years: 1998
+    -
+      name: "Alysia Burton Steele"
+      url: "https://www.alysiaburton.com/"
+      years: 2017
     - 
       name: "Brian Storm"
       url: "http://mediastorm.com/contributor/brian-storm/8"
@@ -1127,6 +1200,10 @@
       name: "Joey Terrill"
       url: "http://www.joeyterrill.com/"
       years: 2007
+    -
+      name: "Eric Thayer"
+      url: "http://www.ericthayer.com/"
+      years: 2016
     - 
       name: "Al Tielemans"
       url: "http://www.altielemans.com/about.php"
@@ -1226,8 +1303,12 @@
 - 
   letter: "Y"
   faculty: 
+    -
+      name: "Marcus Yam"
+      url: "http://www.marcusyam.com/"
+      years: 2016
     - 
-      name: "Mike Yamshita"
+      name: "Mike Yamashita"
       url: "http://www.michaelyamashita.com/"
       years: 1985
     - 
