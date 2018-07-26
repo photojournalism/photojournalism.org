@@ -3,7 +3,7 @@
     <div class="container">
       <div class="navbar-header">
         <div id="nav-logo" class="logo">
-          <a class="logo-main" href="/" title="Atlanta Photojournalism Seminar"><img src="/images/logos/atlpj_logo_dates_2017.png"></a>
+          <a class="logo-main" href="/" title="Atlanta Photojournalism Seminar"><img src="/images/logos/atlpj_logo_circle_text.png"></a>
         </div>
         <button type="button" class="navbar-toggle" data-toggle="collapse" data-target="#navbar-collapse-1">
           <span class="sr-only">Toggle navigation</span>
@@ -21,7 +21,8 @@
               <li><a href="/about/">General Info</a></li>
               <li><a href="/about/dates-and-location/">Dates and Location</a></li>
               <li><a href="/about/staff/">Staff and Contact Info</a></li>
-              <li><a href="/contact/volunteer/">Volunteer</a></li>
+              <!-- <li><a href="/contact/volunteer/">Volunteer</a></li> -->
+              <li><a href="/schedule/">Schedule</a></li>
             </ul>
           </li><!-- .dropdown -->
           <li class="dropdown<%= " active" if current_page.data.navigation == "Faculty" %>">
@@ -36,7 +37,6 @@
             </ul>
           </li><!-- .dropdown -->
           <!--<li<%= " class=\"active\"" if current_page.data.navigation == "News" %>><a href="/news/">News</a></li>-->
-          <li><a href="/schedule/">Schedule</a></li>
           <li class="dropdown<%= " active" if current_page.data.navigation == "Contest" %>">
             <a href="#" class="dropdown-toggle" data-toggle="dropdown">Contest <span class="caret"></span></a>
             <ul class="dropdown-menu">
@@ -53,6 +53,7 @@
           <li<%= " class=\"active\"" if current_page.data.navigation == "Grants" %>><a href="/grants/">Grants</a></li>
           <li><a href="/sponsors/">Sponsors</a></li>
           <li><a href="/register/">Register</a></li>
+          <li><a href="/donate/">Donate</a></li>
         </ul><!-- .nav .navbar-nav -->
       </div><!-- .collapse .navbar-collapse -->
     </div><!-- .container -->

@@ -3,9 +3,11 @@ title: Register
 navigation: Register
 ---
 
-Registration information for the 45th annual Atlanta Photojournalism Seminar, the longest running photojournalism conference in the U.S., is below. The Seminar is comprised of three parts: __photo workshops__, __video workshops__ and __speaker presentations__. You can see the full schedule [here](/schedule/).
+Registration for the 46th annual Atlanta Photojournalism Seminar, November 9 and 10, 2018, the longest running photojournalism conference in the U.S., will open August 1, 2018.
 
-[__CLICK HERE TO REGISTER__](http://photojournalism.eventbrite.com){:target="_blank"}
+The Seminar is comprised of three parts: __photo workshops__, __video workshops__ and __speaker presentations__. You can see the full schedule [here](/schedule/).
+
+<!-- [__CLICK HERE TO REGISTER__](http://photojournalism.eventbrite.com){:target="_blank"} -->
 
 ### Professionals
 
@@ -18,7 +20,7 @@ Registration information for the 45th annual Atlanta Photojournalism Seminar, th
 
 * Entire Seminar = __$50__ (A $175 savings!!!)
 
-Thanks to a generous sponsorship from [Nikon](http://www.nikonusa.com), we are able to offer student registration (high school or college ID required) for the entire 2017 Atlanta Photojournalism Seminar for __$50__!
+Thanks to a generous sponsorship from [Nikon](http://www.nikonusa.com), we are able to offer student registration (high school or college ID required) for the entire 2018 Atlanta Photojournalism Seminar for __$50__!
 
 [![Nikon](/images/2016/sponsors/nikon.png){:width='500'}](http://www.nikonusa.com){:target="_blank"}
 
