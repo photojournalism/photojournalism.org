@@ -1,16 +1,15 @@
-'':
+platinum:
   - :name: "Nikon"
     :homepage: "http://www.nikonusa.com/"
-    :image_url: "/images/2018/sponsors/nikon.jpg"
-    :image_height: 400
-platinum:
+    :image_url: "/images/2017/sponsors/nikon.jpg"
+    :image_height: 200
   - :name: "Canon"
     :homepage: "http://www.canon.com/"
     :image_url: "/images/2017/sponsors/canon.png"
     :image_height: 200
   - :name: "Liebowitz Law Firm"
     :homepage: "http://liebowitzlawfirm.com/"
-    :image_url: "/images/2018/sponsors/liebowitz.jpg"
+    :image_url: "/images/2017/sponsors/liebowitz.jpg"
     :image_height: 160
   - :name: "Ohio University VISCOM"
     :homepage: "https://www.ohio.edu/scrippscollege/schoolsandcenters/visual-communication.cfm"
