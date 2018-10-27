@@ -1,25 +1,29 @@
-'':
+platinum:
   - :name: "Nikon"
     :homepage: "http://www.nikonusa.com/"
     :image_url: "/images/2018/sponsors/nikon.jpg"
-    :image_height: 400
-platinum:
+    :image_height: 320
   - :name: "Canon"
     :homepage: "http://www.canon.com/"
     :image_url: "/images/2017/sponsors/canon.png"
     :image_height: 200
+  - :name: "Sony"
+    :homepage: "https://www.sony.com/"
+    :image_url: "/images/2017/sponsors/sony.jpg"
+    :image_height: 120
+gold:
   - :name: "Liebowitz Law Firm"
     :homepage: "http://liebowitzlawfirm.com/"
     :image_url: "/images/2018/sponsors/liebowitz.jpg"
+    :image_height: 130
+  - :name: "PPR pix"
+    :homepage: "http://pprpix.com/"
+    :image_url: "/images/2017/sponsors/pprpix.png"
     :image_height: 160
+    :dark: true
   - :name: "Ohio University VISCOM"
     :homepage: "https://www.ohio.edu/scrippscollege/schoolsandcenters/visual-communication.cfm"
     :image_url: "/images/2016/sponsors/viscom.jpg"
-    :image_height: 160
-gold:
-  - :name: "Atlanta Journal Constitution"
-    :homepage: "http://www.ajc.com/"
-    :image_url: "/images/2017/sponsors/ajc.jpg"
     :image_height: 130
   - :name: "Think Tank Photo"
     :homepage: "http://www.thinktankphoto.com/"
@@ -29,53 +33,14 @@ gold:
     :homepage: "http://www.nppa.org/"
     :image_url: "/images/2016/sponsors/nppa.jpg"
     :image_height: 160
-  - :name: "Sony"
-    :homepage: "https://www.sony.com/"
-    :image_url: "/images/2017/sponsors/sony.jpg"
-    :image_height: 110
-  - :name: "Sigma"
-    :homepage: "https://www.sigmaphoto.com/"
-    :image_url: "/images/2017/sponsors/sigma.png"
-    :image_height: 160
-    :dark: true
-  - :name: "PPR pix"
-    :homepage: "http://pprpix.com/"
-    :image_url: "/images/2017/sponsors/pprpix.png"
-    :image_height: 160
-    :dark: true
-  - :name: "BEAM"
-    :homepage: "http://beamimagination.com/"
-    :image_url: "/images/2017/sponsors/beam.jpg"
-    :image_height: 140
-    :dark: true
-silver:
-  - :name: "AP"
+  - :name: "AP Atlanta"
     :homepage: "http://www.ap.org/"
     :image_url: "/images/2017/sponsors/ap.jpg"
-    :image_height: 200
-  - :name: "Camera Bits"
-    :homepage: "http://www.camerabits.com/"
-    :image_url: "/images/2016/sponsors/camera_bits.png"
-    :image_height: 100
+    :image_height: 220
+silver:
   - :name: "Grady College - UGA"
     :homepage: "http://grady.uga.edu/"
     :image_url: "/images/2016/sponsors/uga-grady-college.png"
-    :image_height: 120
-  - :name: "University of Florida"
-    :homepage: "https://www.jou.ufl.edu/"
-    :image_url: "/images/2017/sponsors/ufl.jpg"
-    :image_height: 130
-  - :name: "Fuji"
-    :homepage: "http://www.fujifilmusa.com/index.html"
-    :image_url: "/images/2016/sponsors/fujifilm.jpg"
-    :image_height: 100
-  - :name: "Used Photo Pro"
-    :homepage: "https://usedphotopro.com/"
-    :image_url: "/images/2017/sponsors/usedphotopro.jpg"
-    :image_height: 120
-  - :name: "Western Kentucky University"
-    :homepage: "http://www.wkupj.com/"
-    :image_url: "/images/2017/sponsors/wku.jpg"
     :image_height: 120
   - :name: "Roberts Camera"
     :homepage: "http://robertscamera.com"
@@ -85,3 +50,15 @@ silver:
     :homepage: "http://asmp.org/"
     :image_url: "/images/2017/sponsors/asmp.jpg"
     :image_height: 110
+  - :name: "Aperturent"
+    :homepage: "http://aperturent.com"
+    :image_url: "/images/sponsors/aperturent.jpg"
+    :image_height: 100
+  - :name: "Fujifilm"
+    :homepage: "http://www.fujifilmusa.com/index.html"
+    :image_url: "/images/2016/sponsors/fujifilm.jpg"
+    :image_height: 100
+  - :name: "Camera Bits"
+    :homepage: "http://www.camerabits.com/"
+    :image_url: "/images/2016/sponsors/camera_bits.png"
+    :image_height: 100

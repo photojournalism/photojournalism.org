@@ -3,11 +3,11 @@ title: Register
 navigation: Register
 ---
 
-Registration for the 45th annual Atlanta Photojournalism Seminar, November 9 and 10, 2018, the longest running photojournalism conference in the U.S., will open August 15, 2018.
+Registration for the 46th annual Atlanta Photojournalism Seminar, November 9 and 10, 2018, the longest running photojournalism conference in the U.S., will open August 15, 2018.
 
-The Seminar is comprised of two parts: __Friday Workshops__ and __Saturday Speakers__. The full schedule will be available soon.
+The Seminar is comprised of two parts: __Friday Workshops__ and __Saturday Speakers__.
 
-<!-- [__CLICK HERE TO REGISTER__](http://photojournalism.eventbrite.com){:target="_blank"} -->
+[__CLICK HERE TO REGISTER__](https://www.eventbrite.com/e/2018-atlanta-photojournalism-seminar-tickets-49122520782){:target="_blank"}
 
 ### Professionals
 
