@@ -1,0 +1,21 @@
+---
+title: 2018 Speakers
+navigation: Faculty
+comments: off
+---
+
+Below is a list of confirmed Saturday speakers for the <strong>2018 Atlanta Photojournalism Seminar</strong>:
+
+<% faculty = YAML.load(File.read("source/faculty/2018/speakers/speakers.yml")) %>
+
+<% faculty.each do |f| %>
+  <div class="faculty-section" style="float:left">
+  <h3 id="<%= f['id'] %>"><%= f['name'] %></h3>
+  <% if f['id'] && f['id'] != "" %>
+    <img src="/images/2018/faculty/<%= f['id'] %>.jpg" alt="<%= f['name'] %>" class="thumbnail faculty-image">
+  <% end %>
+  <% f['bio'].each do |paragraph| %>
+    <p><%= paragraph %></p>
+  <% end %>
+  </div>
+<% end %>

@@ -1,4 +1,9 @@
-<% years = (1975..2017) %>
+<% years = [] %>
+<% Dir.chdir('source/contest/winners') do %>
+  <% Dir.glob('*').select { |f| File.directory? f }.sort_by { |f| f }.reverse.each do |folder| %>
+    <% years << folder.to_i %>
+  <% end %>
+<% end %>
 <% previous_year = year - 1 %>
 <% next_year = year + 1 %>
 

@@ -21,6 +21,10 @@
       name: "Rich Addicks"
       url: "http://www.richaddicks.com/"
       years: "2011, 2012"
+    -
+      name: "Aubrey Aden-Buie"
+      url: "https://aubreyadenbuie.photography/"
+      years: 2018
     - 
       name: "David Ahntholz"
       url: "http://davidahntholz.com/"
@@ -249,7 +253,7 @@
     - 
       name: "Barbara Davidson"
       url: "http://framework.latimes.com/2011/04/18/caught-in-the-crossfire-pulitzer/#/0"
-      years: 2011
+      years: 2011, 2018
     - 
       name: "Bruce Davidson"
       url: "http://www.magnumphotos.com/C.aspx?VP3=CMS3&VF=MAGO31_10_VForm&ERID=24KL53ZTH6"
@@ -355,6 +359,9 @@
     - 
       name: "Melissa Farlow"
       years: 1986
+    -
+      name: "Sharon Farmer"
+      years: 2018
     - 
       name: "Richard Ferro"
       years: 1974
@@ -407,6 +414,10 @@
     - 
       name: "Dave Frank"
       years: 2008
+    -
+      name: "Lauren Frohne"
+      url: "http://laurenfrohne.com/"
+      years: 2018
     - 
       name: "John Freidah"
       url: "http://www.johnfreidah.com/"
@@ -448,6 +459,10 @@
     - 
       name: "Alice George"
       years: 1979
+    -
+      name: "Paul Gero"
+      years: 2018
+      url: "http://www.paulfgero.com/"
     - 
       name: "Bob Gilka"
       url: "http://en.wikipedia.org/wiki/Robert_E._Gilka"
@@ -485,6 +500,10 @@
       name: "Stan Grossfeld"
       url: "http://en.wikipedia.org/wiki/Stan_Grossfeld"
       years: 1988
+    -
+      name: "Carol Guzy"
+      url: "https://www.pulitzer.org/winners/carol-guzy"
+      years: 2018
 - 
   letter: H
   faculty: 
@@ -774,7 +793,7 @@
     -
       name: "Richard Liebowitz"
       url: "http://liebowitzlawfirm.com/"
-      years: 2017
+      years: "2017, 2018"
     - 
       name: "Ken Light"
       url: "http://www.kenlight.com/"
@@ -928,7 +947,7 @@
       years: 1998
     -
       name: "John Nowak"
-      years: 2017
+      years: "2017, 2018"
 - 
   letter: O
   faculty: 
@@ -982,6 +1001,14 @@
 - 
   letter: R
   faculty: 
+    -
+      name: "Joe Raedle"
+      url: "https://twitter.com/jraedle?lang=en"
+      years: 2018
+    -
+      name: "Robin Rayne"
+      years: 2018
+      url: "http://www.assignmentatlanta.com/"
     - 
       name: "Mona Reeder"
       url: "http://photographyblog.dallasnews.com/2013/02/photo-portfolio-mona-reeder-is-the-dallas-morning-news-photographer-of-the-year.html/"
@@ -1079,7 +1106,7 @@
     - 
       name: "Robert Seale"
       url: "http://www.robertseale.com/"
-      years: "2004, 2014"
+      years: "2004, 2014, 2018"
     -
       name: "Eric Seals"
       url: "https://twitter.com/ericseals"
@@ -1236,6 +1263,13 @@
 - 
   letter: W
   faculty: 
+    -
+      name: "Julia Wall"
+      url: "http://www.juliawallphoto.com/pages/home"
+      years: 2018
+    -
+      name: "Karen Warren"
+      years: 2018
     - 
       name: "Dave Weatherwax"
       years: 2013
