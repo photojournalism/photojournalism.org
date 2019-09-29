@@ -4,4 +4,40 @@ navigation: Faculty
 comments: off
 ---
 
-<p>Speakers for the <strong>2019 Atlanta Photojournalism Seminar</strong> will be announced soon.</p>
+Below is a list of confirmed faculty members for the <strong>2019 Atlanta Photojournalism Seminar</strong>:
+
+<% speakers = YAML.load(File.read("source/faculty/speakers/speakers.yml")) %>
+
+<h2><a href='/faculty/speakers'>Saturday Speakers</a></h2>
+
+<div class="row">
+<% speakers.each.each.with_index(1) do |speaker, i| %>
+  <div class="col-md-4">
+      <a href="/faculty/speakers/#<%= speaker['id'] %>">
+        <img src="/images/2019/faculty/<%= speaker['id'] %>.jpg" class="img-thumbnail" alt="<%= speaker['name'] %> Headshot">
+      </a>
+      <div style="text-align:center">
+        <h4><a href="/faculty/speakers/#<%= speaker['id'] %>"><%= speaker['name'] %></a></h4>
+      </div>
+  </div>
+  <% if i % 3 == 0 %></div><div class="row"><% end %>
+<% end %>
+</div>
+
+<% workshops = YAML.load(File.read("source/faculty/workshops/workshops.yml")) %>
+
+<h2><a href='/faculty/workshops'>Friday Workshops</a></h2>
+
+<div class="row">
+<% workshops.each.with_index(1) do |speaker, i| %>
+  <div class="col-md-4">
+      <a href="/faculty/workshops/#<%= speaker['id'] %>">
+        <img src="/images/2019/faculty/<%= speaker['id'] %>.jpg" class="img-thumbnail" alt="<%= speaker['name'] %> Headshot">
+      </a>
+      <div style="text-align:center">
+        <h4><a href="/faculty/workshops/#<%= speaker['id'] %>"><%= speaker['name'] %></a></h4>
+      </div>
+  </div>
+  <% if i % 3 == 0 %></div><div class="row"><% end %>
+<% end %>
+</div>

@@ -3,4 +3,15 @@ title: 2019 Sponsors
 navigation: Sponsors
 ---
 
-<p>Sponsors for the <strong>2019 Atlanta Photojournalism Seminar</strong> will be announced soon.</p>
+<% data = YAML.load_file("source/sponsors/sponsors.yml") %>
+
+<div class='sponsors-2016'>
+  <% data.each do |level, sponsors| %>
+    <% if level != '' %><h2><%= level.capitalize %> Level</h2><% end %>
+    <% sponsors.each do |sponsor| %>
+      <a href="<%= sponsor[:homepage] %>" target="_blank">
+        <img src="<%= sponsor[:image_url] %>" alt="<%= sponsor[:name] %>" height="<%= sponsor[:image_height] %>" <%= if sponsor[:dark] then "class='dark'" end %>>
+      </a>
+    <% end %>
+  <% end %>
+</div>

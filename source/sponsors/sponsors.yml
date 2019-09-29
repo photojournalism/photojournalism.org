@@ -7,11 +7,11 @@ platinum:
     :homepage: "http://www.canon.com/"
     :image_url: "/images/2017/sponsors/canon.png"
     :image_height: 200
+gold:
   - :name: "Sony"
     :homepage: "https://www.sony.com/"
     :image_url: "/images/2017/sponsors/sony.jpg"
-    :image_height: 120
-gold:
+    :image_height: 100
   - :name: "Liebowitz Law Firm"
     :homepage: "http://liebowitzlawfirm.com/"
     :image_url: "/images/2018/sponsors/liebowitz.jpg"
