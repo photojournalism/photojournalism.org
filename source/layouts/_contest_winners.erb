@@ -9,6 +9,11 @@
 
 <p><%= data[:info] %></p>
 
+<%# Check to see if any of the category URLs are available %>
+<% if data[:categories].map { |c| c[:url] }.compact.size > 0 %>
+<p>Click on category titles to view images from those categories.</p>
+<% end %>
+
 <% data[:categories].each do |category| %>
   <h4 class="category">
     <%# If we have a url, then make the category a link %>
@@ -29,6 +34,11 @@
     <li>No awards given</li>
   <% end %>
   </ul>
+
+  <% if category[:comments] %>
+    <p class="judging-comments"><strong>Comments from the judges:</strong><br><br>
+    <em>"<%= category[:comments] %>"</em></p>
+  <% end %>
 <% end %>
 
 <%# Display judges if they are listed in the yaml file %>

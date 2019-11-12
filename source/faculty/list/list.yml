@@ -45,6 +45,10 @@
       name: "Marc Asnin"
       url: "http://www.marcasnin.com/"
       years: 1991
+    -
+      name: "Haimy Assefa"
+      url: "https://twitter.com/haimyassefa"
+      years: 2019
     - 
       name: "José Azel"
       url: "http://www.joseazel.com/"
@@ -164,7 +168,7 @@
     - 
       name: "David Burnett"
       url: "http://www.davidburnett.com/"
-      years: 2011
+      years: "2011, 2019"
     - 
       name: "Renée C. Byer"
       url: "http://www.pulitzer.org/biography/2007-Feature-Photography"
@@ -471,6 +475,10 @@
       name: "David Gilkey"
       url: "http://www.npr.org/people/136474931/david-gilkey"
       years: 2012
+    -
+      name: "Rich Glickstein"
+      url: "http://www.rgpix.com/"
+      years: 2019
     - 
       name: "Mark Godfrey"
       years: 1980
@@ -481,7 +489,7 @@
     - 
       name: "David Goldman"
       url: "http://www.goldmanphotos.com/"
-      years: 2013
+      years: "2013, 2019"
     - 
       name: "Tom Gralish"
       url: "http://en.wikipedia.org/wiki/Tom_Gralish"
@@ -536,6 +544,10 @@
     - 
       name: "Robert Hanashiro"
       years: "2000, 2001, 2003"
+    -
+      name: "John Harrington"
+      url: "https://www.johnharrington.com/index"
+      years: 2019
     - 
       name: "Lana Harris"
       url: "http://www.corbisimages.com/photographer/lana-harris"
@@ -606,6 +618,14 @@
       name: "Robin Hood"
       url: "http://www.robinhoodphoto.com/"
       years: 1979
+    -
+      name: "Ryon Horne"
+      url: "https://twitter.com/ryonhorne"
+      years: 2019
+    -
+      name: "Carolyn Van Houten"
+      url: "http://www.carolynvanhouten.com/"
+      years: 2019
     - 
       name: "Billy Howard"
       url: "http://www.billyhoward.com/"
@@ -724,6 +744,14 @@
     - 
       name: "Alex Korab"
       years: 2002
+    -
+      name: "Jessica Koscielniak"
+      url: "http://www.jessicakoscielniak.com/"
+      years: 2019
+    -
+      name: "Lisa Krantz"
+      url: "http://lisakrantz.com/"
+      years: 2019
     - 
       name: "Peter Krogh"
       years: 2010
@@ -793,7 +821,7 @@
     -
       name: "Richard Liebowitz"
       url: "http://liebowitzlawfirm.com/"
-      years: "2017, 2018"
+      years: "2017, 2018, 2019"
     - 
       name: "Ken Light"
       url: "http://www.kenlight.com/"
@@ -846,6 +874,9 @@
       name: "Tim Matsui"
       url: "http://www.timmatsui.com/"
       years: 2015
+    -
+      name: "Michael McCarter"
+      years: 2019
     - 
       name: "Jerome McClendon"
       years: 1992
@@ -1093,6 +1124,10 @@
       name: "Jim Lo Scalzo"
       url: "http://jimloscalzo.com/#/singles/singles/1"
       years: 2012
+    -
+      name: "Gabriel Scarlett"
+      url: "https://www.gabrielscarlett.com/"
+      years: 2019
     - 
       name: "Andy Schneider"
       years: 1987
@@ -1135,6 +1170,10 @@
       name: "Jean-Marie Simon"
       url: "http://www.fotovisura.com/user/simonjms"
       years: 1989
+    -
+      name: "Stephanie Sinclair"
+      url: "https://stephaniesinclair.com/"
+      years: 2019
     - 
       name: "Brad Smith"
       years: 2013
@@ -1242,6 +1281,10 @@
       name: "Amy Toensing"
       years: 2014
       url: "http://www.amytoensing.com/"
+    -
+      name: "Bernadette Tuazon"
+      url: "https://twitter.com/bptuazon"
+      years: 2019
     - 
       name: "Scout Tufankjian"
       url: "http://www.scouttufankjian.com/"

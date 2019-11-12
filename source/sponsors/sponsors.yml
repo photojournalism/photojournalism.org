@@ -7,14 +7,18 @@ platinum:
     :homepage: "http://www.canon.com/"
     :image_url: "/images/2017/sponsors/canon.png"
     :image_height: 200
-gold:
+  - :name: "AJC"
+    :homepage: "https://www.ajc.com/"
+    :image_url: "/images/2019/sponsors/ajc.jpg"
+    :image_height: 170
   - :name: "Sony"
     :homepage: "https://www.sony.com/"
     :image_url: "/images/2017/sponsors/sony.jpg"
-    :image_height: 100
+    :image_height: 110
+gold:
   - :name: "Liebowitz Law Firm"
     :homepage: "http://liebowitzlawfirm.com/"
-    :image_url: "/images/2018/sponsors/liebowitz.jpg"
+    :image_url: "/images/2019/sponsors/liebowitz.jpg"
     :image_height: 130
   - :name: "PPR pix"
     :homepage: "http://pprpix.com/"
@@ -50,10 +54,6 @@ silver:
     :homepage: "http://asmp.org/"
     :image_url: "/images/2017/sponsors/asmp.jpg"
     :image_height: 110
-  - :name: "Aperturent"
-    :homepage: "http://aperturent.com"
-    :image_url: "/images/sponsors/aperturent.jpg"
-    :image_height: 100
   - :name: "Fujifilm"
     :homepage: "http://www.fujifilmusa.com/index.html"
     :image_url: "/images/2016/sponsors/fujifilm.jpg"
@@ -62,3 +62,11 @@ silver:
     :homepage: "http://www.camerabits.com/"
     :image_url: "/images/2016/sponsors/camera_bits.png"
     :image_height: 100
+  - :name: "Cradoc fotoSoftware"
+    :homepage: "https://www.cradocfotosoftware.com/"
+    :image_url: "/images/2019/sponsors/cradoc.png"
+    :image_height: 100
+  - :name: "KEH"
+    :homepage: "https://www.keh.com/"
+    :image_url: "/images/2019/sponsors/keh.png"
+    :image_height: 100  

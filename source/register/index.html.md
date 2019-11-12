@@ -16,10 +16,6 @@ The Seminar is comprised of two parts: __Friday Workshops__ and __Saturday Speak
 * Saturday Speakers Only - __$119__
 * Students, Friday and Saturday Full Package - __$50__
 
-Thanks to a generous sponsorship from [Nikon](http://www.nikonusa.com), we are able to offer student registration (high school or college ID required) for the entire 2019 Atlanta Photojournalism Seminar for discounted rate!
-
-[![Nikon](/images/2016/sponsors/nikon.png){:width='500'}](http://www.nikonusa.com){:target="_blank"}
-
 ### Veterans
 
 To honor our veterans, we are offering, to the first 10 veterans to register, a discounted entire seminar package of __$100__! (A $149 savings!)
