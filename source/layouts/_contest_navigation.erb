@@ -1,5 +1,5 @@
 <% years = [] %>
-<% Dir.chdir('source/contest/winners') do %>
+<% Dir.chdir('source') do %>
   <% Dir.glob('*').select { |f| File.directory? f }.sort_by { |f| f }.reverse.each do |folder| %>
     <% years << folder.to_i %>
   <% end %>
@@ -9,12 +9,13 @@
 
 <div class="contest-navigation">
 <% if years.include? previous_year %>
-  <a href="/contest/winners/<%= previous_year %>/">&laquo; Previous Year</a>&nbsp;&nbsp;|&nbsp;&nbsp;
+  <a href="/winners/<%= previous_year %>/">&laquo; Previous Year</a>
+  &nbsp;&nbsp;|&nbsp;&nbsp;
 <% end %>
 
-<a href="/contest/winners/">All Years</a>
+<a href="/winners">All Years</a>
 
 <% if years.include? next_year %>
-  &nbsp;&nbsp;|&nbsp;&nbsp;<a href="/contest/winners/<%= next_year %>/">Next Year &raquo;</a>
+  &nbsp;&nbsp;|&nbsp;&nbsp; <a href="/winners/<%= next_year %>/">Next Year &raquo;</a>
 <% end %>
 </div>

@@ -1,10 +1,10 @@
-<% data = YAML.load_file("source/contest/winners/#{year}/winners.yml") %>
+<% data = YAML.load_file("source/#{year}/winners.yml") %>
 
 <%= partial 'layouts/contest_navigation', locals: { year: data[:year] } %>
 
 <%# If slideshow: true was passed in, display the slideshow %>
 <% if slideshow %>
-  <%= partial 'layouts/slideshow', locals: { id: 'carousel', yaml_data: "source/contest/winners/#{data[:year]}/slideshow.yml" } %> 
+  <%= partial 'layouts/slideshow', locals: { id: 'carousel', yaml_data: "source/#{data[:year]}/slideshow.yml" } %> 
 <% end %>
 
 <p><%= data[:info] %></p>
@@ -18,7 +18,7 @@
   <h4 class="category">
     <%# If we have a url, then make the category a link %>
     <% if category[:url] %>
-      <a href="/contest/winners/<%= "#{data[:year]}/#{category[:url]}" %>"><%= category[:name] %></a>
+      <%= link_to category[:name], "/winners/#{year}/#{category[:url]}" %>
     <% else %>
       <%= category[:name] %>
     <% end %>

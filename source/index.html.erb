@@ -1,7 +1,32 @@
 ---
-title: Home
+title: Contest Winners
+navigation: Contest
 layout: wide
-navigation: Home
 ---
 
-<%= partial 'layouts/slideshow', locals: { id: 'carousel', yaml_data: 'source/contest/winners/2019/slideshow.yml', keybindings: true } %>
+<% require 'humanize' %>
+
+<% years_we_dont_have = [1977, 1978, 1981, 2009] %>
+
+<p>Though the Seminar was founded in 1973 (then, the <em>Atlanta Press Photographers Association</em>), our first photography contest was not held until 1975. Results from all but 
+
+<%# This line will dynamically generate the list of years that aren't included. If another year is ever missed, %>
+<%# it will just need to be added to the list at the top of this file. %>
+<%= years_we_dont_have.length.humanize %> years (<% years_we_dont_have[0..-2].each do |y| %><%= "#{y}, " %><% end %>and <%= years_we_dont_have[-1] %>)
+are listed below.</p>
+
+<ul>
+<% Dir.chdir('source') do %>
+  <% Dir.glob('*').select { |f| File.directory? f }.sort_by { |f| f }.reverse.each do |folder| %>
+    <% if folder.to_i.to_s == folder %> 
+      <li>
+      <% if !years_we_dont_have.include? folder %>
+        <a href="/winners/<%= folder %>"><%= folder %></a>
+      <% else %>
+        <%= year %>
+      <% end %>
+      </li>
+    <% end %>
+  <% end %>
+<% end %>
+</ul>

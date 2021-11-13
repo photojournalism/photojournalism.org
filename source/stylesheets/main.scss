@@ -63,7 +63,21 @@ textarea.form-control {
 }
 
 #nav-logo {
-  width: 440px;
+  width: 100%;
+  text-align: center;
+  display: block;
+  margin: 0 auto;
+  img {
+    max-height: 150px;
+    display: block;
+    margin: 0 auto;
+  }
+}
+
+.main-content {
+  width: 80%;
+  margin: 0 auto;
+  float: none;
 }
 
 .carousel {
@@ -86,16 +100,13 @@ header {
     color: $navbar-default-brand-color;
     text-decoration: none;
     font-weight: 400;
+    margin: 0 auto;
+    text-align: center;
 
     &:hover {
       color: #EA6500;
       text-decoration: none;
     }
-  }
-
-  .header-search {
-    float: right;
-    padding: 24px 0;
   }
 }
 
@@ -210,8 +221,6 @@ footer {
 
   color: $gray-blue-darker;
   font-size: 13px;
-  min-height: 150px;
-  margin-top: 50px;
   
   .footer-row:first-child {
     border-top: 2px solid $gray-blue-lighter;
@@ -260,7 +269,6 @@ footer {
       width: 120px;
       margin-top: 15px;
       margin-right: 10px;
-      float: left;
       opacity: 0.9;
     }
   }
@@ -272,7 +280,6 @@ footer {
 
 .faculty-image {
   margin: 5px 15px 10px 0;
-  float: left;
   height: 310px;
 }
 
@@ -443,9 +450,6 @@ iframe[id^='twitter-widget-'] {
   #search_query {
     width: 222px;
   }
-  #nav-logo {
-    width: 350px;
-  }
 
   .navbar-nav > li > a {
     padding: 10px;
@@ -454,14 +458,12 @@ iframe[id^='twitter-widget-'] {
 
 @media (max-width: 991px) {
   #nav-logo {
-    width: 100%;
     padding: 20px;
   }
 
   .navbar {
     #navbar-links {
       margin-top: 0;
-      float: left;
       width: 100%;
     }
   }
@@ -496,12 +498,11 @@ iframe[id^='twitter-widget-'] {
 }
 
 @media (min-width: 768px) {
+  .navbar-header {
+      float: none;
+  }
   .navbar-collapse {
     padding: 0;
-  }
-
-  .logo-main {
-    margin-left: -25px;
   }
 
   .navbar-nav li {

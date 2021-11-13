@@ -51,11 +51,6 @@ set :images_dir, 'images'
 
 ignore '*.yml'
 
-activate :blog do |blog|
-  blog.prefix = "news"
-  blog.permalink = "{title}/index.html"
-end
-
 # Build-specific configuration
 configure :build do
   # For example, change the Compass output style for deployment
@@ -71,5 +66,5 @@ configure :build do
   # activate :relative_assets
 
   # Or use a different image path
-  # set :http_prefix, "/Content/images/"
+  set :http_prefix, "/winners/"
 end

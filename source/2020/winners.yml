@@ -1,0 +1,119 @@
+---
+:year: 2020
+:info: Below is a list of the winners from the Atlanta Photojournalism Seminar's 2020
+  photo contest. Thank you to everyone who entered and participated in the contest,
+  and congratulations to the winners!
+:categories:
+- :name: Best in Show
+  :url: best-in-show/
+  :winners:
+  - :info: First Place - Ben Hendren
+- :name: Spot News
+  :url: spot-news/
+  :winners:
+  - :info: First Place – Petros Giannakouris / Associated Press
+  - :info: Second Place – Sait Gurbuz
+  - :info: Third Place – Carlos Barria / Reuters
+  - :info: Honorable Mention – Esteban Felix / Associated Press
+- :name: General News
+  :url: general-news/
+  :winners:
+  - :info: 'First Place – Rod Lamkey Jr. / Independent '
+  - :info: Second Place – Patrick Semansky / Associated Press
+  - :info: Third Place – Natacha Pisarenko / Associated Press
+  - :info: Honorable Mention – Andrew Harnik / Associated Press
+- :name: Feature
+  :url: feature/
+  :winners:
+  - :info: First Place – Gabrielle Lurie / Select
+  - :info: Second Place – Joe Raedle / Getty Images
+  - :info: Third Place – Scott Strazzante / San Francisco Chronicle
+  - :info: Honorable Mention – Altaf Qadri / Associated Press
+- :name: Sports Action
+  :url: sports-action/
+  :winners:
+  - :info: First Place – Matthias Hangst / Getty Images
+  - :info: Second Place – Chris Machian / Omaha World-Herald
+  - :info: Third Place – Zach Chew
+  - :info: Honorable Mention – David Ramos / Getty Images
+- :name: Sports Feature
+  :url: sports-feature/
+  :winners:
+  - :info: First Place – Jordi Cohen
+  - :info: Second Place – Matthias Hangst / Getty Images
+  - :info: Third Place – Alexander Hassenstein / Getty Images
+  - :info: Honorable Mention – Matthew Hinton / Very Local New Orleans
+- :name: Portrait/Personality
+  :url: portrait-personality/
+  :winners:
+  - :info: First Place – Kathleen Greeson / self
+  - :info: Second Place – Christian Lee
+  - :info: Third Place – Carlos Barria / Reuters
+  - :info: Honorable Mention – David Goldman / Associated Press
+- :name: Pandemic
+  :url: pandemic/
+  :winners:
+  - :info: First Place – Rodrigo Abd / Associated Press
+  - :info: Second Place – Emilio Morenatti / Associated Press
+  - :info: Third Place – Emilio Morenatti / Associated Press
+  - :info: Honorable Mention – Rodrigo Abd / Associated Press
+- :name: Racial Justice Movement
+  :url: racial-justice-movement/
+  :winners:
+  - :info: 'First Place – Rod Lamkey Jr. / Independent '
+  - :info: Second Place – John Minchillo / Associated Press
+  - :info: Third Place – Jonathan Ernst / Reuters
+  - :info: Honorable Mention – Julio Cortez / Associated Press
+- :name: News Picture Story
+  :url: news-picture-story/
+  :winners:
+  - :info: First Place – Felipe Dana / Associated Press
+  - :info: Second Place – Noah Berger / Associated Press
+  - :info: Third Place – Carlos Barria / Reuters
+  - :info: Honorable Mention – Andrew Whitaker / The Post and Courier
+- :name: Chris Hondros Memorial International News
+  :url: chris-hondros-memorial-international-news/
+  :winners:
+  - :info: First Place – Carol Guzy
+  - :info: Second Place – Esteban Felix / Associated Press
+  - :info: Third Place – Natacha Pisarenko / Associated Press
+  - :info: Honorable Mention – Angelos Tzortzinis
+- :name: Feature Picture Story/Essay
+  :url: feature-picture-story-essay/
+  :winners:
+  - :info: First Place – Susana Giron
+  - :info: Second Place – Rodrigo Abd / Associated Press
+  - :info: Third Place – Rodrigo Abd / Associated Press
+  - :info: Honorable Mention – Petros Giannakouris / Associated Press
+- :name: Sports Picture Story
+  :url: sports-picture-story/
+  :winners:
+  - :info: First Place – Jordi Cohen
+  - :info: Second Place – David Ramos / Getty Images
+  - :info: Third Place – Matthias Hangst / Getty Images
+  - :info: Honorable Mention – Bernat Armangue / Associated Press
+- :name: Pandemic Story/Essay
+  :url: pandemic-story-essay/
+  :winners:
+  - :info: First Place – Jae C. Hong / Associated Press
+  - :info: Second Place – Rodrigo Abd / Associated Press
+  - :info: Third Place – David Goldman / Associated Press
+  - :info: Honorable Mention – Felipe Dana / Associated Press
+- :name: Racial Justice Movement Story/Essay
+  :url: racial-justice-movement-story-essay/
+  :winners:
+  - :info: First Place – Ben Hendren
+  - :info: Second Place – John Minchillo / Associated Press
+  - :info: Third Place – Ben Gray
+  - :info: Honorable Mention – Maye-e Wong / Associated Press
+- :name: Video/Multimedia Project (short form)
+  :winners: []
+- :name: Video/Multimedia Project (long form)
+  :winners: []
+- :name: Best Portfolio
+  :url: best-portfolio/
+  :winners:
+  - :info: First Place – Rodrigo Abd / Associated Press
+- :name: Rich Mahan Best Student Portfolio
+  :url: rich-mahan-best-student-portfolio/
+  :winners: []
