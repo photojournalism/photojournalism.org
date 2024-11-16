@@ -1,0 +1,123 @@
+---
+:year: 2023
+:info: Below is a list of the winners from the Atlanta Photojournalism Seminar's 2023
+  photo contest. Thank you to everyone who entered and participated in the contest,
+  and congratulations to the winners!
+:categories:
+- :name: Best in Show
+  :url: best-in-show/
+  :winners:
+  - :info: Jae C. Hong / Associated Press (Feature Picture Story)
+- :name: Best Portfolio
+  :url: best-portfolio/
+  :winners:
+  - :info: Jabin Botsford / The Washington Post
+- :name: Rich Mahan Best Student Portfolio
+  :url: rich-mahan-best-student-portfolio/
+  :winners:
+  - :info: Lukas Flippo / Yale University
+- :name: General News
+  :url: general-news/
+  :winners:
+  - :info: First Place – Joe Raedle / Getty Images
+  - :info: Second Place – Francisco Seco / Associated Press
+  - :info: Third Place – Eric Gay / Associated Press
+  - :info: Honorable Mention – Vadim Ghirda / Associated Press
+  - :info: Honorable Mention – Andrew Harnik / Associated Press
+- :name: Feature
+  :url: feature/
+  :winners:
+  - :info: First Place – Manu Fernandez / Associated Press
+  - :info: Second Place – Ebrahim Noroozi / Associated Press
+  - :info: Third Place – Ebrahim Noroozi / Associated Press
+  - :info: Honorable Mention – Vincent Alban
+  - :info: Honorable Mention – Manu Fernandez / Associated Press
+- :name: Sports Action
+  :url: sports-action/
+  :winners:
+  - :info: First Place – Ryan Pierse / Getty Images
+  - :info: Second Place – Clodagh Kilcoyne / Reuters
+  - :info: Third Place – Matt Slocum / Associated Press
+  - :info: Honorable Mention – Alex Slitz / Freelance
+  - :info: Honorable Mention – Ryan Pierse / Getty Images
+- :name: Sports Feature
+  :url: sports-feature/
+  :winners:
+  - :info: First Place – Lukas Flippo / Yale University
+  - :info: Second Place – Phil Noble / Reuters
+  - :info: Third Place – David Ramos / Getty Images
+  - :info: Honorable Mention – Joe Raedle / Getty Images
+  - :info: Honorable Mention – Matt Mcclain / The Washington Post
+- :name: Portrait
+  :url: portrait/
+  :winners:
+  - :info: First Place – Lukas Flippo / Yale University
+  - :info: Second Place – Cheney Orr / Reuters
+  - :info: Third Place – Ariel Schalit / Associated Press
+  - :info: Honorable Mention – Rodrigo Abd / Associated Press
+  - :info: Honorable Mention – Seth Wenig / Associated Press
+- :name: Domestic (US) Spot News
+  :url: domestic-(u.s.)-spot-news/
+  :winners:
+  - :info: First Place – Cheney Orr / Reuters
+  - :info: Second Place – Carol Guzy
+  - :info: Third Place – Joe Raedle / Getty Images
+  - :info: Honorable Mention – Mary Altaffer / Associated Press
+  - :info: Honorable Mention – Mary Altaffer / Associated Press
+- :name: International Spot News
+  :url: international-spot-news/
+  :winners:
+  - :info: First Place – Fatima Shbair / Associated Press
+  - :info: Second Place – Evgeniy Maloletka / Associated Press
+  - :info: Third Place – Clodagh Kilcoyne / Reuters
+  - :info: Honorable Mention – Vadim Ghirda / Associated Press
+  - :info: Honorable Mention – Evgeniy Maloletka / Associated Press
+- :name: Domestic (US) Spot News Picture Story
+  :url: domestic-(us)-spot-news-picture-story/
+  :winners:
+  - :info: First Place – Cheney Orr / Reuters
+  - :info: Second Place – Cheney Orr / Reuters
+  - :info: Third Place – Matt Mcclain / The Washington Post
+  - :info: Honorable Mention – Cheney Orr
+- :name: Domestic (US) General News Picture Story
+  :url: domestic-(us)-general-news-picture-story/
+  :winners:
+  - :info: First Place – Jabin Botsford / The Washington Post
+  - :info: Second Place – Rick Bowmer / Associated Press
+  - :info: Third Place – Brian Snyder / Reuters
+  - :info: Honorable Mention – George Walker IV / Associated Press
+  - :info: Honorable Mention – Brian Snyder / Reuters
+- :name: Feature Picture Story
+  :url: feature-picture-story/
+  :winners:
+  - :info: First Place – Jae C. Hong / Associated Press
+  - :info: Second Place – Jabin Botsford / The Washington Post
+  - :info: Third Place – Carol Guzy
+  - :info: Honorable Mention – Jabin Botsford / The Washington Post
+  - :info: Honorable Mention – Carol Guzy
+- :name: Sports Picture Story
+  :url: sports-picture-story/
+  :winners:
+  - :info: First Place – Scott Strazzante / San Francisco Chronicle
+  - :info: Second Place – Mathieu Belanger
+  - :info: Third Place – Matt Mcclain / The Washington Post
+  - :info: Honorable Mention – Sascha Fromm / Thueringer Allgemeine
+  - :info: Honorable Mention – Ebrahim Noroozi / Associated Press
+- :name: Chris Hondros Memorial International News
+  :url: chris-hondros-memorial-international-news/
+  :winners:
+  - :info: First Place – Vadim Ghirda / Associated Press
+  - :info: Second Place – Fatima Shbair / Associated Press
+  - :info: Third Place – Evgeniy Maloletka / Associated Press
+  - :info: Honorable Mention – Ariana Cubillos / Associated Press
+  - :info: Honorable Mention – Laurent Cipriani / Associated Press
+- :name: Video Project (short form)
+  :winners:
+  - :info: "<a href='https://vimeo.com/829431723' target='_blank'>First Place – Quincy
+      Marks</a>"
+  - :info: "<a href='https://vimeo.com/875802749?share=copy' target='_blank'>Second
+      Place – Jack Casey / University of Georgia</a>"
+  - :info: "<a href='https://vimeo.com/855509700' target='_blank'>Third Place – Hannah
+      Grace Biggs / University of Mississippi (Student Media Center)</a>"
+- :name: Video Project (long form)
+  :winners: []
